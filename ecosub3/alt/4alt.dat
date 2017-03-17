@@ -1,0 +1,250 @@
+ECOsub3 [07-2012]
+  4   0   0
+ 25   1   1   1 LASSONDERPDAG
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0    botsy   0  -1   0   0   2  13  15  24   0 -1  -1  -1
+  1    obacu   0  -1   0   0  10  17  12   9  21 -1  -1  -1
+  2  laumens   0  -1   0   0  23   5  18  14  16 -1  -1  -1
+  3    noste   0  -1   0   0   3   4  20  11  19 -1  -1  -1
+  4    medan   0  -1   0   0   8   7   1  22   6 -1  -1  -1
+  5   hiwawa   0  -1   0   0  21  23   2  11  10 -1  -1  -1
+  6  permife   0  -1   0   1  20   6   7  15  16 -1  -1  -1
+  7  sleshen   0  -1   0   1  24   8  13  22   3 -1  -1  -1
+  8  umeuken   0  -1   0   1   9   5  19  18  17 -1  -1  -1
+  9    tewok   0  -1   0   1  12   1   4  14   0 -1  -1  -1
+ 10   botuyn   0  -1   0   1  14  19   0  23   5 -1  -1  -1
+ 11   ubajec   0  -1   0   1  21   9  17  22  12 -1  -1  -1
+ 12  kiwehon   0  -1   1   0   1  14   7   4   6 -1  -1  -1
+ 13  larnist   0  -1   1   0  19  13   3   9  15 -1  -1  -1
+ 14  hilejin   0  -1   1   0  16  17  21   5   8 -1  -1  -1
+ 15  pimuide   0  -1   1   0   0  18  22  20  12 -1  -1  -1
+ 16  furasti   0  -1   1   0  10  24   2  23  11 -1  -1  -1
+ 17   uwimor   0  -1   1   0  20  14  19  12  18 -1  -1  -1
+ 18    frask   0  -1   1   1  15   0   6  13  24 -1  -1  -1
+ 19   schese   0  -1   1   1  21   1   5   3   2 -1  -1  -1
+ 20   jaciyn   0  -1   1   1  17   7  10  23  22 -1  -1  -1
+ 21    yosud   0  -1   1   1   8   9   4  11  16 -1  -1  -1
+ 22  molkate   0  -1   1   1   1  11   2  10  14 -1  -1  -1
+ 23   nalber   0  -1   1   1  22  17  20  15   0 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 botsy 
+  0   1 obacu 
+  0   2 laumens 
+  0   3 noste 
+  0   4 medan 
+  1   0 hiwawa 
+  1   1 permife 
+  1   2 sleshen 
+  1   3 umeuken 
+  1   4 tewok 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 botsy   0   0   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  0 botsy   0   1  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  0 botsy   0   2  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  0 botsy   0   3  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  0 botsy   0   4   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  1 obacu   0   0  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  1 obacu   0   1  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  1 obacu   0   2  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  1 obacu   0   3   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  1 obacu   0   4  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  2 laumens   0   0  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  2 laumens   0   1   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  2 laumens   0   2  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  2 laumens   0   3  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  2 laumens   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  3 noste   0   0   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  3 noste   0   1   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  3 noste   0   2  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  3 noste   0   3  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  3 noste   0   4  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  4 medan   0   0   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  4 medan   0   1   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  4 medan   0   2   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  4 medan   0   3  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  4 medan   0   4   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  5 hiwawa   0   0  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  5 hiwawa   0   1  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  5 hiwawa   0   2   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  5 hiwawa   0   3  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  5 hiwawa   0   4  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  6 permife   0   0  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  6 permife   0   1   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  6 permife   0   2   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  6 permife   0   3  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  6 permife   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  7 sleshen   0   0  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  7 sleshen   0   1   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  7 sleshen   0   2  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  7 sleshen   0   3  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  7 sleshen   0   4   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  8 umeuken   0   0   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  8 umeuken   0   1   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  8 umeuken   0   2  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  8 umeuken   0   3  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  8 umeuken   0   4  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  9 tewok   0   0  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  9 tewok   0   1   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  9 tewok   0   2   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  9 tewok   0   3  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  9 tewok   0   4   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+ 10 botuyn   0   0  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+ 10 botuyn   0   1  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+ 10 botuyn   0   2   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+ 10 botuyn   0   3  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+ 10 botuyn   0   4   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+ 11 ubajec   0   0  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+ 11 ubajec   0   1   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+ 11 ubajec   0   2  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+ 11 ubajec   0   3  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+ 11 ubajec   0   4  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+ 12 kiwehon   1   0   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 12 kiwehon   1   1  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 12 kiwehon   1   2   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 12 kiwehon   1   3   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 12 kiwehon   1   4   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 13 larnist   1   0  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 13 larnist   1   1  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 13 larnist   1   2   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 13 larnist   1   3   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 13 larnist   1   4  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 14 hilejin   1   0  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 14 hilejin   1   1  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 14 hilejin   1   2  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 14 hilejin   1   3   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 14 hilejin   1   4   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 15 pimuide   1   0   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 15 pimuide   1   1  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 15 pimuide   1   2  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 15 pimuide   1   3  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 15 pimuide   1   4  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 16 furasti   1   0  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 16 furasti   1   1  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 16 furasti   1   2   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 16 furasti   1   3  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 16 furasti   1   4  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 17 uwimor   1   0  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 17 uwimor   1   1  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 17 uwimor   1   2  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 17 uwimor   1   3  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 17 uwimor   1   4  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 18 frask   1   0  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 18 frask   1   1   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 18 frask   1   2   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 18 frask   1   3  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 18 frask   1   4  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 19 schese   1   0  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 19 schese   1   1   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 19 schese   1   2   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 19 schese   1   3   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 19 schese   1   4   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 20 jaciyn   1   0  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 20 jaciyn   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 20 jaciyn   1   2  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 20 jaciyn   1   3  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 20 jaciyn   1   4  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 21 yosud   1   0   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 21 yosud   1   1   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 21 yosud   1   2   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 21 yosud   1   3  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 21 yosud   1   4  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 22 molkate   1   0   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 22 molkate   1   1  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 22 molkate   1   2   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 22 molkate   1   3  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 22 molkate   1   4  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 23 nalber   1   0  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 23 nalber   1   1  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 23 nalber   1   2  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 23 nalber   1   3  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 23 nalber   1   4   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0   6   0    permife  20   1           31
+  0   1  13   0    larnist  19   0           31
+  0   2   8   0    umeuken   9   1           31
+  0   3   0   0      botsy   2   0           30
+  0   4  22   0    molkate   1   1           31
+  0   5  23   0     nalber  22   1           31
+  0   6  21   0      yosud   8   1           31
+  0   7  18   0      frask  15   1           31
+  0   8   3   0      noste   3   0           30
+  0   9  19   0     schese  21   1           31
+  0  10   1   0      obacu  10   0           30
+  0  11  16   0    furasti  10   0           31
+  0  12  17   0     uwimor  20   0           30
+  0  13   4   0      medan   8   0           30
+  0  14  15   0    pimuide   0   0           31
+  0  15   2   0    laumens  23   0           31
+  0  16   9   0      tewok  12   1           31
+  0  17  10   0     botuyn  14   1           31
+  0  18   5   0     hiwawa  21   0           30
+  0  19  12   0    kiwehon   1   0           30
+  0  20  20   0     jaciyn  17   1           31
+  0  21  11   0     ubajec  21   1           31
+  0  22   7   0    sleshen  24   1           31
+  0  23  14   0    hilejin  16   0           30
+  1   0  19   1     schese   1   1           31
+  1   1   2   1    laumens   5   0           30
+  1   2   9   1      tewok   1   1           31
+  1   3   7   1    sleshen   8   1           31
+  1   4   4   1      medan   7   0           30
+  1   5  12   1    kiwehon  14   0           30
+  1   6   0   1      botsy  13   0           30
+  1   7  22   1    molkate  11   1           31
+  1   8  16   1    furasti  24   0           31
+  1   9  13   1    larnist  13   0           31
+  1  10   1   1      obacu  17   0           30
+  1  11   8   1    umeuken   5   1           31
+  1  12  18   1      frask   0   1           31
+  1  13   5   1     hiwawa  23   0           30
+  1  14   6   1    permife   6   1           31
+  1  15  23   1     nalber  17   1           31
+  1  16  10   1     botuyn  19   1           31
+  1  17  21   1      yosud   9   1           31
+  1  18  20   1     jaciyn   7   1           31
+  1  19  17   1     uwimor  14   0           30
+  1  20  11   1     ubajec   9   1           31
+  1  21   3   1      noste   4   0           31
+  1  22  15   1    pimuide  18   0           30
+  1  23  14   1    hilejin  17   0           31
+  2   0  16   2    furasti   2   0           31
+  2   1   5   2     hiwawa   2   0           31
+  2   2  11   2     ubajec  17   1           31
+  2   3  12   2    kiwehon   7   0           30
+  2   4  23   2     nalber  20   1           31
+  2   5   0   2      botsy  15   0           30
+  2   6   2   2    laumens  18   0           31
+  2   7  19   2     schese   5   1           31
+  2   8  10   2     botuyn   0   1           31
+  2   9   7   2    sleshen  13   1           31
+  2  10   9   2      tewok   4   1           31
+  2  11  20   2     jaciyn  10   1           31
+  2  12  13   2    larnist   3   0           31
+  2  13   4   2      medan   1   0           30
+  2  14   3   2      noste  20   0           31
+  2  15   8   2    umeuken  19   1           31
+  2  16  17   2     uwimor  19   0           31
+  2  17  22   2    molkate   2   1           31
+  2  18   1   2      obacu  12   0           30
+  2  19  18   2      frask   6   1           31
+  2  20   6   2    permife   7   1           31
+  2  21  21   2      yosud   4   1           31
+  2  22  15   2    pimuide  22   0           30
+  2  23  14   2    hilejin  21   0           30
+  3   0  10   3     botuyn  23   1           31
+  3   1   7   3    sleshen  22   1           31
+  3   2   0   3      botsy  24   0           30
+  3   3  23   3     nalber  15   1           31
+  3   4   4   3      medan  22   0           31
+  3   5  15   3    pimuide  20   0           30
+  3   6  20   3     jaciyn  23   1           31
+  3   7  18   3      frask  13   1           31
+  3   8   5   3     hiwawa  11   0           30
+  3   9   3   3      noste  11   0           30
+  3  10  21   3   

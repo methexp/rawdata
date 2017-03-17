@@ -1,0 +1,554 @@
+ECOsub3 [07-2012]
+ 36   0   0
+ 25   2   1   1 INFORMATIONS
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0    obacu   0  -1   0   0  20  23  18   5   6 -1  -1  -1
+  1  kiwehon   0  -1   0   0   2   8   3  15  16 -1  -1  -1
+  2   uwimor   0  -1   0   0   9  11  13  14   1 -1  -1  -1
+  3    tewok   0  -1   0   0  12  17  19  10   4 -1  -1  -1
+  4  sleshen   0  -1   0   0   7   0  22  21  24 -1  -1  -1
+  5   botuyn   0  -1   0   0  16  10  15  21  14 -1  -1  -1
+  6  hilejin   0  -1   0   1  19  13   9   8   7 -1  -1  -1
+  7  umeuken   0  -1   0   1   6   5   4   0  23 -1  -1  -1
+  8  pimuide   0  -1   0   1   2  17  22  24  20 -1  -1  -1
+  9   ubajec   0  -1   0   1   1  11   3  18  12 -1  -1  -1
+ 10    medan   0  -1   0   1  24  16   1  10  23 -1  -1  -1
+ 11  permife   0  -1   0   1   4   0  12   3   8 -1  -1  -1
+ 12   schese   0  -1   1   0  24  21   7  11   1 -1  -1  -1
+ 13  molkate   0  -1   1   0   0   2   9  20  23 -1  -1  -1
+ 14   jaciyn   0  -1   1   0  16  10  22   4  18 -1  -1  -1
+ 15    botsy   0  -1   1   0  13   6   8   3   5 -1  -1  -1
+ 16  laumens   0  -1   1   0  17  14  12  15  19 -1  -1  -1
+ 17    frask   0  -1   1   0   8  10  22  23   5 -1  -1  -1
+ 18  furasti   0  -1   1   1  19  17   1  20  12 -1  -1  -1
+ 19  larnist   0  -1   1   1  24   7   2   4  21 -1  -1  -1
+ 20   hiwawa   0  -1   1   1   6   0  14   3  18 -1  -1  -1
+ 21    yosud   0  -1   1   1  11   9  13  16  15 -1  -1  -1
+ 22   nalber   0  -1   1   1   9  19   6  20   4 -1  -1  -1
+ 23    noste   0  -1   1   1  14  10  16  18  15 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 obacu 
+  0   1 kiwehon 
+  0   2 uwimor 
+  0   3 tewok 
+  0   4 sleshen 
+  1   0 botuyn 
+  1   1 hilejin 
+  1   2 umeuken 
+  1   3 pimuide 
+  1   4 ubajec 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 obacu   0   0  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  0 obacu   0   1  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  0 obacu   0   2  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  0 obacu   0   3   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  0 obacu   0   4   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  1 kiwehon   0   0   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  1 kiwehon   0   1   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  1 kiwehon   0   2   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  1 kiwehon   0   3  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  1 kiwehon   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  2 uwimor   0   0   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  2 uwimor   0   1  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  2 uwimor   0   2  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  2 uwimor   0   3  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  2 uwimor   0   4   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  3 tewok   0   0  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  3 tewok   0   1  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  3 tewok   0   2  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  3 tewok   0   3  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  3 tewok   0   4   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  4 sleshen   0   0   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  4 sleshen   0   1   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  4 sleshen   0   2  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  4 sleshen   0   3  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  4 sleshen   0   4  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  5 botuyn   0   0  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  5 botuyn   0   1  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  5 botuyn   0   2  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  5 botuyn   0   3  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  5 botuyn   0   4  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  6 hilejin   0   0  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  6 hilejin   0   1  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  6 hilejin   0   2   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  6 hilejin   0   3   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  6 hilejin   0   4   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  7 umeuken   0   0   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  7 umeuken   0   1   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  7 umeuken   0   2   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  7 umeuken   0   3   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  7 umeuken   0   4  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  8 pimuide   0   0   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  8 pimuide   0   1  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  8 pimuide   0   2  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  8 pimuide   0   3  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  8 pimuide   0   4  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  9 ubajec   0   0   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  9 ubajec   0   1  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  9 ubajec   0   2   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  9 ubajec   0   3  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  9 ubajec   0   4  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+ 10 medan   0   0  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+ 10 medan   0   1  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+ 10 medan   0   2   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+ 10 medan   0   3  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+ 10 medan   0   4  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+ 11 permife   0   0   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+ 11 permife   0   1   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+ 11 permife   0   2  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+ 11 permife   0   3   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+ 11 permife   0   4   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+ 12 schese   1   0  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 12 schese   1   1  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 12 schese   1   2   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 12 schese   1   3  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 12 schese   1   4   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 13 molkate   1   0   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 13 molkate   1   1   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 13 molkate   1   2   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 13 molkate   1   3  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 13 molkate   1   4  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 14 jaciyn   1   0  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 14 jaciyn   1   1  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 14 jaciyn   1   2  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 14 jaciyn   1   3   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 14 jaciyn   1   4  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 15 botsy   1   0  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 15 botsy   1   1   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 15 botsy   1   2   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 15 botsy   1   3   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 15 botsy   1   4   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 16 laumens   1   0  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 16 laumens   1   1  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 16 laumens   1   2  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 16 laumens   1   3  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 16 laumens   1   4  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 17 frask   1   0   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 17 frask   1   1  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 17 frask   1   2  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 17 frask   1   3  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 17 frask   1   4   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 18 furasti   1   0  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 18 furasti   1   1  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 18 furasti   1   2   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 18 furasti   1   3  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 18 furasti   1   4  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 19 larnist   1   0  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 19 larnist   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 19 larnist   1   2   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 19 larnist   1   3   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 19 larnist   1   4  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 20 hiwawa   1   0   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 20 hiwawa   1   1   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 20 hiwawa   1   2  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 20 hiwawa   1   3   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 20 hiwawa   1   4  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 21 yosud   1   0  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 21 yosud   1   1   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 21 yosud   1   2  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 21 yosud   1   3  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 21 yosud   1   4  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 22 nalber   1   0   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 22 nalber   1   1  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 22 nalber   1   2   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 22 nalber   1   3  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 22 nalber   1   4   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 23 noste   1   0  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 23 noste   1   1  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 23 noste   1   2  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 23 noste   1   3  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 23 noste   1   4  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0  13   0    molkate   0   0           30
+  0   1   2   0     uwimor   9   0           30
+  0   2  15   0      botsy  13   0           30
+  0   3   3   0      tewok  12   0           30
+  0   4   0   0      obacu  20   0           30
+  0   5   8   0    pimuide   2   1           30
+  0   6  18   0    furasti  19   1           30
+  0   7  21   0      yosud  11   1           30
+  0   8  12   0     schese  24   0           30
+  0   9   7   0    umeuken   6   1           30
+  0  10  11   0    permife   4   1           30
+  0  11   1   0    kiwehon   2   0           30
+  0  12   5   0     botuyn  16   0           30
+  0  13  19   0    larnist  24   1           30
+  0  14  16   0    laumens  17   0           30
+  0  15   6   0    hilejin  19   1           30
+  0  16  20   0     hiwawa   6   1           30
+  0  17  22   0     nalber   9   1           30
+  0  18   4   0    sleshen   7   0           30
+  0  19  10   0      medan  24   1           30
+  0  20  14   0     jaciyn  16   0           30
+  0  21  23   0      noste  14   1           30
+  0  22  17   0      frask   8   0           30
+  0  23   9   0     ubajec   1   1           30
+  1   0  17   1      frask  10   0           30
+  1   1  14   1     jaciyn  10   0           30
+  1   2  13   1    molkate   2   0           30
+  1   3   0   1      obacu  23   0           30
+  1   4  22   1     nalber  19   1           30
+  1   5  19   1    larnist   7   1           30
+  1   6   8   1    pimuide  17   1           30
+  1   7  16   1    laumens  14   0           30
+  1   8   9   1     ubajec  11   1           30
+  1   9  23   1      noste  10   1           30
+  1  10  20   1     hiwawa   0   1           30
+  1  11   7   1    umeuken   5   1           30
+  1  12   5   1     botuyn  10   0           30
+  1  13   2   1     uwimor  11   0           30
+  1  14   3   1      tewok  17   0           30
+  1  15   4   1    sleshen   0   0           30
+  1  16  18   1    furasti  17   1           30
+  1  17  15   1      botsy   6   0           30
+  1  18   6   1    hilejin  13   1           30
+  1  19  11   1    permife   0   1           30
+  1  20  21   1      yosud   9   1           30
+  1  21  10   1      medan  16   1           30
+  1  22  12   1     schese  21   0           30
+  1  23   1   1    kiwehon   8   0           30
+  2   0   7   2    umeuken   4   1           30
+  2   1   9   2     ubajec   3   1           30
+  2   2  20   2     hiwawa  14   1           30
+  2   3  13   2    molkate   9   0           30
+  2   4   3   2      tewok  19   0           30
+  2   5   0   2      obacu  18   0           30
+  2   6  21   2      yosud  13   1           30
+  2   7   6   2    hilejin   9   1           30
+  2   8  14   2     jaciyn  22   0           30
+  2   9  23   2      noste  16   1           30
+  2  10  16   2    laumens  12   0           30
+  2  11   5   2     botuyn  15   0           30
+  2  12  12   2     schese   7   0           30
+  2  13  22   2     nalber   6   1           30
+  2  14  15   2      botsy   8   0           30
+  2  15  11   2    permife  12   1           30
+  2  16  10   2      medan   1   1           30
+  2  17  19   2    larnist   2   1           30
+  2  18  17   2      frask  22   0           30
+  2  19  18   2    furasti   1   1           31
+  2  20   1   2    kiwehon   3   0           30
+  2  21   4   2    sleshen  22   0           30
+  2  22   2   2     uwimor  13   0           30
+  2  23   8   2    pimuide  22   1           30
+  3   0  15   3      botsy   3   0           30
+  3   1   1   3    kiwehon  15   0           30
+  3   2   5   3     botuyn  21   0           30
+  3   3   7   3    umeuken   0   1           30
+  3   4  18   3    furasti  20   1           30
+  3   5  19   3    larnist   4   1           30
+  3   6   3   3      tewok  10   0           30
+  3   7  16   3    laumens  15   0           30
+  3   8  23   3      noste  18   1           30
+  3   9  12   3     schese  11   0           30
+  3  10   2   3     uwimor  14   0           30
+  3  11  21   3      yosud  16   1           30
+  3  12  17   3      frask  23   0           30
+  3  13  22   3     nalber  20   1           30
+  3  14  14   3     jaciyn   4   0           30
+  3  15  20   3     hiwawa   3   1           30
+  3  16   4   3    sleshen  21   0           30
+  3  17   9   3     ubajec  18   1           30
+  3  18   0   3      obacu   5   0           30
+  3  19  10   3      medan  10   1           30
+  3  20  13   3    molkate  20   0           30
+  3  21   6   3    hilejin   8   1           30
+  3  22   8   3    pimuide  24   1           30
+  3  23  11   3    permife   3   1           31
+  4   0   0   4      obacu   6   0           30
+  4   1   6   4    hilejin   7   1           30
+  4   2  10   4      medan  23   1           30
+  4   3  18   4    furasti  12   1           30
+  4   4  15   4      botsy   5   0           30
+  4   5   7   4    umeuken  23   1           30
+  4   6  21   4      yosud  15   1           30
+  4   7  16   4    laumens  19   0           30
+  4   8  12   4     schese   1   0           30
+  4   9   9   4     ubajec  12   1           31
+  4  10   5   4     botuyn  14   0           30
+  4  11   1   4    kiwehon  16   0           30
+  4  12   3   4      tewok   4   0           30
+  4  13  23   4      noste  15   1           30
+  4  14   4   4    sleshen  24   0           30
+  4  15   8   4    pimuide  20   1           31
+  4  16  14   4     jaciyn  18   0           30
+  4  17   2   4     uwimor   1   0           30
+  4  18  11   4    permife   8   1           30
+  4  19  19   4    larnist  21   1           30
+  4  20  20   4     hiwawa  18   1           30
+  4  21  17   4      frask   5   0           30
+  4  22  22   4     nalber   4   1           30
+  4  23  13   4    molkate  23   0           30
+  5   0   4   0    sleshen   7   0           30
+  5   1   0   0      obacu  20   0           30
+  5   2  11   0    permife   4   1           30
+  5   3  12   0     schese  24   0           30
+  5   4   7   0    umeuken   6   1           30
+  5   5  14   0     jaciyn  16   0           30
+  5   6   5   0     botuyn  16   0           30
+  5   7   9   0     ubajec   1   1           30
+  5   8   1   0    kiwehon   2   0           30
+  5   9  17   0      frask   8   0           30
+  5  10  22   0     nalber   9   1           30
+  5  11   2   0     uwimor   9   0           30
+  5  12   8   0    pimuide   2   1           30
+  5  13  10   0      medan  24   1           30
+  5  14  23   0      noste  14   1           30
+  5  15  21   0      yosud  11   1           30
+  5  16  18   0    furasti  19   1           30
+  5  17  13   0    molkate   0   0           30
+  5  18  20   0     hiwawa   6   1           30
+  5  19   6   0    hilejin  19   1           30
+  5  20  19   0    larnist  24   1           30
+  5  21  16   0    laumens  17   0           30
+  5  22  15   0      botsy  13   0           30
+  5  23   3   0      tewok  12   0           30
+  6   0   1   1    kiwehon   8   0           30
+  6   1   2   1     uwimor  11   0           30
+  6   2   3   1      tewok  17   0           30
+  6   3  23   1      noste  10   1           30
+  6   4  19   1    larnist   7   1           30
+  6   5  13   1    molkate   2   0           30
+  6   6  16   1    laumens  14   0           30
+  6   7   5   1     botuyn  10   0           30
+  6   8  14   1     jaciyn  10   0           30
+  6   9   9   1     ubajec  11   1           30
+  6  10  17   1      frask  10   0           30
+  6  11   0   1      obacu  23   0           30
+  6  12  18   1    furasti  17   1           30
+  6  13   8   1    pimuide  17   1           30
+  6  14   7   1    umeuken   5   1           30
+  6  15  10   1      medan  16   1           30
+  6  16  15   1      botsy   6   0           30
+  6  17  20   1     hiwawa   0   1           30
+  6  18   6   1    hilejin  13   1           30
+  6  19  11   1    permife   0   1           30
+  6  20  22   1     nalber  19   1           30
+  6  21  21   1      yosud   9   1           30
+  6  22   4   1    sleshen   0   0           30
+  6  23  12   1     schese  21   0           30
+  7   0   2   2     uwimor  13   0           30
+  7   1  22   2     nalber   6   1           30
+  7   2  15   2      botsy   8   0           30
+  7   3   1   2    kiwehon   3   0           30
+  7   4  21   2      yosud  13   1           31
+  7   5   9   2     ubajec   3   1           30
+  7   6  20   2     hiwawa  14   1           30
+  7   7   6   2    hilejin   9   1           30
+  7   8  14   2     jaciyn  22   0           30
+  7   9  16   2    laumens  12   0           30
+  7  10  11   2    permife  12   1           30
+  7  11  13   2    molkate   9   0           30
+  7  12  23   2      noste  16   1           30
+  7  13   5   2     botuyn  15   0           30
+  7  14  19   2    larnist   2   1           30
+  7  15   7   2    umeuken   4   1           30
+  7  16   8   2    pimuide  22   1           30
+  7  17  12   2     schese   7   0           30
+  7  18  10   2      medan   1   1           30
+  7  19   0   2      obacu  18   0           30
+  7  20  17   2      frask  22   0           30
+  7  21  18   2    furasti   1   1           30
+  7  22   4   2    sleshen  22   0           30
+  7  23   3   2      tewok  19   0           30
+  8   0  20   3     hiwawa   3   1           30
+  8   1   9   3     ubajec  18   1           30
+  8   2  11   3    permife   3   1           30
+  8   3   5   3     botuyn  21   0           30
+  8   4  15   3      botsy   3   0           30
+  8   5   1   3    kiwehon  15   0           30
+  8   6  17   3      frask  23   0           30
+  8   7   8   3    pimuide  24   1           30
+  8   8  19   3    larnist   4   1           30
+  8   9  22   3     nalber  20   1           30
+  8  10   4   3    sleshen  21   0           30
+  8  11   7   3    umeuken   0   1           30
+  8  12  23   3      noste  18   1           30
+  8  13   3   3      tewok  10   0           30
+  8  14   6   3    hilejin   8   1           30
+  8  15  13   3    molkate  20   0           30
+  8  16  21   3      yosud  16   1           30
+  8  17  10   3      medan  10   1           30
+  8  18  16   3    laumens  15   0           30
+  8  19  18   3    furasti  20   1           30
+  8  20   2   3     uwimor  14   0           30
+  8  21  14   3     jaciyn   4   0           30
+  8  22  12   3     schese  11   0           31
+  8  23   0   3      obacu   5   0           30
+  9   0  18   4    furasti  12   1           30
+  9   1  19   4    larnist  21   1           30
+  9   2   2   4     uwimor   1   0           30
+  9   3   9   4     ubajec  12   1           30
+  9   4   5   4     botuyn  14   0           30
+  9   5   7   4    umeuken  23   1           30
+  9   6  15   4      botsy   5   0           30
+  9   7   3   4      tewok   4   0           30
+  9   8  22   4     nalber   4   1           30
+  9   9   6   4    hilejin   7   1           30
+  9  10  14   4     jaciyn  18   0           30
+  9  11  21   4      yosud  15   1           29
+  9  12   0   4      obacu   6   0           30
+  9  13  17   4      frask   5   0           30
+  9  14  13   4    molkate  23   0           30
+  9  15  11   4    permife   8   1           30
+  9  16  12   4     schese   1   0           30
+  9  17   1   4    kiwehon  16   0           31
+  9  18  10   4      medan  23   1           30
+  9  19   4   4    sleshen  24   0           30
+  9  20  23   4      noste  15   1           30
+  9  21   8   4    pimuide  20   1           30
+  9  22  20   4     hiwawa  18   1           30
+  9  23  16   4    laumens  19   0           30
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0  10 medan   5   6   8 1932931176
+   1   3 tewok   4   5   2 1932931176
+   2   8 pimuide   3   2   2 1932931176
+   3   9 ubajec   3   2   2 1932931176
+   4  12 schese   4   2   2 1932931176
+   5   5 botuyn   6   4   4 1932931176
+   6  15 botsy   6   7   5 1932931176
+   7  16 laumens   7   8   7 1932931176
+   8   2 uwimor   5   3   3 1932931176
+   9  22 nalber   5   3   2 1932931176
+  10  19 larnist   6   4   5 1932931176
+  11   4 sleshen   3   2   2 1932931176
+  12   7 umeuken   3   1   2 1932931176
+  13   0 obacu   3   2   1 1932931176
+  14  21 yosud   5   4   4 1932931176
+  15  23 noste   8   8   6 1932931176
+  16  20 hiwawa   8   8   8 1932931176
+  17  14 jaciyn   4   3   4 1932931176
+  18   1 kiwehon   4   3   4 1932931176
+  19   6 hilejin   7   7   6 1932931176
+  20  13 molkate   4   5   3 1932931176
+  21  11 permife   5   4   3 1932931176
+  22  18 furasti   6   5   5 1932931176
+  23  17 frask   5   4   5 1932931176
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 valenz_response valenz_rt sichtbar_response sichtbar_korrekt sichtbar_rt
+ 36  25   2   1   1   1         INFORMATIONS     0   0                obacu   0  -1   0   0    20  23  18   5   6     3   2   1     1     2024  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     0   1                obacu   0  -1   0   0    20  23  18   5   6     3   2   1     1      639  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     0   2                obacu   0  -1   0   0    20  23  18   5   6     3   2   1     1     1087  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     0   3                obacu   0  -1   0   0    20  23  18   5   6     3   2   1     1     1551  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     0   4                obacu   0  -1   0   0    20  23  18   5   6     3   2   1     1      816  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     1   0              kiwehon   0  -1   0   0     2   8   3  15  16     4   3   4     1      927  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     1   1              kiwehon   0  -1   0   0     2   8   3  15  16     4   3   4     1      648  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     1   2              kiwehon   0  -1   0   0     2   8   3  15  16     4   3   4     1      848  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     1   3              kiwehon   0  -1   0   0     2   8   3  15  16     4   3   4     1      753  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     1   4              kiwehon   0  -1   0   0     2   8   3  15  16     4   3   4     1      663  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     2   0               uwimor   0  -1   0   0     9  11  13  14   1     5   3   3     1      815  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     2   1               uwimor   0  -1   0   0     9  11  13  14   1     5   3   3     1      784  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     2   2               uwimor   0  -1   0   0     9  11  13  14   1     5   3   3     1      616  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     2   3               uwimor   0  -1   0   0     9  11  13  14   1     5   3   3     1     1463  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     2   4               uwimor   0  -1   0   0     9  11  13  14   1     5   3   3     1     1040  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     3   0                tewok   0  -1   0   0    12  17  19  10   4     4   5   2     1      640  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     3   1                tewok   0  -1   0   0    12  17  19  10   4     4   5   2     1      631  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     3   2                tewok   0  -1   0   0    12  17  19  10   4     4   5   2     1     2168  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     3   3                tewok   0  -1   0   0    12  17  19  10   4     4   5   2     1      671  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     3   4                tewok   0  -1   0   0    12  17  19  10   4     4   5   2     1     1096  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     4   0              sleshen   0  -1   0   0     7   0  22  21  24     3   2   2     1     3983  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     4   1              sleshen   0  -1   0   0     7   0  22  21  24     3   2   2     1     1423  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     4   2              sleshen   0  -1   0   0     7   0  22  21  24     3   2   2     1     1199  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     4   3              sleshen   0  -1   0   0     7   0  22  21  24     3   2   2     1     1200  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     4   4              sleshen   0  -1   0   0     7   0  22  21  24     3   2   2     1      671  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     5   0               botuyn   0  -1   0   0    16  10  15  21  14     6   4   4     1      607  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     5   1               botuyn   0  -1   0   0    16  10  15  21  14     6   4   4     1      695  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     5   2               botuyn   0  -1   0   0    16  10  15  21  14     6   4   4     1      968  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     5   3               botuyn   0  -1   0   0    16  10  15  21  14     6   4   4     1     1359  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     5   4               botuyn   0  -1   0   0    16  10  15  21  14     6   4   4     1     6792  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     6   0              hilejin   0  -1   0   1    19  13   9   8   7     7   7   6     1      646  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     6   1              hilejin   0  -1   0   1    19  13   9   8   7     7   7   6     1      751  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     6   2              hilejin   0  -1   0   1    19  13   9   8   7     7   7   6     1      614  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     6   3              hilejin   0  -1   0   1    19  13   9   8   7     7   7   6     1      942  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     6   4              hilejin   0  -1   0   1    19  13   9   8   7     7   7   6     1      751  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     7   0              umeuken   0  -1   0   1     6   5   4   0  23     3   1   2     1      687  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     7   1              umeuken   0  -1   0   1     6   5   4   0  23     3   1   2     1      486  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     7   2              umeuken   0  -1   0   1     6   5   4   0  23     3   1   2     1      631  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     7   3              umeuken   0  -1   0   1     6   5   4   0  23     3   1   2     1      934  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     7   4              umeuken   0  -1   0   1     6   5   4   0  23     3   1   2     1     1086  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     8   0              pimuide   0  -1   0   1     2  17  22  24  20     3   2   2     1     1231  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     8   1              pimuide   0  -1   0   1     2  17  22  24  20     3   2   2     1      527  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     8   2              pimuide   0  -1   0   1     2  17  22  24  20     3   2   2     1      815  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     8   3              pimuide   0  -1   0   1     2  17  22  24  20     3   2   2     1      735  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     8   4              pimuide   0  -1   0   1     2  17  22  24  20     3   2   2     1     1014  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     9   0               ubajec   0  -1   0   1     1  11   3  18  12     3   2   2     1     1374  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     9   1               ubajec   0  -1   0   1     1  11   3  18  12     3   2   2     1      894  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     9   2               ubajec   0  -1   0   1     1  11   3  18  12     3   2   2     1     1278  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     9   3               ubajec   0  -1   0   1     1  11   3  18  12     3   2   2     1      734  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS     9   4               ubajec   0  -1   0   1     1  11   3  18  12     3   2   2     1      998  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    10   0                medan   0  -1   0   1    24  16   1  10  23     5   6   8     1     1150  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    10   1                medan   0  -1   0   1    24  16   1  10  23     5   6   8     1      791  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    10   2                medan   0  -1   0   1    24  16   1  10  23     5   6   8     1      799  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    10   3                medan   0  -1   0   1    24  16   1  10  23     5   6   8     1     1926  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    10   4                medan   0  -1   0   1    24  16   1  10  23     5   6   8     1      671  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    11   0              permife   0  -1   0   1     4   0  12   3   8     5   4   3     1      958  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    11   1              permife   0  -1   0   1     4   0  12   3   8     5   4   3     1      798  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    11   2              permife   0  -1   0   1     4   0  12   3   8     5   4   3     1     1318  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    11   3              permife   0  -1   0   1     4   0  12   3   8     5   4   3     1      638  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    11   4              permife   0  -1   0   1     4   0  12   3   8     5   4   3     1      983  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    12   0               schese   0  -1   1   0    24  21   7  11   1     4   2   2     1      751  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    12   1               schese   0  -1   1   0    24  21   7  11   1     4   2   2     1      668  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    12   2               schese   0  -1   1   0    24  21   7  11   1     4   2   2     1     1087  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    12   3               schese   0  -1   1   0    24  21   7  11   1     4   2   2     1      902  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    12   4               schese   0  -1   1   0    24  21   7  11   1     4   2   2     0      895  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    13   0              molkate   0  -1   1   0     0   2   9  20  23     4   5   3     0     1023  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    13   1              molkate   0  -1   1   0     0   2   9  20  23     4   5   3     0      583  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    13   2              molkate   0  -1   1   0     0   2   9  20  23     4   5   3     0      903  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    13   3              molkate   0  -1   1   0     0   2   9  20  23     4   5   3     0      710  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    13   4              molkate   0  -1   1   0     0   2   9  20  23     4   5   3     0      967  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    14   0               jaciyn   0  -1   1   0    16  10  22   4  18     4   3   4     0     1167  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    14   1               jaciyn   0  -1   1   0    16  10  22   4  18     4   3   4     0      575  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    14   2               jaciyn   0  -1   1   0    16  10  22   4  18     4   3   4     0     1337  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    14   3               jaciyn   0  -1   1   0    16  10  22   4  18     4   3   4     0      823  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    14   4               jaciyn   0  -1   1   0    16  10  22   4  18     4   3   4     0     1007  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    15   0                botsy   0  -1   1   0    13   6   8   3   5     6   7   5     0      567  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    15   1                botsy   0  -1   1   0    13   6   8   3   5     6   7   5     0      935  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    15   2                botsy   0  -1   1   0    13   6   8   3   5     6   7   5     0      480  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    15   3                botsy   0  -1   1   0    13   6   8   3   5     6   7   5     0      815  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    15   4                botsy   0  -1   1   0    13   6   8   3   5     6   7   5     0     1248  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    16   0              laumens   0  -1   1   0    17  14  12  15  19     7   8   7     0      759  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    16   1              laumens   0  -1   1   0    17  14  12  15  19     7   8   7     0     1255  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    16   2              laumens   0  -1   1   0    17  14  12  15  19     7   8   7     1     2711  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    16   3              laumens   0  -1   1   0    17  14  12  15  19     7   8   7     0      615  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    16   4              laumens   0  -1   1   0    17  14  12  15  19     7   8   7     0     1688  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    17   0                frask   0  -1   1   0     8  10  22  23   5     5   4   5     0      960  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    17   1                frask   0  -1   1   0     8  10  22  23   5     5   4   5     0      921  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    17   2                frask   0  -1   1   0     8  10  22  23   5     5   4   5     0      575  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    17   3                frask   0  -1   1   0     8  10  22  23   5     5   4   5     0      959  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    17   4                frask   0  -1   1   0     8  10  22  23   5     5   4   5     0      840  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    18   0              furasti   0  -1   1   1    19  17   1  20  12     6   5   5     0      606  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    18   1              furasti   0  -1   1   1    19  17   1  20  12     6   5   5     0     1294  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    18   2              furasti   0  -1   1   1    19  17   1  20  12     6   5   5     0     1694  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    18   3              furasti   0  -1   1   1    19  17   1  20  12     6   5   5     0     1550  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    18   4              furasti   0  -1   1   1    19  17   1  20  12     6   5   5     1     1726  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    19   0              larnist   0  -1   1   1    24   7   2   4  21     6   4   5     1      592  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    19   1              larnist   0  -1   1   1    24   7   2   4  21     6   4   5     1     1079  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    19   2              larnist   0  -1   1   1    24   7   2   4  21     6   4   5     0      958  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    19   3              larnist   0  -1   1   1    24   7   2   4  21     6   4   5     0      687  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    19   4              larnist   0  -1   1   1    24   7   2   4  21     6   4   5     1     1247  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    20   0               hiwawa   0  -1   1   1     6   0  14   3  18     8   8   8     0      638  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    20   1               hiwawa   0  -1   1   1     6   0  14   3  18     8   8   8     0      550  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    20   2               hiwawa   0  -1   1   1     6   0  14   3  18     8   8   8     0      718  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    20   3               hiwawa   0  -1   1   1     6   0  14   3  18     8   8   8     0     1150  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    20   4               hiwawa   0  -1   1   1     6   0  14   3  18     8   8   8     0     1158  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    21   0                yosud   0  -1   1   1    11   9  13  16  15     5   4   4     1     1566  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    21   1                yosud   0  -1   1   1    11   9  13  16  15     5   4   4     0      567  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    21   2                yosud   0  -1   1   1    11   9  13  16  15     5   4   4     0     1413  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    21   3                yosud   0  -1   1   1    11   9  13  16  15     5   4   4     0      775  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    21   4                yosud   0  -1   1   1    11   9  13  16  15     5   4   4     0     1159  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    22   0               nalber   0  -1   1   1     9  19   6  20   4     5   3   2     0      750  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    22   1               nalber   0  -1   1   1     9  19   6  20   4     5   3   2     0      686  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    22   2               nalber   0  -1   1   1     9  19   6  20   4     5   3   2     0      606  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    22   3               nalber   0  -1   1   1     9  19   6  20   4     5   3   2     0      862  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    22   4               nalber   0  -1   1   1     9  19   6  20   4     5   3   2     0      750  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    23   0                noste   0  -1   1   1    14  10  16  18  15     8   8   6     0      654  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    23   1                noste   0  -1   1   1    14  10  16  18  15     8   8   6     0      702  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    23   2                noste   0  -1   1   1    14  10  16  18  15     8   8   6     0     1918  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    23   3                noste   0  -1   1   1    14  10  16  18  15     8   8   6     0     1366  -1  -1       -1
+ 36  25   2   1   1   1         INFORMATIONS    23   4                noste   0  -1   1   1    14  10  16  18  15     8   8   6     0     1638  -1  -1       -1

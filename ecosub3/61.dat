@@ -1,0 +1,554 @@
+ECOsub3 [07-2012]
+ 61   0   0
+ 33   1   1   1 MEDIZIN
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0    obacu   0  -1   0   0   9  18  14   3  11 -1  -1  -1
+  1    noste   0  -1   0   0  22  17  23  20   2 -1  -1  -1
+  2    frask   0  -1   0   0  19  15   6  12  21 -1  -1  -1
+  3   ubajec   0  -1   0   0  10  13   4  24   0 -1  -1  -1
+  4  kiwehon   0  -1   0   0   1   7  16   5   8 -1  -1  -1
+  5   jaciyn   0  -1   0   0  20   0  18   4  12 -1  -1  -1
+  6  sleshen   0  -1   0   1   5  17   9   8  21 -1  -1  -1
+  7    yosud   0  -1   0   1  15   1  10  23   3 -1  -1  -1
+  8   schese   0  -1   0   1   2  24  11  22  16 -1  -1  -1
+  9  umeuken   0  -1   0   1   7   6  14  13  19 -1  -1  -1
+ 10    tewok   0  -1   0   1  18   3  19   8  12 -1  -1  -1
+ 11    medan   0  -1   0   1  10  22   5   6  17 -1  -1  -1
+ 12  larnist   0  -1   1   0  20  22  11   5  10 -1  -1  -1
+ 13   botuyn   0  -1   1   0   2   6   0  17   3 -1  -1  -1
+ 14   uwimor   0  -1   1   0  23   4   1  21  14 -1  -1  -1
+ 15  hilejin   0  -1   1   0  13   7  24  19  15 -1  -1  -1
+ 16  permife   0  -1   1   0  18   9  12  16   8 -1  -1  -1
+ 17  pimuide   0  -1   1   0  17  12  14   4   1 -1  -1  -1
+ 18   hiwawa   0  -1   1   1   0  18   9   2  19 -1  -1  -1
+ 19    botsy   0  -1   1   1   6  22   3  24  10 -1  -1  -1
+ 20  laumens   0  -1   1   1  15  20   8  13   7 -1  -1  -1
+ 21   nalber   0  -1   1   1  21  23   5  11  16 -1  -1  -1
+ 22  furasti   0  -1   1   1  22   7  21   8   0 -1  -1  -1
+ 23  molkate   0  -1   1   1  23  19  14  10  16 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 obacu 
+  0   1 noste 
+  0   2 frask 
+  0   3 ubajec 
+  0   4 kiwehon 
+  1   0 jaciyn 
+  1   1 sleshen 
+  1   2 yosud 
+  1   3 schese 
+  1   4 umeuken 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 obacu   0   0   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  0 obacu   0   1  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  0 obacu   0   2  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  0 obacu   0   3   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  0 obacu   0   4  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  1 noste   0   0  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  1 noste   0   1  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  1 noste   0   2  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  1 noste   0   3  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  1 noste   0   4   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  2 frask   0   0  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  2 frask   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  2 frask   0   2   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  2 frask   0   3  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  2 frask   0   4  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  3 ubajec   0   0  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  3 ubajec   0   1  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  3 ubajec   0   2   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  3 ubajec   0   3  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  3 ubajec   0   4   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  4 kiwehon   0   0   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  4 kiwehon   0   1   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  4 kiwehon   0   2  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  4 kiwehon   0   3   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  4 kiwehon   0   4   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  5 jaciyn   0   0  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  5 jaciyn   0   1   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  5 jaciyn   0   2  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  5 jaciyn   0   3   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  5 jaciyn   0   4  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  6 sleshen   0   0   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  6 sleshen   0   1  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  6 sleshen   0   2   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  6 sleshen   0   3   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  6 sleshen   0   4  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  7 yosud   0   0  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  7 yosud   0   1   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  7 yosud   0   2  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  7 yosud   0   3  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  7 yosud   0   4   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  8 schese   0   0   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  8 schese   0   1  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  8 schese   0   2  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  8 schese   0   3  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  8 schese   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  9 umeuken   0   0   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  9 umeuken   0   1   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  9 umeuken   0   2  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  9 umeuken   0   3  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  9 umeuken   0   4  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+ 10 tewok   0   0  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+ 10 tewok   0   1   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+ 10 tewok   0   2  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+ 10 tewok   0   3   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+ 10 tewok   0   4  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+ 11 medan   0   0  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+ 11 medan   0   1  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+ 11 medan   0   2   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+ 11 medan   0   3   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+ 11 medan   0   4  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+ 12 larnist   1   0  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 12 larnist   1   1  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 12 larnist   1   2  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 12 larnist   1   3   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 12 larnist   1   4  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 13 botuyn   1   0   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 13 botuyn   1   1   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 13 botuyn   1   2   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 13 botuyn   1   3  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 13 botuyn   1   4   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 14 uwimor   1   0  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 14 uwimor   1   1   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 14 uwimor   1   2   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 14 uwimor   1   3  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 14 uwimor   1   4  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 15 hilejin   1   0  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 15 hilejin   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 15 hilejin   1   2  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 15 hilejin   1   3  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 15 hilejin   1   4  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 16 permife   1   0  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 16 permife   1   1   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 16 permife   1   2  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 16 permife   1   3  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 16 permife   1   4   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 17 pimuide   1   0  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 17 pimuide   1   1  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 17 pimuide   1   2  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 17 pimuide   1   3   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 17 pimuide   1   4   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 18 hiwawa   1   0   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 18 hiwawa   1   1  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 18 hiwawa   1   2   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 18 hiwawa   1   3   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 18 hiwawa   1   4  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 19 botsy   1   0   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 19 botsy   1   1  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 19 botsy   1   2   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 19 botsy   1   3  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 19 botsy   1   4  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 20 laumens   1   0  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 20 laumens   1   1  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 20 laumens   1   2   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 20 laumens   1   3  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 20 laumens   1   4   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 21 nalber   1   0  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 21 nalber   1   1  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 21 nalber   1   2   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 21 nalber   1   3  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 21 nalber   1   4  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 22 furasti   1   0  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 22 furasti   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 22 furasti   1   2  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 22 furasti   1   3   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 22 furasti   1   4   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 23 molkate   1   0  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 23 molkate   1   1  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 23 molkate   1   2  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 23 molkate   1   3  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 23 molkate   1   4  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0   0   0      obacu   9   0           30
+  0   1  11   0      medan  10   1           30
+  0   2   2   0      frask  19   0           30
+  0   3   1   0      noste  22   0           30
+  0   4   9   0    umeuken   7   1           30
+  0   5   3   0     ubajec  10   0           30
+  0   6   6   0    sleshen   5   1           30
+  0   7   8   0     schese   2   1           30
+  0   8   7   0      yosud  15   1           29
+  0   9  12   0    larnist  20   0           30
+  0  10  19   0      botsy   6   1           30
+  0  11  15   0    hilejin  13   0           30
+  0  12  18   0     hiwawa   0   1           30
+  0  13  17   0    pimuide  17   0           30
+  0  14  20   0    laumens  15   1           30
+  0  15  13   0     botuyn   2   0           30
+  0  16  22   0    furasti  22   1           29
+  0  17  14   0     uwimor  23   0           30
+  0  18  23   0    molkate  23   1           30
+  0  19   4   0    kiwehon   1   0           30
+  0  20   5   0     jaciyn  20   0           30
+  0  21  10   0      tewok  18   1           29
+  0  22  21   0     nalber  21   1           29
+  0  23  16   0    permife  18   0           30
+  1   0   4   1    kiwehon   7   0           30
+  1   1   8   1     schese  24   1           30
+  1   2  16   1    permife   9   0           30
+  1   3  23   1    molkate  19   1           30
+  1   4   5   1     jaciyn   0   0           30
+  1   5  14   1     uwimor   4   0           30
+  1   6   7   1      yosud   1   1           29
+  1   7   2   1      frask  15   0           29
+  1   8  17   1    pimuide  12   0           30
+  1   9   6   1    sleshen  17   1           30
+  1  10  20   1    laumens  20   1           29
+  1  11  21   1     nalber  23   1           29
+  1  12  11   1      medan  22   1           30
+  1  13   9   1    umeuken   6   1           30
+  1  14  10   1      tewok   3   1           30
+  1  15  22   1    furasti   7   1           29
+  1  16   1   1      noste  17   0           30
+  1  17  13   1     botuyn   6   0           30
+  1  18  19   1      botsy  22   1           29
+  1  19  15   1    hilejin   7   0           30
+  1  20  12   1    larnist  22   0           30
+  1  21   3   1     ubajec  13   0           30
+  1  22   0   1      obacu  18   0           30
+  1  23  18   1     hiwawa  18   1           30
+  2   0   8   2     schese  11   1           29
+  2   1  10   2      tewok  19   1           29
+  2   2  12   2    larnist  11   0           30
+  2   3  18   2     hiwawa   9   1           30
+  2   4  13   2     botuyn   0   0           30
+  2   5  11   2      medan   5   1           30
+  2   6   0   2      obacu  14   0           30
+  2   7  21   2     nalber   5   1           30
+  2   8   4   2    kiwehon  16   0           30
+  2   9   3   2     ubajec   4   0           30
+  2  10  15   2    hilejin  24   0           29
+  2  11  16   2    permife  12   0           30
+  2  12   2   2      frask   6   0           30
+  2  13  17   2    pimuide  14   0           29
+  2  14   5   2     jaciyn  18   0           30
+  2  15   6   2    sleshen   9   1           29
+  2  16   9   2    umeuken  14   1           30
+  2  17  20   2    laumens   8   1           29
+  2  18   1   2      noste  23   0           30
+  2  19  23   2    molkate  14   1           29
+  2  20  14   2     uwimor   1   0           30
+  2  21   7   2      yosud  10   1           29
+  2  22  19   2      botsy   3   1           30
+  2  23  22   2    furasti  21   1           30
+  3   0   6   3    sleshen   8   1           29
+  3   1   0   3      obacu   3   0           30
+  3   2   7   3      yosud  23   1           30
+  3   3   4   3    kiwehon   5   0           30
+  3   4   2   3      frask  12   0           30
+  3   5  21   3     nalber  11   1           29
+  3   6  23   3    molkate  10   1           29
+  3   7  18   3     hiwawa   2   1           30
+  3   8  17   3    pimuide   4   0           30
+  3   9  22   3    furasti   8   1           30
+  3  10  20   3    laumens  13   1           30
+  3  11   5   3     jaciyn   4   0           30
+  3  12  15   3    hilejin  19   0           30
+  3  13  19   3      botsy  24   1           29
+  3  14  16   3    permife  16   0           30
+  3  15  11   3      medan   6   1           29
+  3  16   9   3    umeuken  13   1           30
+  3  17  13   3     botuyn  17   0           30
+  3  18   8   3     schese  22   1           29
+  3  19  12   3    larnist   5   0           30
+  3  20  10   3      tewok   8   1           29
+  3  21   1   3      noste  20   0           30
+  3  22  14   3     uwimor  21   0           30
+  3  23   3   3     ubajec  24   0           30
+  4   0  15   4    hilejin  15   0           30
+  4   1   2   4      frask  21   0           30
+  4   2   7   4      yosud   3   1           29
+  4   3   0   4      obacu  11   0           29
+  4   4  18   4     hiwawa  19   1           29
+  4   5   4   4    kiwehon   8   0           30
+  4   6  14   4     uwimor  14   0           30
+  4   7   6   4    sleshen  21   1           30
+  4   8  12   4    larnist  10   0           30
+  4   9  23   4    molkate  16   1           30
+  4  10   1   4      noste   2   0           30
+  4  11   5   4     jaciyn  12   0           30
+  4  12  11   4      medan  17   1           29
+  4  13  19   4      botsy  10   1           30
+  4  14  21   4     nalber  16   1           30
+  4  15  10   4      tewok  12   1           30
+  4  16  13   4     botuyn   3   0           30
+  4  17  17   4    pimuide   1   0           30
+  4  18  22   4    furasti   0   1           29
+  4  19   3   4     ubajec   0   0           30
+  4  20   9   4    umeuken  19   1           30
+  4  21   8   4     schese  16   1           29
+  4  22  20   4    laumens   7   1           30
+  4  23  16   4    permife   8   0           30
+  5   0   3   0     ubajec  10   0           30
+  5   1   9   0    umeuken   7   1           30
+  5   2  22   0    furasti  22   1           29
+  5   3  15   0    hilejin  13   0           30
+  5   4  14   0     uwimor  23   0           29
+  5   5  23   0    molkate  23   1           29
+  5   6  13   0     botuyn   2   0           30
+  5   7  19   0      botsy   6   1           30
+  5   8  12   0    larnist  20   0           30
+  5   9   2   0      frask  19   0           30
+  5  10  17   0    pimuide  17   0           30
+  5  11   0   0      obacu   9   0           30
+  5  12  18   0     hiwawa   0   1           30
+  5  13   8   0     schese   2   1           30
+  5  14   7   0      yosud  15   1           30
+  5  15  20   0    laumens  15   1           29
+  5  16  10   0      tewok  18   1           29
+  5  17   1   0      noste  22   0           30
+  5  18   4   0    kiwehon   1   0           30
+  5  19   6   0    sleshen   5   1           30
+  5  20   5   0     jaciyn  20   0           30
+  5  21  11   0      medan  10   1           29
+  5  22  16   0    permife  18   0           30
+  5  23  21   0     nalber  21   1           30
+  6   0  19   1      botsy  22   1           29
+  6   1   1   1      noste  17   0           30
+  6   2   6   1    sleshen  17   1           29
+  6   3  20   1    laumens  20   1           30
+  6   4   2   1      frask  15   0           29
+  6   5   9   1    umeuken   6   1           30
+  6   6  12   1    larnist  22   0           30
+  6   7   0   1      obacu  18   0           29
+  6   8   4   1    kiwehon   7   0           30
+  6   9   7   1      yosud   1   1           29
+  6  10  18   1     hiwawa  18   1           30
+  6  11   3   1     ubajec  13   0           30
+  6  12  10   1      tewok   3   1           29
+  6  13  14   1     uwimor   4   0           30
+  6  14   8   1     schese  24   1           29
+  6  15  13   1     botuyn   6   0           30
+  6  16  21   1     nalber  23   1           30
+  6  17  11   1      medan  22   1           30
+  6  18  15   1    hilejin   7   0           30
+  6  19  22   1    furasti   7   1           29
+  6  20  23   1    molkate  19   1           30
+  6  21  16   1    permife   9   0           30
+  6  22  17   1    pimuide  12   0           30
+  6  23   5   1     jaciyn   0   0           30
+  7   0  16   2    permife  12   0           30
+  7   1  18   2     hiwawa   9   1           29
+  7   2  23   2    molkate  14   1           30
+  7   3  14   2     uwimor   1   0           30
+  7   4   2   2      frask   6   0           30
+  7   5   1   2      noste  23   0           29
+  7   6  19   2      botsy   3   1           30
+  7   7  15   2    hilejin  24   0           30
+  7   8  12   2    larnist  11   0           30
+  7   9   3   2     ubajec   4   0           30
+  7  10  20   2    laumens   8   1           29
+  7  11  10   2      tewok  19   1           29
+  7  12   9   2    umeuken  14   1           29
+  7  13   0   2      obacu  14   0           29
+  7  14  22   2    furasti  21   1           30
+  7  15   5   2     jaciyn  18   0           30
+  7  16   6   2    sleshen   9   1           30
+  7  17  11   2      medan   5   1           29
+  7  18   8   2     schese  11   1           30
+  7  19   4   2    kiwehon  16   0           30
+  7  20  17   2    pimuide  14   0           30
+  7  21  21   2     nalber   5   1           29
+  7  22  13   2     botuyn   0   0           30
+  7  23   7   2      yosud  10   1           30
+  8   0   9   3    umeuken  13   1           30
+  8   1  17   3    pimuide   4   0           30
+  8   2   6   3    sleshen   8   1           30
+  8   3   1   3      noste  20   0           29
+  8   4   3   3     ubajec  24   0           30
+  8   5   8   3     schese  22   1           30
+  8   6  14   3     uwimor  21   0           30
+  8   7   5   3     jaciyn   4   0           30
+  8   8  15   3    hilejin  19   0           29
+  8   9  21   3     nalber  11   1           29
+  8  10   4   3    kiwehon   5   0           30
+  8  11  11   3      medan   6   1           30
+  8  12  12   3    larnist   5   0           30
+  8  13  10   3      tewok   8   1           29
+  8  14  22   3    furasti   8   1           30
+  8  15  19   3      botsy  24   1           30
+  8  16  23   3    molkate  10   1           30
+  8  17   2   3      frask  12   0           30
+  8  18  16   3    permife  16   0           30
+  8  19  13   3     botuyn  17   0           30
+  8  20  18   3     hiwawa   2   1           30
+  8  21   7   3      yosud  23   1           29
+  8  22  20   3    laumens  13   1           29
+  8  23   0   3      obacu   3   0           29
+  9   0  16   4    permife   8   0           30
+  9   1  12   4    larnist  10   0           30
+  9   2   2   4      frask  21   0           29
+  9   3   1   4      noste   2   0           29
+  9   4   9   4    umeuken  19   1           30
+  9   5  18   4     hiwawa  19   1           29
+  9   6  20   4    laumens   7   1           30
+  9   7   0   4      obacu  11   0           29
+  9   8   5   4     jaciyn  12   0           30
+  9   9  11   4      medan  17   1           30
+  9  10  15   4    hilejin  15   0           30
+  9  11  14   4     uwimor  14   0           30
+  9  12  21   4     nalber  16   1           29
+  9  13   6   4    sleshen  21   1           30
+  9  14  23   4    molkate  16   1           29
+  9  15  22   4    furasti   0   1           29
+  9  16   3   4     ubajec   0   0           30
+  9  17   7   4      yosud   3   1           30
+  9  18  17   4    pimuide   1   0           30
+  9  19  19   4      botsy  10   1           30
+  9  20   8   4     schese  16   1           29
+  9  21  13   4     botuyn   3   0           30
+  9  22  10   4      tewok  12   1           30
+  9  23   4   4    kiwehon   8   0           30
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0  21 nalber   5   5   6 1913720936
+   1  13 botuyn   7   6   7 1913720936
+   2   4 kiwehon   8   7   7 1913720936
+   3  23 molkate   7   7   7 1913720936
+   4   1 noste   6   3   3 1913720936
+   5  11 medan   5   6   6 1913720936
+   6  14 uwimor   2   2   2 1913720936
+   7  15 hilejin   5   5   4 1913720936
+   8   2 frask   1   1   1 1913720936
+   9  19 botsy   7   6   7 1913720936
+  10   6 sleshen   2   2   2 1913720936
+  11  17 pimuide   5   5   7 1913720936
+  12  20 laumens   7   7   7 1913720936
+  13  16 permife   6   6   6 1913720936
+  14   9 umeuken   5   5   6 1913720936
+  15  18 hiwawa   7   7   7 1913720936
+  16   8 schese   4   3   3 1913720936
+  17  12 larnist   5   5   5 1913720936
+  18   5 jaciyn   4   5   5 1913720936
+  19  22 furasti   3   3   3 1913720936
+  20   3 ubajec   2   2   3 1913720936
+  21  10 tewok   5   4   5 1913720936
+  22   7 yosud   4   5   4 1913720936
+  23   0 obacu   4   3   4 1913720936
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 valenz_response valenz_rt sichtbar_response sichtbar_korrekt sichtbar_rt
+ 61  33   1   1   1   1              MEDIZIN     0   0                obacu   0  -1   0   0     9  18  14   3  11     4   3   4     1     1584   0  -1     1910
+ 61  33   1   1   1   1              MEDIZIN     0   1                obacu   0  -1   0   0     9  18  14   3  11     4   3   4     1     1577   0  -1     1975
+ 61  33   1   1   1   1              MEDIZIN     0   2                obacu   0  -1   0   0     9  18  14   3  11     4   3   4     1     1226   0  -1      936
+ 61  33   1   1   1   1              MEDIZIN     0   3                obacu   0  -1   0   0     9  18  14   3  11     4   3   4     1     1289   0  -1      904
+ 61  33   1   1   1   1              MEDIZIN     0   4                obacu   0  -1   0   0     9  18  14   3  11     4   3   4     1     1217   0  -1     1320
+ 61  33   1   1   1   1              MEDIZIN     1   0                noste   0  -1   0   0    22  17  23  20   2     6   3   3     1     1345   1  -1     2423
+ 61  33   1   1   1   1              MEDIZIN     1   1                noste   0  -1   0   0    22  17  23  20   2     6   3   3     1     1359   1  -1     5145
+ 61  33   1   1   1   1              MEDIZIN     1   2                noste   0  -1   0   0    22  17  23  20   2     6   3   3     1     3041   1  -1     5071
+ 61  33   1   1   1   1              MEDIZIN     1   3                noste   0  -1   0   0    22  17  23  20   2     6   3   3     1     1313   1  -1     1816
+ 61  33   1   1   1   1              MEDIZIN     1   4                noste   0  -1   0   0    22  17  23  20   2     6   3   3     1     1136   1  -1     1663
+ 61  33   1   1   1   1              MEDIZIN     2   0                frask   0  -1   0   0    19  15   6  12  21     1   1   1     1      985   2  -1     1375
+ 61  33   1   1   1   1              MEDIZIN     2   1                frask   0  -1   0   0    19  15   6  12  21     1   1   1     1      905   2  -1      975
+ 61  33   1   1   1   1              MEDIZIN     2   2                frask   0  -1   0   0    19  15   6  12  21     1   1   1     1     3176   2  -1     1327
+ 61  33   1   1   1   1              MEDIZIN     2   3                frask   0  -1   0   0    19  15   6  12  21     1   1   1     1     1377   2  -1      782
+ 61  33   1   1   1   1              MEDIZIN     2   4                frask   0  -1   0   0    19  15   6  12  21     1   1   1     1     1314   2  -1     1200
+ 61  33   1   1   1   1              MEDIZIN     3   0               ubajec   0  -1   0   0    10  13   4  24   0     2   2   3     1     1393   3  -1     1663
+ 61  33   1   1   1   1              MEDIZIN     3   1               ubajec   0  -1   0   0    10  13   4  24   0     2   2   3     1      632   3  -1      920
+ 61  33   1   1   1   1              MEDIZIN     3   2               ubajec   0  -1   0   0    10  13   4  24   0     2   2   3     1     1345   3  -1     1801
+ 61  33   1   1   1   1              MEDIZIN     3   3               ubajec   0  -1   0   0    10  13   4  24   0     2   2   3     1      880   3  -1     1263
+ 61  33   1   1   1   1              MEDIZIN     3   4               ubajec   0  -1   0   0    10  13   4  24   0     2   2   3     1     1192   3  -1      719
+ 61  33   1   1   1   1              MEDIZIN     4   0              kiwehon   0  -1   0   0     1   7  16   5   8     8   7   7     1     1104   4  -1     1847
+ 61  33   1   1   1   1              MEDIZIN     4   1              kiwehon   0  -1   0   0     1   7  16   5   8     8   7   7     1      913   4  -1     2057
+ 61  33   1   1   1   1              MEDIZIN     4   2              kiwehon   0  -1   0   0     1   7  16   5   8     8   7   7     1     1377   4  -1     2080
+ 61  33   1   1   1   1              MEDIZIN     4   3              kiwehon   0  -1   0   0     1   7  16   5   8     8   7   7     1     1696   4  -1     1943
+ 61  33   1   1   1   1              MEDIZIN     4   4              kiwehon   0  -1   0   0     1   7  16   5   8     8   7   7     1     1184   4  -1     1935
+ 61  33   1   1   1   1              MEDIZIN     5   0               jaciyn   0  -1   0   0    20   0  18   4  12     4   5   5     1     1985   5  -1     1944
+ 61  33   1   1   1   1              MEDIZIN     5   1               jaciyn   0  -1   0   0    20   0  18   4  12     4   5   5     1     1210   5  -1     3104
+ 61  33   1   1   1   1              MEDIZIN     5   2               jaciyn   0  -1   0   0    20   0  18   4  12     4   5   5     1     1736   5  -1     2847
+ 61  33   1   1   1   1              MEDIZIN     5   3               jaciyn   0  -1   0   0    20   0  18   4  12     4   5   5     1     1368   5  -1     1936
+ 61  33   1   1   1   1              MEDIZIN     5   4               jaciyn   0  -1   0   0    20   0  18   4  12     4   5   5     1     1175   5  -1     1439
+ 61  33   1   1   1   1              MEDIZIN     6   0              sleshen   0  -1   0   1     5  17   9   8  21     2   2   2     1     1241  16  -1     5487
+ 61  33   1   1   1   1              MEDIZIN     6   1              sleshen   0  -1   0   1     5  17   9   8  21     2   2   2     1     1480   6  -1     5911
+ 61  33   1   1   1   1              MEDIZIN     6   2              sleshen   0  -1   0   1     5  17   9   8  21     2   2   2     1     2537   6  -1      800
+ 61  33   1   1   1   1              MEDIZIN     6   3              sleshen   0  -1   0   1     5  17   9   8  21     2   2   2     1     1128  14  -1     2463
+ 61  33   1   1   1   1              MEDIZIN     6   4              sleshen   0  -1   0   1     5  17   9   8  21     2   2   2     1     1258   4  -1     2928
+ 61  33   1   1   1   1              MEDIZIN     7   0                yosud   0  -1   0   1    15   1  10  23   3     4   5   4     1     1072   4  -1     1567
+ 61  33   1   1   1   1              MEDIZIN     7   1                yosud   0  -1   0   1    15   1  10  23   3     4   5   4     1     1447   3  -1     5279
+ 61  33   1   1   1   1              MEDIZIN     7   2                yosud   0  -1   0   1    15   1  10  23   3     4   5   4     1     1008  15  -1     5111
+ 61  33   1   1   1   1              MEDIZIN     7   3                yosud   0  -1   0   1    15   1  10  23   3     4   5   4     1     1904  21  -1     4495
+ 61  33   1   1   1   1              MEDIZIN     7   4                yosud   0  -1   0   1    15   1  10  23   3     4   5   4     1     2209   3  -1     1608
+ 61  33   1   1   1   1              MEDIZIN     8   0               schese   0  -1   0   1     2  24  11  22  16     4   3   3     1     1768  14  -1     9736
+ 61  33   1   1   1   1              MEDIZIN     8   1               schese   0  -1   0   1     2  24  11  22  16     4   3   3     0     5032   0  -1     3256
+ 61  33   1   1   1   1              MEDIZIN     8   2               schese   0  -1   0   1     2  24  11  22  16     4   3   3     1     1737   5  -1     7687
+ 61  33   1   1   1   1              MEDIZIN     8   3               schese   0  -1   0   1     2  24  11  22  16     4   3   3     1     1430   0  -1     1223
+ 61  33   1   1   1   1              MEDIZIN     8   4               schese   0  -1   0   1     2  24  11  22  16     4   3   3     1     1480   8  -1     2327
+ 61  33   1   1   1   1              MEDIZIN     9   0              umeuken   0  -1   0   1     7   6  14  13  19     5   5   6     1     1136   7  -1     1936
+ 61  33   1   1   1   1              MEDIZIN     9   1              umeuken   0  -1   0   1     7   6  14  13  19     5   5   6     1     1480  10  -1     2223
+ 61  33   1   1   1   1              MEDIZIN     9   2              umeuken   0  -1   0   1     7   6  14  13  19     5   5   6     1     1704   8  -1     1256
+ 61  33   1   1   1   1              MEDIZIN     9   3              umeuken   0  -1   0   1     7   6  14  13  19     5   5   6     1     1049  20  -1     1864
+ 61  33   1   1   1   1              MEDIZIN     9   4              umeuken   0  -1   0   1     7   6  14  13  19     5   5   6     1     1049  11  -1     2232
+ 61  33   1   1   1   1              MEDIZIN    10   0                tewok   0  -1   0   1    18   3  19   8  12     5   4   5     1     1513  17  -1     4487
+ 61  33   1   1   1   1              MEDIZIN    10   1                tewok   0  -1   0   1    18   3  19   8  12     5   4   5     1     1401  17  -1     3143
+ 61  33   1   1   1   1              MEDIZIN    10   2                tewok   0  -1   0   1    18   3  19   8  12     5   4   5     1     1378   3  -1     4816
+ 61  33   1   1   1   1              MEDIZIN    10   3                tewok   0  -1   0   1    18   3  19   8  12     5   4   5     1     1881  23  -1     2551
+ 61  33   1   1   1   1              MEDIZIN    10   4                tewok   0  -1   0   1    18   3  19   8  12     5   4   5     1     1293  22  -1     1672
+ 61  33   1   1   1   1              MEDIZIN    11   0                medan   0  -1   0   1    10  22   5   6  17     5   6   6     1     1696   6  -1     3775
+ 61  33   1   1   1   1              MEDIZIN    11   1                medan   0  -1   0   1    10  22   5   6  17     5   6   6     1      863  11  -1     1911
+ 61  33   1   1   1   1              MEDIZIN    11   2                medan   0  -1   0   1    10  22   5   6  17     5   6   6     1     2376   8  -1     3192
+ 61  33   1   1   1   1              MEDIZIN    11   3                medan   0  -1   0   1    10  22   5   6  17     5   6   6     1     1631  22  -1     1392
+ 61  33   1   1   1   1              MEDIZIN    11   4                medan   0  -1   0   1    10  22   5   6  17     5   6   6     1     1215   6  -1     3289
+ 61  33   1   1   1   1              MEDIZIN    12   0              larnist   0  -1   1   0    20  22  11   5  10     5   5   5     0     1768  12  -1     1744
+ 61  33   1   1   1   1              MEDIZIN    12   1              larnist   0  -1   1   0    20  22  11   5  10     5   5   5     0     1520  12  -1     1648
+ 61  33   1   1   1   1              MEDIZIN    12   2              larnist   0  -1   1   0    20  22  11   5  10     5   5   5     0     1585  12  -1     4991
+ 61  33   1   1   1   1              MEDIZIN    12   3              larnist   0  -1   1   0    20  22  11   5  10     5   5   5     0     1184  12  -1     1472
+ 61  33   1   1   1   1              MEDIZIN    12   4              larnist   0  -1   1   0    20  22  11   5  10     5   5   5     0     2048  12  -1     2015
+ 61  33   1   1   1   1              MEDIZIN    13   0               botuyn   0  -1   1   0     2   6   0  17   3     7   6   7     0     1064  13  -1     1759
+ 61  33   1   1   1   1              MEDIZIN    13   1               botuyn   0  -1   1   0     2   6   0  17   3     7   6   7     0     1360  13  -1     1535
+ 61  33   1   1   1   1              MEDIZIN    13   2               botuyn   0  -1   1   0     2   6   0  17   3     7   6   7     0     1632  13  -1      976
+ 61  33   1   1   1   1              MEDIZIN    13   3               botuyn   0  -1   1   0     2   6   0  17   3     7   6   7     0      792  13  -1     1279
+ 61  33   1   1   1   1              MEDIZIN    13   4               botuyn   0  -1   1   0     2   6   0  17   3     7   6   7     0     1872  13  -1      943
+ 61  33   1   1   1   1              MEDIZIN    14   0               uwimor   0  -1   1   0    23   4   1  21  14     2   2   2     0      737  14  -1     2967
+ 61  33   1   1   1   1              MEDIZIN    14   1               uwimor   0  -1   1   0    23   4   1  21  14     2   2   2     0     1576  14  -1     3911
+ 61  33   1   1   1   1              MEDIZIN    14   2               uwimor   0  -1   1   0    23   4   1  21  14     2   2   2     0      657  14  -1     1263
+ 61  33   1   1   1   1              MEDIZIN    14   3               uwimor   0  -1   1   0    23   4   1  21  14     2   2   2     1      993  14  -1     2799
+ 61  33   1   1   1   1              MEDIZIN    14   4               uwimor   0  -1   1   0    23   4   1  21  14     2   2   2     0     1081  14  -1     1001
+ 61  33   1   1   1   1              MEDIZIN    15   0              hilejin   0  -1   1   0    13   7  24  19  15     5   5   4     0     1201  15  -1     1496
+ 61  33   1   1   1   1              MEDIZIN    15   1              hilejin   0  -1   1   0    13   7  24  19  15     5   5   4     0     1105  15  -1     2105
+ 61  33   1   1   1   1              MEDIZIN    15   2              hilejin   0  -1   1   0    13   7  24  19  15     5   5   4     0     1408  15  -1     1160
+ 61  33   1   1   1   1              MEDIZIN    15   3              hilejin   0  -1   1   0    13   7  24  19  15     5   5   4     0     1609  15  -1     1119
+ 61  33   1   1   1   1              MEDIZIN    15   4              hilejin   0  -1   1   0    13   7  24  19  15     5   5   4     0      952  15  -1     1871
+ 61  33   1   1   1   1              MEDIZIN    16   0              permife   0  -1   1   0    18   9  12  16   8     6   6   6     0     1512  16  -1     2167
+ 61  33   1   1   1   1              MEDIZIN    16   1              permife   0  -1   1   0    18   9  12  16   8     6   6   6     0      840  16  -1     1471
+ 61  33   1   1   1   1              MEDIZIN    16   2              permife   0  -1   1   0    18   9  12  16   8     6   6   6     0     1448  16  -1     3559
+ 61  33   1   1   1   1              MEDIZIN    16   3              permife   0  -1   1   0    18   9  12  16   8     6   6   6     0      992  16  -1     3319
+ 61  33   1   1   1   1              MEDIZIN    16   4              permife   0  -1   1   0    18   9  12  16   8     6   6   6     0      928  16  -1     2064
+ 61  33   1   1   1   1              MEDIZIN    17   0              pimuide   0  -1   1   0    17  12  14   4   1     5   5   7     0     1248  17  -1     2776
+ 61  33   1   1   1   1              MEDIZIN    17   1              pimuide   0  -1   1   0    17  12  14   4   1     5   5   7     0     1313  17  -1     1855
+ 61  33   1   1   1   1              MEDIZIN    17   2              pimuide   0  -1   1   0    17  12  14   4   1     5   5   7     0     1576  17  -1     2079
+ 61  33   1   1   1   1              MEDIZIN    17   3              pimuide   0  -1   1   0    17  12  14   4   1     5   5   7     0     1207  17  -1     3591
+ 61  33   1   1   1   1              MEDIZIN    17   4              pimuide   0  -1   1   0    17  12  14   4   1     5   5   7     0     1223  17  -1      903
+ 61  33   1   1   1   1              MEDIZIN    18   0               hiwawa   0  -1   1   1     0  18   9   2  19     7   7   7     0     2039  16  -1     2080
+ 61  33   1   1   1   1              MEDIZIN    18   1               hiwawa   0  -1   1   1     0  18   9   2  19     7   7   7     0     1313  19  -1     1464
+ 61  33   1   1   1   1              MEDIZIN    18   2               hiwawa   0  -1   1   1     0  18   9   2  19     7   7   7     0     2955  18  -1     5679
+ 61  33   1   1   1   1              MEDIZIN    18   3               hiwawa   0  -1   1   1     0  18   9   2  19     7   7   7     0     2168   9  -1     2609
+ 61  33   1   1   1   1              MEDIZIN    18   4               hiwawa   0  -1   1   1     0  18   9   2  19     7   7   7     0     1521  23  -1     2752
+ 61  33   1   1   1   1              MEDIZIN    19   0                botsy   0  -1   1   1     6  22   3  24  10     7   6   7     0     2025   5  -1     1199
+ 61  33   1   1   1   1              MEDIZIN    19   1                botsy   0  -1   1   1     6  22   3  24  10     7   6   7     0     1025  18  -1     3751
+ 61  33   1   1   1   1              MEDIZIN    19   2                botsy   0  -1   1   1     6  22   3  24  10     7   6   7     0     1281  21  -1     1416
+ 61  33   1   1   1   1              MEDIZIN    19   3                botsy   0  -1   1   1     6  22   3  24  10     7   6   7     0     2344  17  -1     1295
+ 61  33   1   1   1   1              MEDIZIN    19   4                botsy   0  -1   1   1     6  22   3  24  10     7   6   7     0     1568  21  -1     1664
+ 61  33   1   1   1   1              MEDIZIN    20   0              laumens   0  -1   1   1    15  20   8  13   7     7   7   7     0      794   4  -1     1593
+ 61  33   1   1   1   1              MEDIZIN    20   1              laumens   0  -1   1   1    15  20   8  13   7     7   7   7     0      912  11  -1      807
+ 61  33   1   1   1   1              MEDIZIN    20   2              laumens   0  -1   1   1    15  20   8  13   7     7   7   7     0     1313  20  -1     2952
+ 61  33   1   1   1   1              MEDIZIN    20   3              laumens   0  -1   1   1    15  20   8  13   7     7   7   7     0     1440  14  -1     1568
+ 61  33   1   1   1   1              MEDIZIN    20   4              laumens   0  -1   1   1    15  20   8  13   7     7   7   7     0     1543  21  -1     2015
+ 61  33   1   1   1   1              MEDIZIN    21   0               nalber   0  -1   1   1    21  23   5  11  16     5   5   6     1     1296  16  -1     2080
+ 61  33   1   1   1   1              MEDIZIN    21   1               nalber   0  -1   1   1    21  23   5  11  16     5   5   6     0     1399   6  -1     6112
+ 61  33   1   1   1   1              MEDIZIN    21   2               nalber   0  -1   1   1    21  23   5  11  16     5   5   6     0     1617   4  -1     2791
+ 61  33   1   1   1   1              MEDIZIN    21   3               nalber   0  -1   1   1    21  23   5  11  16     5   5   6     0     1327  22  -1     5873
+ 61  33   1   1   1   1              MEDIZIN    21   4               nalber   0  -1   1   1    21  23   5  11  16     5   5   6     0     1120  10  -1     3743
+ 61  33   1   1   1   1              MEDIZIN    22   0              furasti   0  -1   1   1    22   7  21   8   0     3   3   3     0     2567   1  -1     6007
+ 61  33   1   1   1   1              MEDIZIN    22   1              furasti   0  -1   1   1    22   7  21   8   0     3   3   3     0     1752   5  -1     4711
+ 61  33   1   1   1   1              MEDIZIN    22   2              furasti   0  -1   1   1    22   7  21   8   0     3   3   3     0     3087   9  -1     4672
+ 61  33   1   1   1   1              MEDIZIN    22   3              furasti   0  -1   1   1    22   7  21   8   0     3   3   3     0      822   4  -1     1496
+ 61  33   1   1   1   1              MEDIZIN    22   4              furasti   0  -1   1   1    22   7  21   8   0     3   3   3     0     1265  10  -1     2208
+ 61  33   1   1   1   1              MEDIZIN    23   0              molkate   0  -1   1   1    23  19  14  10  16     7   7   7     0     1706  12  -1     2120
+ 61  33   1   1   1   1              MEDIZIN    23   1              molkate   0  -1   1   1    23  19  14  10  16     7   7   7     0      801  20  -1     2407
+ 61  33   1   1   1   1              MEDIZIN    23   2              molkate   0  -1   1   1    23  19  14  10  16     7   7   7     0     1094   4  -1     1008
+ 61  33   1   1   1   1              MEDIZIN    23   3              molkate   0  -1   1   1    23  19  14  10  16     7   7   7     0      792  21  -1     1535
+ 61  33   1   1   1   1              MEDIZIN    23   4              molkate   0  -1   1   1    23  19  14  10  16     7   7   7     0     1296  16  -1     1847

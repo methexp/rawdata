@@ -1,0 +1,554 @@
+ECOsub3 [07-2012]
+ 21   0   0
+ 21   1   1   1 MUSIKWISSENS
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0   hiwawa   0  -1   0   0  17  24   9  13  23 -1  -1  -1
+  1    botsy   0  -1   0   0   4  20  10  12  18 -1  -1  -1
+  2  hilejin   0  -1   0   0  16   3   8  11  22 -1  -1  -1
+  3  molkate   0  -1   0   0  15   2  14   5   0 -1  -1  -1
+  4    noste   0  -1   0   0   7  21   6  19   1 -1  -1  -1
+  5    frask   0  -1   0   0  14   6   1  23  17 -1  -1  -1
+  6  permife   0  -1   0   1   5   0  10   3  12 -1  -1  -1
+  7    medan   0  -1   0   1  19  15  18  21  16 -1  -1  -1
+  8    yosud   0  -1   0   1  24  11  20   8   7 -1  -1  -1
+  9  larnist   0  -1   0   1   4   9  22   2  13 -1  -1  -1
+ 10   jaciyn   0  -1   0   1  18  15   6   7  23 -1  -1  -1
+ 11    obacu   0  -1   0   1  14  24   8   4  10 -1  -1  -1
+ 12  laumens   0  -1   1   0  22  19  18   8   6 -1  -1  -1
+ 13   nalber   0  -1   1   0   9  10   1   3  15 -1  -1  -1
+ 14   botuyn   0  -1   1   0   4  12   5   7  21 -1  -1  -1
+ 15  furasti   0  -1   1   0   2  11  23  16  24 -1  -1  -1
+ 16  umeuken   0  -1   1   0  14  13  20   0  17 -1  -1  -1
+ 17  sleshen   0  -1   1   0  12   4  20   0  22 -1  -1  -1
+ 18   schese   0  -1   1   1   2  21  10   3  19 -1  -1  -1
+ 19    tewok   0  -1   1   1   7  14  17  11   8 -1  -1  -1
+ 20   ubajec   0  -1   1   1  16  23  18  24   9 -1  -1  -1
+ 21  kiwehon   0  -1   1   1  15   6   5  13   1 -1  -1  -1
+ 22  pimuide   0  -1   1   1   4  19  23  17  14 -1  -1  -1
+ 23   uwimor   0  -1   1   1   0   8  10  11   9 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 hiwawa 
+  0   1 botsy 
+  0   2 hilejin 
+  0   3 molkate 
+  0   4 noste 
+  1   0 frask 
+  1   1 permife 
+  1   2 medan 
+  1   3 yosud 
+  1   4 larnist 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 hiwawa   0   0  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  0 hiwawa   0   1  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  0 hiwawa   0   2   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  0 hiwawa   0   3  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  0 hiwawa   0   4  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  1 botsy   0   0   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  1 botsy   0   1  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  1 botsy   0   2  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  1 botsy   0   3  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  1 botsy   0   4  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  2 hilejin   0   0  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  2 hilejin   0   1   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  2 hilejin   0   2   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  2 hilejin   0   3  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  2 hilejin   0   4  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  3 molkate   0   0  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  3 molkate   0   1   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  3 molkate   0   2  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  3 molkate   0   3   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  3 molkate   0   4   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  4 noste   0   0   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  4 noste   0   1  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  4 noste   0   2   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  4 noste   0   3  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  4 noste   0   4   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  5 frask   0   0  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  5 frask   0   1   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  5 frask   0   2   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  5 frask   0   3  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  5 frask   0   4  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  6 permife   0   0   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  6 permife   0   1   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  6 permife   0   2  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  6 permife   0   3   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  6 permife   0   4  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  7 medan   0   0  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  7 medan   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  7 medan   0   2  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  7 medan   0   3  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  7 medan   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  8 yosud   0   0  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  8 yosud   0   1  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  8 yosud   0   2  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  8 yosud   0   3   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  8 yosud   0   4   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  9 larnist   0   0   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  9 larnist   0   1   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  9 larnist   0   2  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  9 larnist   0   3   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  9 larnist   0   4  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+ 10 jaciyn   0   0  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+ 10 jaciyn   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+ 10 jaciyn   0   2   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+ 10 jaciyn   0   3   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+ 10 jaciyn   0   4  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+ 11 obacu   0   0  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+ 11 obacu   0   1  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+ 11 obacu   0   2   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+ 11 obacu   0   3   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+ 11 obacu   0   4  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+ 12 laumens   1   0  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 12 laumens   1   1  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 12 laumens   1   2  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 12 laumens   1   3   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 12 laumens   1   4   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 13 nalber   1   0   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 13 nalber   1   1  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 13 nalber   1   2   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 13 nalber   1   3   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 13 nalber   1   4  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 14 botuyn   1   0   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 14 botuyn   1   1  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 14 botuyn   1   2   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 14 botuyn   1   3   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 14 botuyn   1   4  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 15 furasti   1   0   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 15 furasti   1   1  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 15 furasti   1   2  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 15 furasti   1   3  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 15 furasti   1   4  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 16 umeuken   1   0  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 16 umeuken   1   1  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 16 umeuken   1   2  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 16 umeuken   1   3   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 16 umeuken   1   4  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 17 sleshen   1   0  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 17 sleshen   1   1   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 17 sleshen   1   2  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 17 sleshen   1   3   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 17 sleshen   1   4  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 18 schese   1   0   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 18 schese   1   1  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 18 schese   1   2  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 18 schese   1   3   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 18 schese   1   4  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 19 tewok   1   0   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 19 tewok   1   1  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 19 tewok   1   2  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 19 tewok   1   3  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 19 tewok   1   4   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 20 ubajec   1   0  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 20 ubajec   1   1  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 20 ubajec   1   2  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 20 ubajec   1   3  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 20 ubajec   1   4   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 21 kiwehon   1   0  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 21 kiwehon   1   1   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 21 kiwehon   1   2   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 21 kiwehon   1   3  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 21 kiwehon   1   4   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 22 pimuide   1   0   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 22 pimuide   1   1  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 22 pimuide   1   2  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 22 pimuide   1   3  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 22 pimuide   1   4  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 23 uwimor   1   0   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 23 uwimor   1   1   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 23 uwimor   1   2  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 23 uwimor   1   3  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 23 uwimor   1   4   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0   5   0      frask  14   0           30
+  0   1   9   0    larnist   4   1           30
+  0   2  20   0     ubajec  16   1           29
+  0   3  10   0     jaciyn  18   1           29
+  0   4  13   0     nalber   9   0           30
+  0   5  21   0    kiwehon  15   1           29
+  0   6   3   0    molkate  15   0           30
+  0   7  14   0     botuyn   4   0           30
+  0   8   0   0     hiwawa  17   0           30
+  0   9  12   0    laumens  22   0           30
+  0  10  16   0    umeuken  14   0           30
+  0  11  19   0      tewok   7   1           30
+  0  12   8   0      yosud  24   1           29
+  0  13   4   0      noste   7   0           30
+  0  14  23   0     uwimor   0   1           30
+  0  15  18   0     schese   2   1           30
+  0  16   7   0      medan  19   1           29
+  0  17  22   0    pimuide   4   1           30
+  0  18  11   0      obacu  14   1           29
+  0  19  15   0    furasti   2   0           30
+  0  20  17   0    sleshen  12   0           30
+  0  21   6   0    permife   5   1           30
+  0  22   1   0      botsy   4   0           30
+  0  23   2   0    hilejin  16   0           30
+  1   0  15   1    furasti  11   0           30
+  1   1  11   1      obacu  24   1           30
+  1   2  23   1     uwimor   8   1           30
+  1   3  14   1     botuyn  12   0           30
+  1   4  12   1    laumens  19   0           30
+  1   5  21   1    kiwehon   6   1           30
+  1   6   7   1      medan  15   1           30
+  1   7   4   1      noste  21   0           30
+  1   8   2   1    hilejin   3   0           30
+  1   9  19   1      tewok  14   1           30
+  1  10  22   1    pimuide  19   1           30
+  1  11   9   1    larnist   9   1           29
+  1  12  10   1     jaciyn  15   1           30
+  1  13  20   1     ubajec  23   1           30
+  1  14  13   1     nalber  10   0           30
+  1  15   1   1      botsy  20   0           30
+  1  16   6   1    permife   0   1           29
+  1  17  18   1     schese  21   1           30
+  1  18   3   1    molkate   2   0           30
+  1  19  16   1    umeuken  13   0           30
+  1  20   0   1     hiwawa  24   0           30
+  1  21   8   1      yosud  11   1           30
+  1  22   5   1      frask   6   0           30
+  1  23  17   1    sleshen   4   0           30
+  2   0   6   2    permife  10   1           30
+  2   1  12   2    laumens  18   0           30
+  2   2  20   2     ubajec  18   1           30
+  2   3  17   2    sleshen  20   0           30
+  2   4   2   2    hilejin   8   0           30
+  2   5   8   2      yosud  20   1           30
+  2   6  10   2     jaciyn   6   1           30
+  2   7   0   2     hiwawa   9   0           30
+  2   8  15   2    furasti  23   0           30
+  2   9   7   2      medan  18   1           30
+  2  10  18   2     schese  10   1           30
+  2  11   5   2      frask   1   0           30
+  2  12   9   2    larnist  22   1           30
+  2  13  16   2    umeuken  20   0           30
+  2  14  14   2     botuyn   5   0           30
+  2  15  19   2      tewok  17   1           30
+  2  16  11   2      obacu   8   1           30
+  2  17  22   2    pimuide  23   1           30
+  2  18   1   2      botsy  10   0           30
+  2  19  13   2     nalber   1   0           30
+  2  20   3   2    molkate  14   0           30
+  2  21  23   2     uwimor  10   1           29
+  2  22   4   2      noste   6   0           30
+  2  23  21   2    kiwehon   5   1           30
+  3   0   4   3      noste  19   0           30
+  3   1  17   3    sleshen   0   0           30
+  3   2  23   3     uwimor  11   1           29
+  3   3   3   3    molkate   5   0           30
+  3   4   5   3      frask  23   0           30
+  3   5  19   3      tewok  11   1           29
+  3   6  18   3     schese   3   1           30
+  3   7   6   3    permife   3   1           30
+  3   8  15   3    furasti  16   0           30
+  3   9   9   3    larnist   2   1           29
+  3  10   0   3     hiwawa  13   0           30
+  3  11  14   3     botuyn   7   0           30
+  3  12  21   3    kiwehon  13   1           30
+  3  13   7   3      medan  21   1           30
+  3  14  22   3    pimuide  17   1           29
+  3  15   2   3    hilejin  11   0           30
+  3  16   1   3      botsy  12   0           30
+  3  17  13   3     nalber   3   0           30
+  3  18  10   3     jaciyn   7   1           30
+  3  19  11   3      obacu   4   1           29
+  3  20  20   3     ubajec  24   1           30
+  3  21  16   3    umeuken   0   0           30
+  3  22  12   3    laumens   8   0           30
+  3  23   8   3      yosud   8   1           29
+  4   0   0   4     hiwawa  23   0           30
+  4   1   1   4      botsy  18   0           30
+  4   2   9   4    larnist  13   1           30
+  4   3  15   4    furasti  24   0           30
+  4   4  16   4    umeuken  17   0           30
+  4   5  22   4    pimuide  14   1           29
+  4   6  17   4    sleshen  22   0           30
+  4   7  14   4     botuyn  21   0           30
+  4   8   5   4      frask  17   0           30
+  4   9  18   4     schese  19   1           29
+  4  10   3   4    molkate   0   0           30
+  4  11   2   4    hilejin  22   0           30
+  4  12  11   4      obacu  10   1           30
+  4  13  10   4     jaciyn  23   1           30
+  4  14  13   4     nalber  15   0           30
+  4  15  12   4    laumens   6   0           30
+  4  16  21   4    kiwehon   1   1           29
+  4  17  20   4     ubajec   9   1           29
+  4  18   8   4      yosud   7   1           30
+  4  19  19   4      tewok   8   1           30
+  4  20   6   4    permife  12   1           29
+  4  21   4   4      noste   1   0           30
+  4  22   7   4      medan  16   1           30
+  4  23  23   4     uwimor   9   1           30
+  5   0  20   0     ubajec  16   1           30
+  5   1  18   0     schese   2   1           29
+  5   2  19   0      tewok   7   1           30
+  5   3   8   0      yosud  24   1           30
+  5   4  21   0    kiwehon  15   1           30
+  5   5  13   0     nalber   9   0           30
+  5   6  10   0     jaciyn  18   1           30
+  5   7   3   0    molkate  15   0           30
+  5   8  23   0     uwimor   0   1           30
+  5   9   4   0      noste   7   0           30
+  5  10  11   0      obacu  14   1           29
+  5  11  17   0    sleshen  12   0           31
+  5  12  16   0    umeuken  14   0           30
+  5  13  15   0    furasti   2   0           30
+  5  14   1   0      botsy   4   0           30
+  5  15  12   0    laumens  22   0           30
+  5  16   0   0     hiwawa  17   0           30
+  5  17  22   0    pimuide   4   1           29
+  5  18   2   0    hilejin  16   0           30
+  5  19   6   0    permife   5   1           30
+  5  20  14   0     botuyn   4   0           30
+  5  21   9   0    larnist   4   1           30
+  5  22   7   0      medan  19   1           29
+  5  23   5   0      frask  14   0           30
+  6   0   5   1      frask   6   0           30
+  6   1  20   1     ubajec  23   1           30
+  6   2  22   1    pimuide  19   1           30
+  6   3   1   1      botsy  20   0           30
+  6   4  18   1     schese  21   1           30
+  6   5   3   1    molkate   2   0           30
+  6   6   0   1     hiwawa  24   0           30
+  6   7  21   1    kiwehon   6   1           30
+  6   8   4   1      noste  21   0           30
+  6   9  10   1     jaciyn  15   1           30
+  6  10  19   1      tewok  14   1           30
+  6  11  12   1    laumens  19   0           30
+  6  12  11   1      obacu  24   1           30
+  6  13   2   1    hilejin   3   0           30
+  6  14  13   1     nalber  10   0           30
+  6  15  15   1    furasti  11   0           30
+  6  16  16   1    umeuken  13   0           30
+  6  17  17   1    sleshen   4   0           30
+  6  18   7   1      medan  15   1           30
+  6  19   6   1    permife   0   1           30
+  6  20   9   1    larnist   9   1           30
+  6  21  23   1     uwimor   8   1           29
+  6  22  14   1     botuyn  12   0           30
+  6  23   8   1      yosud  11   1           30
+  7   0  22   2    pimuide  23   1           30
+  7   1   0   2     hiwawa   9   0           30
+  7   2  10   2     jaciyn   6   1           30
+  7   3  14   2     botuyn   5   0           30
+  7   4  18   2     schese  10   1           29
+  7   5  11   2      obacu   8   1           29
+  7   6  19   2      tewok  17   1           30
+  7   7  17   2    sleshen  20   0           30
+  7   8  23   2     uwimor  10   1           30
+  7   9  20   2     ubajec  18   1           29
+  7  10  12   2    laumens  18   0           30
+  7  11   4   2      noste   6   0           30
+  7  12   2   2    hilejin   8   0           30
+  7  13  16   2    umeuken  20   0           30
+  7  14  13   2     nalber   1   0           30
+  7  15   1   2      botsy  10   0           30
+  7  16   9   2    larnist  22   1           30
+  7  17   5   2      frask   1   0           30
+  7  18   8   2      yosud  20   1           30
+  7  19   7   2      medan  18   1           30
+  7  20  15   2    furasti  23   0           30
+  7  21  21   2    kiwehon   5   1           30
+  7  22   6   2    permife  10   1           29
+  7  23   3   2    molkate  14   0           30
+  8   0  22   3    pimuide  17   1           30
+  8   1   8   3      yosud   8   1           29
+  8   2   2   3    hilejin  11   0           30
+  8   3  19   3      tewok  11   1           30
+  8   4  21   3    kiwehon  13   1           30
+  8   5   7   3      medan  21   1           30
+  8   6  16   3    umeuken   0   0           30
+  8   7  17   3    sleshen   0   0           30
+  8   8   4   3      noste  19   0           30
+  8   9   6   3    permife   3   1           30
+  8  10   1   3      botsy  12   0           30
+  8  11  20   3     ubajec  24   1           30
+  8  12   5   3      frask  23   0           30
+  8  13   0   3     hiwawa  13   0           30
+  8  14  12   3    laumens   8   0           30
+  8  15   9   3    larnist   2   1           30
+  8  16   3   3    molkate   5   0           30
+  8  17  14   3     botuyn   7   0           30
+  8  18  15   3    furasti  16   0           30
+  8  19  10   3     jaciyn   7   1           30
+  8  20  23   3     uwimor  11   1           30
+  8  21  18   3     schese   3   1           30
+  8  22  13   3     nalber   3   0           30
+  8  23  11   3      obacu   4   1           32
+  9   0  13   4     nalber  15   0           30
+  9   1   9   4    larnist  13   1           30
+  9   2   8   4      yosud   7   1           30
+  9   3  19   4      tewok   8   1           30
+  9   4  10   4     jaciyn  23   1           29
+  9   5   1   4      botsy  18   0           30
+  9   6  16   4    umeuken  17   0           30
+  9   7   7   4      medan  16   1           29
+  9   8  18   4     schese  19   1           29
+  9   9  15   4    furasti  24   0           30
+  9  10  14   4     botuyn  21   0           30
+  9  11  11   4      obacu  10   1           29
+  9  12  12   4    laumens   6   0           30
+  9  13  17   4    sleshen  22   0           30
+  9  14   3   4    molkate   0   0           30
+  9  15   5   4      frask  17   0           30
+  9  16  23   4     uwimor   9   1           30
+  9  17   4   4      noste   1   0           30
+  9  18   0   4     hiwawa  23   0           30
+  9  19   2   4    hilejin  22   0           30
+  9  20   6   4    permife  12   1           30
+  9  21  20   4     ubajec   9   1           30
+  9  22  22   4    pimuide  14   1           30
+  9  23  21   4    kiwehon   1   1           31
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0   3 molkate   4   2   5 1933979752
+   1  18 schese   4   1   1 1933979752
+   2  12 laumens   8   7   8 1933979752
+   3  20 ubajec   5   3   2 1933979752
+   4  16 umeuken   8   5   6 1933979752
+   5   4 noste   7   5   7 1933979752
+   6   1 botsy   8   6   7 1933979752
+   7   0 hiwawa   7   8   7 1933979752
+   8  14 botuyn   5   4   6 1933979752
+   9  21 kiwehon   5   5   5 1933979752
+  10  22 pimuide   6   5   5 1933979752
+  11   8 yosud   3   3   2 1933979752
+  12   9 larnist   4   2   2 1933979752
+  13  17 sleshen   2   2   1 1933979752
+  14  23 uwimor   4   6   2 1933979752
+  15  11 obacu   3   4   3 1933979752
+  16   2 hilejin   8   7   8 1933979752
+  17   5 frask   5   3   3 1933979752
+  18  19 tewok   7   6   7 1933979752
+  19   6 permife   6   7   4 1933979752
+  20  10 jaciyn   6   6   6 1933979752
+  21   7 medan   4   5   4 1933979752
+  22  15 furasti   8   7   8 1933979752
+  23  13 nalber   5   3   2 1933979752
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 valenz_response valenz_rt sichtbar_response sichtbar_korrekt sichtbar_rt
+ 21  21   1   1   1   1         MUSIKWISSENS     0   0               hiwawa   0  -1   0   0    17  24   9  13  23     7   8   7     1      567   0  -1     5905
+ 21  21   1   1   1   1         MUSIKWISSENS     0   1               hiwawa   0  -1   0   0    17  24   9  13  23     7   8   7     1      856   0  -1      712
+ 21  21   1   1   1   1         MUSIKWISSENS     0   2               hiwawa   0  -1   0   0    17  24   9  13  23     7   8   7     1     2319   0  -1     1999
+ 21  21   1   1   1   1         MUSIKWISSENS     0   3               hiwawa   0  -1   0   0    17  24   9  13  23     7   8   7     1     2696   0  -1     1664
+ 21  21   1   1   1   1         MUSIKWISSENS     0   4               hiwawa   0  -1   0   0    17  24   9  13  23     7   8   7     1      656   0  -1      991
+ 21  21   1   1   1   1         MUSIKWISSENS     1   0                botsy   0  -1   0   0     4  20  10  12  18     8   6   7     1      823   1  -1     1695
+ 21  21   1   1   1   1         MUSIKWISSENS     1   1                botsy   0  -1   0   0     4  20  10  12  18     8   6   7     1     1503   1  -1     2200
+ 21  21   1   1   1   1         MUSIKWISSENS     1   2                botsy   0  -1   0   0     4  20  10  12  18     8   6   7     1      600   1  -1     1024
+ 21  21   1   1   1   1         MUSIKWISSENS     1   3                botsy   0  -1   0   0     4  20  10  12  18     8   6   7     1      767   1  -1     2872
+ 21  21   1   1   1   1         MUSIKWISSENS     1   4                botsy   0  -1   0   0     4  20  10  12  18     8   6   7     1     1441   1  -1     1351
+ 21  21   1   1   1   1         MUSIKWISSENS     2   0              hilejin   0  -1   0   0    16   3   8  11  22     8   7   8     1     1065  11  -1      856
+ 21  21   1   1   1   1         MUSIKWISSENS     2   1              hilejin   0  -1   0   0    16   3   8  11  22     8   7   8     1      808   2  -1     1474
+ 21  21   1   1   1   1         MUSIKWISSENS     2   2              hilejin   0  -1   0   0    16   3   8  11  22     8   7   8     1      927   2  -1     1598
+ 21  21   1   1   1   1         MUSIKWISSENS     2   3              hilejin   0  -1   0   0    16   3   8  11  22     8   7   8     1      695   2  -1     1631
+ 21  21   1   1   1   1         MUSIKWISSENS     2   4              hilejin   0  -1   0   0    16   3   8  11  22     8   7   8     1     1688   2  -1     1135
+ 21  21   1   1   1   1         MUSIKWISSENS     3   0              molkate   0  -1   0   0    15   2  14   5   0     4   2   5     1     1729   3  -1     2256
+ 21  21   1   1   1   1         MUSIKWISSENS     3   1              molkate   0  -1   0   0    15   2  14   5   0     4   2   5     1     1159  22  -1     1327
+ 21  21   1   1   1   1         MUSIKWISSENS     3   2              molkate   0  -1   0   0    15   2  14   5   0     4   2   5     1      912   3  -1     3848
+ 21  21   1   1   1   1         MUSIKWISSENS     3   3              molkate   0  -1   0   0    15   2  14   5   0     4   2   5     1      936   3  -1     1767
+ 21  21   1   1   1   1         MUSIKWISSENS     3   4              molkate   0  -1   0   0    15   2  14   5   0     4   2   5     1     1161   3  -1      984
+ 21  21   1   1   1   1         MUSIKWISSENS     4   0                noste   0  -1   0   0     7  21   6  19   1     7   5   7     0     1632   4  -1     1224
+ 21  21   1   1   1   1         MUSIKWISSENS     4   1                noste   0  -1   0   0     7  21   6  19   1     7   5   7     1      648   4  -1     1766
+ 21  21   1   1   1   1         MUSIKWISSENS     4   2                noste   0  -1   0   0     7  21   6  19   1     7   5   7     1     1743   4  -1     1351
+ 21  21   1   1   1   1         MUSIKWISSENS     4   3                noste   0  -1   0   0     7  21   6  19   1     7   5   7     1      632   4  -1     1727
+ 21  21   1   1   1   1         MUSIKWISSENS     4   4                noste   0  -1   0   0     7  21   6  19   1     7   5   7     1     1056   4  -1     8008
+ 21  21   1   1   1   1         MUSIKWISSENS     5   0                frask   0  -1   0   0    14   6   1  23  17     5   3   3     1     1880   5  -1     2471
+ 21  21   1   1   1   1         MUSIKWISSENS     5   1                frask   0  -1   0   0    14   6   1  23  17     5   3   3     1     2783   5  -1      744
+ 21  21   1   1   1   1         MUSIKWISSENS     5   2                frask   0  -1   0   0    14   6   1  23  17     5   3   3     1      600   5  -1     2065
+ 21  21   1   1   1   1         MUSIKWISSENS     5   3                frask   0  -1   0   0    14   6   1  23  17     5   3   3     1      799   5  -1     1976
+ 21  21   1   1   1   1         MUSIKWISSENS     5   4                frask   0  -1   0   0    14   6   1  23  17     5   3   3     1     1376   5  -1     1463
+ 21  21   1   1   1   1         MUSIKWISSENS     6   0              permife   0  -1   0   1     5   0  10   3  12     6   7   4     1      704  19  -1     6007
+ 21  21   1   1   1   1         MUSIKWISSENS     6   1              permife   0  -1   0   1     5   0  10   3  12     6   7   4     1     1639  21  -1     2288
+ 21  21   1   1   1   1         MUSIKWISSENS     6   2              permife   0  -1   0   1     5   0  10   3  12     6   7   4     1      785   8  -1      776
+ 21  21   1   1   1   1         MUSIKWISSENS     6   3              permife   0  -1   0   1     5   0  10   3  12     6   7   4     1     1384   9  -1     1584
+ 21  21   1   1   1   1         MUSIKWISSENS     6   4              permife   0  -1   0   1     5   0  10   3  12     6   7   4     1     1176   4  -1     1479
+ 21  21   1   1   1   1         MUSIKWISSENS     7   0                medan   0  -1   0   1    19  15  18  21  16     4   5   4     1     1119  18  -1      768
+ 21  21   1   1   1   1         MUSIKWISSENS     7   1                medan   0  -1   0   1    19  15  18  21  16     4   5   4     1     1951   7  -1     1376
+ 21  21   1   1   1   1         MUSIKWISSENS     7   2                medan   0  -1   0   1    19  15  18  21  16     4   5   4     1     1071  22  -1      976
+ 21  21   1   1   1   1         MUSIKWISSENS     7   3                medan   0  -1   0   1    19  15  18  21  16     4   5   4     1      903   6  -1     1576
+ 21  21   1   1   1   1         MUSIKWISSENS     7   4                medan   0  -1   0   1    19  15  18  21  16     4   5   4     1     1112  22  -1     4127
+ 21  21   1   1   1   1         MUSIKWISSENS     8   0                yosud   0  -1   0   1    24  11  20   8   7     3   3   2     1     1879  17  -1     1167
+ 21  21   1   1   1   1         MUSIKWISSENS     8   1                yosud   0  -1   0   1    24  11  20   8   7     3   3   2     1     1402  18  -1     1481
+ 21  21   1   1   1   1         MUSIKWISSENS     8   2                yosud   0  -1   0   1    24  11  20   8   7     3   3   2     1      871  19  -1     1072
+ 21  21   1   1   1   1         MUSIKWISSENS     8   3                yosud   0  -1   0   1    24  11  20   8   7     3   3   2     1      735  15  -1     1200
+ 21  21   1   1   1   1         MUSIKWISSENS     8   4                yosud   0  -1   0   1    24  11  20   8   7     3   3   2     1      680  19  -1     1304
+ 21  21   1   1   1   1         MUSIKWISSENS     9   0              larnist   0  -1   0   1     4   9  22   2  13     4   2   2     1      503  11  -1     1295
+ 21  21   1   1   1   1         MUSIKWISSENS     9   1              larnist   0  -1   0   1     4   9  22   2  13     4   2   2     1      672  13  -1      841
+ 21  21   1   1   1   1         MUSIKWISSENS     9   2              larnist   0  -1   0   1     4   9  22   2  13     4   2   2     1      808   3  -1      841
+ 21  21   1   1   1   1         MUSIKWISSENS     9   3              larnist   0  -1   0   1     4   9  22   2  13     4   2   2     1     1256  13  -1     1152
+ 21  21   1   1   1   1         MUSIKWISSENS     9   4              larnist   0  -1   0   1     4   9  22   2  13     4   2   2     1      944  20  -1     1608
+ 21  21   1   1   1   1         MUSIKWISSENS    10   0               jaciyn   0  -1   0   1    18  15   6   7  23     6   6   6     1     1071  18  -1      919
+ 21  21   1   1   1   1         MUSIKWISSENS    10   1               jaciyn   0  -1   0   1    18  15   6   7  23     6   6   6     1      775   6  -1      905
+ 21  21   1   1   1   1         MUSIKWISSENS    10   2               jaciyn   0  -1   0   1    18  15   6   7  23     6   6   6     1     1024  22  -1     1303
+ 21  21   1   1   1   1         MUSIKWISSENS    10   3               jaciyn   0  -1   0   1    18  15   6   7  23     6   6   6     1      984   9  -1     2104
+ 21  21   1   1   1   1         MUSIKWISSENS    10   4               jaciyn   0  -1   0   1    18  15   6   7  23     6   6   6     1     2368   7  -1     1431
+ 21  21   1   1   1   1         MUSIKWISSENS    11   0                obacu   0  -1   0   1    14  24   8   4  10     3   4   3     1      992  11  -1     1223
+ 21  21   1   1   1   1         MUSIKWISSENS    11   1                obacu   0  -1   0   1    14  24   8   4  10     3   4   3     1     1177   7  -1     1279
+ 21  21   1   1   1   1         MUSIKWISSENS    11   2                obacu   0  -1   0   1    14  24   8   4  10     3   4   3     1      967   4  -1      783
+ 21  21   1   1   1   1         MUSIKWISSENS    11   3                obacu   0  -1   0   1    14  24   8   4  10     3   4   3     1     1206   8  -1     1272
+ 21  21   1   1   1   1         MUSIKWISSENS    11   4                obacu   0  -1   0   1    14  24   8   4  10     3   4   3     1     1087  20  -1     1559
+ 21  21   1   1   1   1         MUSIKWISSENS    12   0              laumens   0  -1   1   0    22  19  18   8   6     8   7   8     0     1728  12  -1     4112
+ 21  21   1   1   1   1         MUSIKWISSENS    12   1              laumens   0  -1   1   0    22  19  18   8   6     8   7   8     0     1015  12  -1     4040
+ 21  21   1   1   1   1         MUSIKWISSENS    12   2              laumens   0  -1   1   0    22  19  18   8   6     8   7   8     0      984  12  -1     2920
+ 21  21   1   1   1   1         MUSIKWISSENS    12   3              laumens   0  -1   1   0    22  19  18   8   6     8   7   8     0     1064  12  -1     2591
+ 21  21   1   1   1   1         MUSIKWISSENS    12   4              laumens   0  -1   1   0    22  19  18   8   6     8   7   8     0      960  12  -1     2368
+ 21  21   1   1   1   1         MUSIKWISSENS    13   0               nalber   0  -1   1   0     9  10   1   3  15     5   3   2     0     1320  13  -1     2128
+ 21  21   1   1   1   1         MUSIKWISSENS    13   1               nalber   0  -1   1   0     9  10   1   3  15     5   3   2     1      689   6  -1      824
+ 21  21   1   1   1   1         MUSIKWISSENS    13   2               nalber   0  -1   1   0     9  10   1   3  15     5   3   2     0      680  13  -1     1767
+ 21  21   1   1   1   1         MUSIKWISSENS    13   3               nalber   0  -1   1   0     9  10   1   3  15     5   3   2     0      984  13  -1     2240
+ 21  21   1   1   1   1         MUSIKWISSENS    13   4               nalber   0  -1   1   0     9  10   1   3  15     5   3   2     0     1079  13  -1     2313
+ 21  21   1   1   1   1         MUSIKWISSENS    14   0               botuyn   0  -1   1   0     4  12   5   7  21     5   4   6     0      623  14  -1     1968
+ 21  21   1   1   1   1         MUSIKWISSENS    14   1               botuyn   0  -1   1   0     4  12   5   7  21     5   4   6     0      840  14  -1     1488
+ 21  21   1   1   1   1         MUSIKWISSENS    14   2               botuyn   0  -1   1   0     4  12   5   7  21     5   4   6     0     1536  14  -1    13663
+ 21  21   1   1   1   1         MUSIKWISSENS    14   3               botuyn   0  -1   1   0     4  12   5   7  21     5   4   6     0     1423  14  -1     2824
+ 21  21   1   1   1   1         MUSIKWISSENS    14   4               botuyn   0  -1   1   0     4  12   5   7  21     5   4   6     0     1096  14  -1     1752
+ 21  21   1   1   1   1         MUSIKWISSENS    15   0              furasti   0  -1   1   0     2  11  23  16  24     8   7   8     0     1432  15  -1     2480
+ 21  21   1   1   1   1         MUSIKWISSENS    15   1              furasti   0  -1   1   0     2  11  23  16  24     8   7   8     0      880  15  -1     3234
+ 21  21   1   1   1   1         MUSIKWISSENS    15   2              furasti   0  -1   1   0     2  11  23  16  24     8   7   8     0      720  15  -1     2120
+ 21  21   1   1   1   1         MUSIKWISSENS    15   3              furasti   0  -1   1   0     2  11  23  16  24     8   7   8     0      999  15  -1     1057
+ 21  21   1   1   1   1         MUSIKWISSENS    15   4              furasti   0  -1   1   0     2  11  23  16  24     8   7   8     0     1439  15  -1     1775
+ 21  21   1   1   1   1         MUSIKWISSENS    16   0              umeuken   0  -1   1   0    14  13  20   0  17     8   5   6     0     1119  16  -1     1135
+ 21  21   1   1   1   1         MUSIKWISSENS    16   1              umeuken   0  -1   1   0    14  13  20   0  17     8   5   6     0     1168  16  -1     1024
+ 21  21   1   1   1   1         MUSIKWISSENS    16   2              umeuken   0  -1   1   0    14  13  20   0  17     8   5   6     0      609  16  -1      919
+ 21  21   1   1   1   1         MUSIKWISSENS    16   3              umeuken   0  -1   1   0    14  13  20   0  17     8   5   6     0      656  16  -1     1039
+ 21  21   1   1   1   1         MUSIKWISSENS    16   4              umeuken   0  -1   1   0    14  13  20   0  17     8   5   6     0     1400  16  -1     1727
+ 21  21   1   1   1   1         MUSIKWISSENS    17   0              sleshen   0  -1   1   0    12   4  20   0  22     2   2   1     0     1376  17  -1     1152
+ 21  21   1   1   1   1         MUSIKWISSENS    17   1              sleshen   0  -1   1   0    12   4  20   0  22     2   2   1     0      871  17  -1     1168
+ 21  21   1   1   1   1         MUSIKWISSENS    17   2              sleshen   0  -1   1   0    12   4  20   0  22     2   2   1     0     1832   9  -1      863
+ 21  21   1   1   1   1         MUSIKWISSENS    17   3              sleshen   0  -1   1   0    12   4  20   0  22     2   2   1     0      631  17  -1      792
+ 21  21   1   1   1   1         MUSIKWISSENS    17   4              sleshen   0  -1   1   0    12   4  20   0  22     2   2   1     0     1047  17  -1     1046
+ 21  21   1   1   1   1         MUSIKWISSENS    18   0               schese   0  -1   1   1     2  21  10   3  19     4   1   1     1     1297  13  -1     1127
+ 21  21   1   1   1   1         MUSIKWISSENS    18   1               schese   0  -1   1   1     2  21  10   3  19     4   1   1     0     1070  17  -1      840
+ 21  21   1   1   1   1         MUSIKWISSENS    18   2               schese   0  -1   1   1     2  21  10   3  19     4   1   1     0     2024   9  -1      872
+ 21  21   1   1   1   1         MUSIKWISSENS    18   3               schese   0  -1   1   1     2  21  10   3  19     4   1   1     1     1935   6  -1     1208
+ 21  21   1   1   1   1         MUSIKWISSENS    18   4               schese   0  -1   1   1     2  21  10   3  19     4   1   1     0     1352   3  -1     1288
+ 21  21   1   1   1   1         MUSIKWISSENS    19   0                tewok   0  -1   1   1     7  14  17  11   8     7   6   7     1     2056  19  -1     1240
+ 21  21   1   1   1   1         MUSIKWISSENS    19   1                tewok   0  -1   1   1     7  14  17  11   8     7   6   7     1      752   8  -1      937
+ 21  21   1   1   1   1         MUSIKWISSENS    19   2                tewok   0  -1   1   1     7  14  17  11   8     7   6   7     1     1062  23  -1      792
+ 21  21   1   1   1   1         MUSIKWISSENS    19   3                tewok   0  -1   1   1     7  14  17  11   8     7   6   7     0      712  20  -1     1200
+ 21  21   1   1   1   1         MUSIKWISSENS    19   4                tewok   0  -1   1   1     7  14  17  11   8     7   6   7     0     1968  23  -1     1432
+ 21  21   1   1   1   1         MUSIKWISSENS    20   0               ubajec   0  -1   1   1    16  23  18  24   9     5   3   2     0     1710   9  -1     1296
+ 21  21   1   1   1   1         MUSIKWISSENS    20   1               ubajec   0  -1   1   1    16  23  18  24   9     5   3   2     1     1550  19  -1      758
+ 21  21   1   1   1   1         MUSIKWISSENS    20   2               ubajec   0  -1   1   1    16  23  18  24   9     5   3   2     0      744  17  -1      895
+ 21  21   1   1   1   1         MUSIKWISSENS    20   3               ubajec   0  -1   1   1    16  23  18  24   9     5   3   2     0      974  19  -1     1592
+ 21  21   1   1   1   1         MUSIKWISSENS    20   4               ubajec   0  -1   1   1    16  23  18  24   9     5   3   2     0     1048  15  -1     1119
+ 21  21   1   1   1   1         MUSIKWISSENS    21   0              kiwehon   0  -1   1   1    15   6   5  13   1     5   5   5     1    11815   3  -1     1359
+ 21  21   1   1   1   1         MUSIKWISSENS    21   1              kiwehon   0  -1   1   1    15   6   5  13   1     5   5   5     0     2071  11  -1     6288
+ 21  21   1   1   1   1         MUSIKWISSENS    21   2              kiwehon   0  -1   1   1    15   6   5  13   1     5   5   5     0     2024   4  -1     1192
+ 21  21   1   1   1   1         MUSIKWISSENS    21   3              kiwehon   0  -1   1   1    15   6   5  13   1     5   5   5     0      704   0  -1     2152
+ 21  21   1   1   1   1         MUSIKWISSENS    21   4              kiwehon   0  -1   1   1    15   6   5  13   1     5   5   5     0      678  18  -1      758
+ 21  21   1   1   1   1         MUSIKWISSENS    22   0              pimuide   0  -1   1   1     4  19  23  17  14     6   5   5     1      888   7  -1     1007
+ 21  21   1   1   1   1         MUSIKWISSENS    22   1              pimuide   0  -1   1   1     4  19  23  17  14     6   5   5     0     1576   9  -1     1000
+ 21  21   1   1   1   1         MUSIKWISSENS    22   2              pimuide   0  -1   1   1     4  19  23  17  14     6   5   5     0     2335   9  -1      984
+ 21  21   1   1   1   1         MUSIKWISSENS    22   3              pimuide   0  -1   1   1     4  19  23  17  14     6   5   5     0     1839  21  -1      936
+ 21  21   1   1   1   1         MUSIKWISSENS    22   4              pimuide   0  -1   1   1     4  19  23  17  14     6   5   5     1     1001  23  -1      864
+ 21  21   1   1   1   1         MUSIKWISSENS    23   0               uwimor   0  -1   1   1     0   8  10  11   9     4   6   2     0     1118   7  -1     1367
+ 21  21   1   1   1   1         MUSIKWISSENS    23   1               uwimor   0  -1   1   1     0   8  10  11   9     4   6   2     1      847   9  -1     1240
+ 21  21   1   1   1   1         MUSIKWISSENS    23   2               uwimor   0  -1   1   1     0   8  10  11   9     4   6   2     0      631  14  -1     1016
+ 21  21   1   1   1   1         MUSIKWISSENS    23   3               uwimor   0  -1   1   1     0   8  10  11   9     4   6   2     0      679  10  -1     1326
+ 21  21   1   1   1   1         MUSIKWISSENS    23   4               uwimor   0  -1   1   1     0   8  10  11   9     4   6   2     0     1905  21  -1      840

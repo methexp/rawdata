@@ -1,0 +1,554 @@
+ECOsub3 [07-2012]
+ 30   0   0
+ 29   1   1   1 GERMANISTIK
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0   jaciyn   0  -1   0   0  21  10  19   1   3 -1  -1  -1
+  1  permife   0  -1   0   0  23  15   7  14   0 -1  -1  -1
+  2  pimuide   0  -1   0   0  11  12  18   2  22 -1  -1  -1
+  3    noste   0  -1   0   0   6  17  24   9   4 -1  -1  -1
+  4  umeuken   0  -1   0   0   8  16  20  13   5 -1  -1  -1
+  5    frask   0  -1   0   0   4   7   8   3  22 -1  -1  -1
+  6   botuyn   0  -1   0   1  13  10   9   2   1 -1  -1  -1
+  7    medan   0  -1   0   1   5  16  12  20  24 -1  -1  -1
+  8    botsy   0  -1   0   1  21  15  18  14  11 -1  -1  -1
+  9  larnist   0  -1   0   1  17   0  19   6  23 -1  -1  -1
+ 10  molkate   0  -1   0   1  19   5  12   4  21 -1  -1  -1
+ 11  laumens   0  -1   0   1  17   7  24  10   6 -1  -1  -1
+ 12   uwimor   0  -1   1   0   6  11   2  12   5 -1  -1  -1
+ 13   ubajec   0  -1   1   0   4   1  22   0   3 -1  -1  -1
+ 14    tewok   0  -1   1   0  15  14  16   7  17 -1  -1  -1
+ 15  kiwehon   0  -1   1   0  23  24  18   8  21 -1  -1  -1
+ 16  furasti   0  -1   1   0  19   9  13  10  20 -1  -1  -1
+ 17   nalber   0  -1   1   0  15  17  20  13  19 -1  -1  -1
+ 18   schese   0  -1   1   1   5   7  18   6   2 -1  -1  -1
+ 19   hiwawa   0  -1   1   1  12   4  14  23  21 -1  -1  -1
+ 20    yosud   0  -1   1   1   0  11   8  22  10 -1  -1  -1
+ 21    obacu   0  -1   1   1   9  16   1  24   3 -1  -1  -1
+ 22  hilejin   0  -1   1   1   7   5   9   3  20 -1  -1  -1
+ 23  sleshen   0  -1   1   1   6  11  16   0  23 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 jaciyn 
+  0   1 permife 
+  0   2 pimuide 
+  0   3 noste 
+  0   4 umeuken 
+  1   0 frask 
+  1   1 botuyn 
+  1   2 medan 
+  1   3 botsy 
+  1   4 larnist 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 jaciyn   0   0  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  0 jaciyn   0   1  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  0 jaciyn   0   2  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  0 jaciyn   0   3   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  0 jaciyn   0   4   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  1 permife   0   0  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  1 permife   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  1 permife   0   2   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  1 permife   0   3  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  1 permife   0   4   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  2 pimuide   0   0  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  2 pimuide   0   1  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  2 pimuide   0   2  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  2 pimuide   0   3   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  2 pimuide   0   4  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  3 noste   0   0   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  3 noste   0   1  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  3 noste   0   2  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  3 noste   0   3   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  3 noste   0   4   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  4 umeuken   0   0   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  4 umeuken   0   1  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  4 umeuken   0   2  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  4 umeuken   0   3  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  4 umeuken   0   4   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  5 frask   0   0   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  5 frask   0   1   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  5 frask   0   2   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  5 frask   0   3   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  5 frask   0   4  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  6 botuyn   0   0  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  6 botuyn   0   1  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  6 botuyn   0   2   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  6 botuyn   0   3   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  6 botuyn   0   4   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  7 medan   0   0   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  7 medan   0   1  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  7 medan   0   2  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  7 medan   0   3  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  7 medan   0   4  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  8 botsy   0   0  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  8 botsy   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  8 botsy   0   2  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  8 botsy   0   3  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  8 botsy   0   4  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  9 larnist   0   0  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  9 larnist   0   1   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  9 larnist   0   2  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  9 larnist   0   3   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  9 larnist   0   4  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+ 10 molkate   0   0  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+ 10 molkate   0   1   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+ 10 molkate   0   2  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+ 10 molkate   0   3   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+ 10 molkate   0   4  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+ 11 laumens   0   0  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+ 11 laumens   0   1   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+ 11 laumens   0   2  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+ 11 laumens   0   3  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+ 11 laumens   0   4   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+ 12 uwimor   1   0   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 12 uwimor   1   1  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 12 uwimor   1   2   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 12 uwimor   1   3  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 12 uwimor   1   4   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 13 ubajec   1   0   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 13 ubajec   1   1   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 13 ubajec   1   2  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 13 ubajec   1   3   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 13 ubajec   1   4   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 14 tewok   1   0  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 14 tewok   1   1  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 14 tewok   1   2  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 14 tewok   1   3   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 14 tewok   1   4  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 15 kiwehon   1   0  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 15 kiwehon   1   1  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 15 kiwehon   1   2  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 15 kiwehon   1   3   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 15 kiwehon   1   4  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 16 furasti   1   0  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 16 furasti   1   1   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 16 furasti   1   2  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 16 furasti   1   3  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 16 furasti   1   4  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 17 nalber   1   0  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 17 nalber   1   1  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 17 nalber   1   2  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 17 nalber   1   3  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 17 nalber   1   4  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 18 schese   1   0   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 18 schese   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 18 schese   1   2  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 18 schese   1   3   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 18 schese   1   4   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 19 hiwawa   1   0  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 19 hiwawa   1   1   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 19 hiwawa   1   2  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 19 hiwawa   1   3  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 19 hiwawa   1   4  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 20 yosud   1   0   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 20 yosud   1   1  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 20 yosud   1   2   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 20 yosud   1   3  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 20 yosud   1   4  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 21 obacu   1   0   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 21 obacu   1   1  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 21 obacu   1   2   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 21 obacu   1   3  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 21 obacu   1   4   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 22 hilejin   1   0   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 22 hilejin   1   1   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 22 hilejin   1   2   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 22 hilejin   1   3   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 22 hilejin   1   4  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 23 sleshen   1   0   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 23 sleshen   1   1  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 23 sleshen   1   2  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 23 sleshen   1   3   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 23 sleshen   1   4  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0   6   0     botuyn  13   1           31
+  0   1  19   0     hiwawa  12   1           31
+  0   2  17   0     nalber  15   0           30
+  0   3   7   0      medan   5   1           31
+  0   4  16   0    furasti  19   0           30
+  0   5  11   0    laumens  17   1           31
+  0   6  18   0     schese   5   1           31
+  0   7   2   0    pimuide  11   0           30
+  0   8   1   0    permife  23   0           30
+  0   9  21   0      obacu   9   1           31
+  0  10  23   0    sleshen   6   1           31
+  0  11  14   0      tewok  15   0           31
+  0  12  15   0    kiwehon  23   0           30
+  0  13  13   0     ubajec   4   0           30
+  0  14  12   0     uwimor   6   0           30
+  0  15   4   0    umeuken   8   0           30
+  0  16   3   0      noste   6   0           30
+  0  17   9   0    larnist  17   1           31
+  0  18  20   0      yosud   0   1           31
+  0  19  22   0    hilejin   7   1           31
+  0  20   0   0     jaciyn  21   0           31
+  0  21   8   0      botsy  21   1           31
+  0  22  10   0    molkate  19   1           31
+  0  23   5   0      frask   4   0           30
+  1   0   4   1    umeuken  16   0           30
+  1   1  23   1    sleshen  11   1           31
+  1   2  11   1    laumens   7   1           31
+  1   3  12   1     uwimor  11   0           30
+  1   4  22   1    hilejin   5   1           31
+  1   5   5   1      frask   7   0           30
+  1   6   8   1      botsy  15   1           31
+  1   7   9   1    larnist   0   1           31
+  1   8   3   1      noste  17   0           30
+  1   9  18   1     schese   7   1           31
+  1  10  10   1    molkate   5   1           31
+  1  11   6   1     botuyn  10   1           31
+  1  12  20   1      yosud  11   1           31
+  1  13  16   1    furasti   9   0           31
+  1  14  17   1     nalber  17   0           30
+  1  15  14   1      tewok  14   0           31
+  1  16  13   1     ubajec   1   0           30
+  1  17   2   1    pimuide  12   0           30
+  1  18  15   1    kiwehon  24   0           30
+  1  19   0   1     jaciyn  10   0           31
+  1  20   1   1    permife  15   0           31
+  1  21  21   1      obacu  16   1           31
+  1  22  19   1     hiwawa   4   1           31
+  1  23   7   1      medan  16   1           31
+  2   0   3   2      noste  24   0           30
+  2   1   6   2     botuyn   9   1           31
+  2   2  12   2     uwimor   2   0           30
+  2   3   4   2    umeuken  20   0           30
+  2   4  21   2      obacu   1   1           31
+  2   5   1   2    permife   7   0           30
+  2   6  13   2     ubajec  22   0           31
+  2   7  14   2      tewok  16   0           31
+  2   8  20   2      yosud   8   1           31
+  2   9  10   2    molkate  12   1           31
+  2  10   7   2      medan  12   1           31
+  2  11  19   2     hiwawa  14   1           31
+  2  12   5   2      frask   8   0           30
+  2  13   9   2    larnist  19   1           31
+  2  14  11   2    laumens  24   1           31
+  2  15   8   2      botsy  18   1           31
+  2  16  15   2    kiwehon  18   0           30
+  2  17   2   2    pimuide  18   0           30
+  2  18  22   2    hilejin   9   1           31
+  2  19  23   2    sleshen  16   1           31
+  2  20  17   2     nalber  20   0           30
+  2  21  16   2    furasti  13   0           30
+  2  22  18   2     schese  18   1           31
+  2  23   0   2     jaciyn  19   0           31
+  3   0   3   3      noste   9   0           31
+  3   1  14   3      tewok   7   0           30
+  3   2   6   3     botuyn   2   1           31
+  3   3  11   3    laumens  10   1           31
+  3   4  16   3    furasti  10   0           30
+  3   5   2   3    pimuide   2   0           30
+  3   6  15   3    kiwehon   8   0           30
+  3   7  12   3     uwimor  12   0           31
+  3   8   5   3      frask   3   0           30
+  3   9   1   3    permife  14   0           30
+  3  10   0   3     jaciyn   1   0           30
+  3  11  23   3    sleshen   0   1           31
+  3  12   7   3      medan  20   1           31
+  3  13   8   3      botsy  14   1           31
+  3  14  18   3     schese   6   1           31
+  3  15  22   3    hilejin   3   1           31
+  3  16   9   3    larnist   6   1           31
+  3  17  17   3     nalber  13   0           30
+  3  18  19   3     hiwawa  23   1           31
+  3  19  10   3    molkate   4   1           31
+  3  20  13   3     ubajec   0   0           30
+  3  21  20   3      yosud  22   1           31
+  3  22   4   3    umeuken  13   0           31
+  3  23  21   3      obacu  24   1           31
+  4   0  10   4    molkate  21   1           31
+  4   1   7   4      medan  24   1           31
+  4   2  16   4    furasti  20   0           30
+  4   3   8   4      botsy  11   1           31
+  4   4   6   4     botuyn   1   1           31
+  4   5  18   4     schese   2   1           31
+  4   6  17   4     nalber  19   0           31
+  4   7   1   4    permife   0   0           30
+  4   8  21   4      obacu   3   1           31
+  4   9  23   4    sleshen  23   1           31
+  4  10  13   4     ubajec   3   0           31
+  4  11   3   4      noste   4   0           31
+  4  12   9   4    larnist  23   1           31
+  4  13   5   4      frask  22   0           30
+  4  14   2   4    pimuide  22   0           30
+  4  15   4   4    umeuken   5   0           30
+  4  16  20   4      yosud  10   1           31
+  4  17   0   4     jaciyn   3   0           30
+  4  18  22   4    hilejin  20   1           31
+  4  19  12   4     uwimor   5   0           31
+  4  20  15   4    kiwehon  21   0           31
+  4  21  19   4     hiwawa  21   1           31
+  4  22  14   4      tewok  17   0           30
+  4  23  11   4    laumens   6   1           31
+  5   0  22   0    hilejin   7   1           31
+  5   1   5   0      frask   4   0           30
+  5   2   6   0     botuyn  13   1           31
+  5   3  23   0    sleshen   6   1           31
+  5   4  17   0     nalber  15   0           31
+  5   5  16   0    furasti  19   0           31
+  5   6  18   0     schese   5   1           31
+  5   7  11   0    laumens  17   1           31
+  5   8   8   0      botsy  21   1           31
+  5   9  12   0     uwimor   6   0           30
+  5  10   0   0     jaciyn  21   0           31
+  5  11   9   0    larnist  17   1           31
+  5  12  20   0      yosud   0   1           31
+  5  13   4   0    umeuken   8   0           31
+  5  14   2   0    pimuide  11   0           31
+  5  15  13   0     ubajec   4   0           30
+  5  16   3   0      noste   6   0           30
+  5  17  19   0     hiwawa  12   1           31
+  5  18   1   0    permife  23   0           31
+  5  19  10   0    molkate  19   1           31
+  5  20  21   0      obacu   9   1           31
+  5  21   7   0      medan   5   1           31
+  5  22  15   0    kiwehon  23   0           30
+  5  23  14   0      tewok  15   0           31
+  6   0  20   1      yosud  11   1           31
+  6   1  17   1     nalber  17   0           30
+  6   2   9   1    larnist   0   1           31
+  6   3  23   1    sleshen  11   1           31
+  6   4   7   1      medan  16   1           31
+  6   5  19   1     hiwawa   4   1           31
+  6   6   1   1    permife  15   0           31
+  6   7  21   1      obacu  16   1           31
+  6   8   0   1     jaciyn  10   0           30
+  6   9   3   1      noste  17   0           31
+  6  10   5   1      frask   7   0           30
+  6  11  14   1      tewok  14   0           31
+  6  12  13   1     ubajec   1   0           30
+  6  13   6   1     botuyn  10   1           31
+  6  14  16   1    furasti   9   0           30
+  6  15   8   1      botsy  15   1           31
+  6  16  18   1     schese   7   1           31
+  6  17  22   1    hilejin   5   1           31
+  6  18  15   1    kiwehon  24   0           30
+  6  19  11   1    laumens   7   1           31
+  6  20   2   1    pimuide  12   0           31
+  6  21  12   1     uwimor  11   0           30
+  6  22   4   1    umeuken  16   0           30
+  6  23  10   1    molkate   5   1           31
+  7   0   4   2    umeuken  20   0           31
+  7   1  11   2    laumens  24   1           31
+  7   2   3   2      noste  24   0           31
+  7   3  19   2     hiwawa  14   1           31
+  7   4   6   2     botuyn   9   1           31
+  7   5  16   2    furasti  13   0           30
+  7   6  15   2    kiwehon  18   0           31
+  7   7  12   2     uwimor   2   0           31
+  7   8  22   2    hilejin   9   1           31
+  7   9   8   2      botsy  18   1           31
+  7  10   0   2     jaciyn  19   0           31
+  7  11  20   2      yosud   8   1           31
+  7  12   2   2    pimuide  18   0           30
+  7  13  14   2      tewok  16   0           31
+  7  14   5   2      frask   8   0           30
+  7  15  21   2      obacu   1   1           31
+  7  16  18   2     schese  18   1           31
+  7  17  10   2    molkate  12   1           31
+  7  18   7   2      medan  12   1           31
+  7  19  13   2     ubajec  22   0           30
+  7  20   9   2    larnist  19   1           31
+  7  21  23   2    sleshen  16   1           31
+  7  22  17   2     nalber  20   0           31
+  7  23   1   2    permife   7   0           30
+  8   0  19   3     hiwawa  23   1           31
+  8   1   8   3      botsy  14   1           31
+  8   2   9   3    larnist   6   1           31
+  8   3   0   3     jaciyn   1   0           30
+  8   4   1   3    permife  14   0           31
+  8   5  14   3      tewok   7   0           30
+  8   6  22   3    hilejin   3   1           31
+  8   7  23   3    sleshen   0   1           31
+  8   8  12   3     uwimor  12   0           30
+  8   9  15   3    kiwehon   8   0           30
+  8  10   5   3      frask   3   0           30
+  8  11  18   3     schese   6   1           31
+  8  12  11   3    laumens  10   1           31
+  8  13  13   3     ubajec   0   0           30
+  8  14   2   3    pimuide   2   0           31
+  8  15  16   3    furasti  10   0           31
+  8  16  10   3    molkate   4   1           31
+  8  17  20   3      yosud  22   1           31
+  8  18   4   3    umeuken  13   0           30
+  8  19   3   3      noste   9   0           30
+  8  20  17   3     nalber  13   0           31
+  8  21  21   3      obacu  24   1           31
+  8  22   7   3      medan  20   1           31
+  8  23   6   3     botuyn   2   1           31
+  9   0   7   4      medan  24   1           31
+  9   1  16   4    furasti  20   0           30
+  9   2   0   4     jaciyn   3   0           31
+  9   3  11   4    laumens   6   1           31
+  9   4  15   4    kiwehon  21   0           30
+  9   5  19   4     hiwawa  21   1           31
+  9   6   2   4    pimuide  22   0           30
+  9   7  21   4      obacu   3   1           31
+  9   8  17   4     nalber  19   0           31
+  9   9  18   4     schese   2   1           31
+  9  10   1   4    permife   0   0           30
+  9  11   4   4    umeuken   5   0           30
+  9  12   9   4    larnist  23   1           31
+  9  13  10   4    molkate  21   1           31
+  9  14   3   4      noste   4   0           31
+  9  15   8   4      botsy  11   1           31
+  9  16   5   4      frask  22   0           30
+  9  17  23   4    sleshen  23   1           31
+  9  18  12   4     uwimor   5   0           31
+  9  19  20   4      yosud  10   1           31
+  9  20  22   4    hilejin  20   1           31
+  9  21  13   4     ubajec   3   0           30
+  9  22   6   4     botuyn   1   1           31
+  9  23  14   4      tewok  17   0           30
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0   7 medan   4   4   4 1939812456
+   1  17 nalber   3   3   3 1939812456
+   2  22 hilejin   4   4   4 1939812456
+   3   3 noste   5   5   5 1939812456
+   4  19 hiwawa   4   3   3 1939812456
+   5  18 schese   2   2   2 1939812456
+   6   2 pimuide   2   2   2 1939812456
+   7  16 furasti   3   3   3 1939812456
+   8   9 larnist   5   5   5 1939812456
+   9   0 jaciyn   4   4   4 1939812456
+  10  20 yosud   3   3   3 1939812456
+  11  21 obacu   3   3   3 1939812456
+  12  14 tewok   6   7   7 1939812456
+  13  13 ubajec   3   2   2 1939812456
+  14   4 umeuken   3   3   3 1939812456
+  15   5 frask   2   2   2 1939812456
+  16   1 permife   3   3   3 1939812456
+  17  12 uwimor   2   2   2 1939812456
+  18   6 botuyn   4   4   4 1939812456
+  19   8 botsy   4   4   4 1939812456
+  20  10 molkate   4   4   4 1939812456
+  21  23 sleshen   4   4   4 1939812456
+  22  11 laumens   5   5   5 1939812456
+  23  15 kiwehon   3   3   3 1939812456
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 valenz_response valenz_rt sichtbar_response sichtbar_korrekt sichtbar_rt
+ 30  29   1   1   1   2          GERMANISTIK     0   0               jaciyn   0  -1   0   0    21  10  19   1   3     4   4   4     1      978  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     0   1               jaciyn   0  -1   0   0    21  10  19   1   3     4   4   4     1      952  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     0   2               jaciyn   0  -1   0   0    21  10  19   1   3     4   4   4     1     2129  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     0   3               jaciyn   0  -1   0   0    21  10  19   1   3     4   4   4     1      839  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     0   4               jaciyn   0  -1   0   0    21  10  19   1   3     4   4   4     1      982  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     1   0              permife   0  -1   0   0    23  15   7  14   0     3   3   3     1     1008  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     1   1              permife   0  -1   0   0    23  15   7  14   0     3   3   3     1     1628  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     1   2              permife   0  -1   0   0    23  15   7  14   0     3   3   3     1     1071  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     1   3              permife   0  -1   0   0    23  15   7  14   0     3   3   3     1     1722  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     1   4              permife   0  -1   0   0    23  15   7  14   0     3   3   3     1      830  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     2   0              pimuide   0  -1   0   0    11  12  18   2  22     2   2   2     1      636  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     2   1              pimuide   0  -1   0   0    11  12  18   2  22     2   2   2     0     1450  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     2   2              pimuide   0  -1   0   0    11  12  18   2  22     2   2   2     1     1134  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     2   3              pimuide   0  -1   0   0    11  12  18   2  22     2   2   2     1     1072  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     2   4              pimuide   0  -1   0   0    11  12  18   2  22     2   2   2     1      867  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     3   0                noste   0  -1   0   0     6  17  24   9   4     5   5   5     1      923  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     3   1                noste   0  -1   0   0     6  17  24   9   4     5   5   5     1     1162  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     3   2                noste   0  -1   0   0     6  17  24   9   4     5   5   5     1     1204  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     3   3                noste   0  -1   0   0     6  17  24   9   4     5   5   5     1     1135  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     3   4                noste   0  -1   0   0     6  17  24   9   4     5   5   5     1      837  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     4   0              umeuken   0  -1   0   0     8  16  20  13   5     3   3   3     1      894  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     4   1              umeuken   0  -1   0   0     8  16  20  13   5     3   3   3     1      765  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     4   2              umeuken   0  -1   0   0     8  16  20  13   5     3   3   3     1     1023  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     4   3              umeuken   0  -1   0   0     8  16  20  13   5     3   3   3     1     1148  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     4   4              umeuken   0  -1   0   0     8  16  20  13   5     3   3   3     1     1017  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     5   0                frask   0  -1   0   0     4   7   8   3  22     2   2   2     1      819  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     5   1                frask   0  -1   0   0     4   7   8   3  22     2   2   2     1     1193  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     5   2                frask   0  -1   0   0     4   7   8   3  22     2   2   2     1      746  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     5   3                frask   0  -1   0   0     4   7   8   3  22     2   2   2     1     1156  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     5   4                frask   0  -1   0   0     4   7   8   3  22     2   2   2     1      733  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     6   0               botuyn   0  -1   0   1    13  10   9   2   1     4   4   4     1      844  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     6   1               botuyn   0  -1   0   1    13  10   9   2   1     4   4   4     1     1918  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     6   2               botuyn   0  -1   0   1    13  10   9   2   1     4   4   4     1     1099  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     6   3               botuyn   0  -1   0   1    13  10   9   2   1     4   4   4     1      800  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     6   4               botuyn   0  -1   0   1    13  10   9   2   1     4   4   4     1      676  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     7   0                medan   0  -1   0   1     5  16  12  20  24     4   4   4     1      726  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     7   1                medan   0  -1   0   1     5  16  12  20  24     4   4   4     1      940  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     7   2                medan   0  -1   0   1     5  16  12  20  24     4   4   4     0      966  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     7   3                medan   0  -1   0   1     5  16  12  20  24     4   4   4     1      982  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     7   4                medan   0  -1   0   1     5  16  12  20  24     4   4   4     1      811  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     8   0                botsy   0  -1   0   1    21  15  18  14  11     4   4   4     1      819  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     8   1                botsy   0  -1   0   1    21  15  18  14  11     4   4   4     1      766  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     8   2                botsy   0  -1   0   1    21  15  18  14  11     4   4   4     1      928  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     8   3                botsy   0  -1   0   1    21  15  18  14  11     4   4   4     1     1068  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     8   4                botsy   0  -1   0   1    21  15  18  14  11     4   4   4     1      777  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     9   0              larnist   0  -1   0   1    17   0  19   6  23     5   5   5     1      939  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     9   1              larnist   0  -1   0   1    17   0  19   6  23     5   5   5     1      824  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     9   2              larnist   0  -1   0   1    17   0  19   6  23     5   5   5     1      844  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     9   3              larnist   0  -1   0   1    17   0  19   6  23     5   5   5     1     1345  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK     9   4              larnist   0  -1   0   1    17   0  19   6  23     5   5   5     1      924  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    10   0              molkate   0  -1   0   1    19   5  12   4  21     4   4   4     1     1240  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    10   1              molkate   0  -1   0   1    19   5  12   4  21     4   4   4     1     1045  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    10   2              molkate   0  -1   0   1    19   5  12   4  21     4   4   4     0      900  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    10   3              molkate   0  -1   0   1    19   5  12   4  21     4   4   4     1     1107  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    10   4              molkate   0  -1   0   1    19   5  12   4  21     4   4   4     1      711  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    11   0              laumens   0  -1   0   1    17   7  24  10   6     5   5   5     1     1287  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    11   1              laumens   0  -1   0   1    17   7  24  10   6     5   5   5     1     1061  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    11   2              laumens   0  -1   0   1    17   7  24  10   6     5   5   5     1      860  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    11   3              laumens   0  -1   0   1    17   7  24  10   6     5   5   5     1      830  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    11   4              laumens   0  -1   0   1    17   7  24  10   6     5   5   5     1     1204  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    12   0               uwimor   0  -1   1   0     6  11   2  12   5     2   2   2     0     1132  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    12   1               uwimor   0  -1   1   0     6  11   2  12   5     2   2   2     0      952  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    12   2               uwimor   0  -1   1   0     6  11   2  12   5     2   2   2     0     1423  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    12   3               uwimor   0  -1   1   0     6  11   2  12   5     2   2   2     0     1262  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    12   4               uwimor   0  -1   1   0     6  11   2  12   5     2   2   2     0      760  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    13   0               ubajec   0  -1   1   0     4   1  22   0   3     3   2   2     0     1093  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    13   1               ubajec   0  -1   1   0     4   1  22   0   3     3   2   2     0      899  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    13   2               ubajec   0  -1   1   0     4   1  22   0   3     3   2   2     0     1220  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    13   3               ubajec   0  -1   1   0     4   1  22   0   3     3   2   2     0     1104  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    13   4               ubajec   0  -1   1   0     4   1  22   0   3     3   2   2     0      841  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    14   0                tewok   0  -1   1   0    15  14  16   7  17     6   7   7     0     1525  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    14   1                tewok   0  -1   1   0    15  14  16   7  17     6   7   7     0      774  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    14   2                tewok   0  -1   1   0    15  14  16   7  17     6   7   7     0     1492  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    14   3                tewok   0  -1   1   0    15  14  16   7  17     6   7   7     0     1268  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    14   4                tewok   0  -1   1   0    15  14  16   7  17     6   7   7     0     1242  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    15   0              kiwehon   0  -1   1   0    23  24  18   8  21     3   3   3     0      818  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    15   1              kiwehon   0  -1   1   0    23  24  18   8  21     3   3   3     0      678  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    15   2              kiwehon   0  -1   1   0    23  24  18   8  21     3   3   3     0     1018  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    15   3              kiwehon   0  -1   1   0    23  24  18   8  21     3   3   3     0     1193  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    15   4              kiwehon   0  -1   1   0    23  24  18   8  21     3   3   3     0     1016  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    16   0              furasti   0  -1   1   0    19   9  13  10  20     3   3   3     0     1245  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    16   1              furasti   0  -1   1   0    19   9  13  10  20     3   3   3     0     1084  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    16   2              furasti   0  -1   1   0    19   9  13  10  20     3   3   3     0     1219  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    16   3              furasti   0  -1   1   0    19   9  13  10  20     3   3   3     0     1235  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    16   4              furasti   0  -1   1   0    19   9  13  10  20     3   3   3     0      850  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    17   0               nalber   0  -1   1   0    15  17  20  13  19     3   3   3     0     1579  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    17   1               nalber   0  -1   1   0    15  17  20  13  19     3   3   3     0      985  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    17   2               nalber   0  -1   1   0    15  17  20  13  19     3   3   3     0     1181  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    17   3               nalber   0  -1   1   0    15  17  20  13  19     3   3   3     0     1016  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    17   4               nalber   0  -1   1   0    15  17  20  13  19     3   3   3     0     1263  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    18   0               schese   0  -1   1   1     5   7  18   6   2     2   2   2     0     1152  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    18   1               schese   0  -1   1   1     5   7  18   6   2     2   2   2     0      838  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    18   2               schese   0  -1   1   1     5   7  18   6   2     2   2   2     0     1303  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    18   3               schese   0  -1   1   1     5   7  18   6   2     2   2   2     0      830  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    18   4               schese   0  -1   1   1     5   7  18   6   2     2   2   2     0     1195  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    19   0               hiwawa   0  -1   1   1    12   4  14  23  21     4   3   3     0     1307  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    19   1               hiwawa   0  -1   1   1    12   4  14  23  21     4   3   3     0     1307  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    19   2               hiwawa   0  -1   1   1    12   4  14  23  21     4   3   3     0     1103  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    19   3               hiwawa   0  -1   1   1    12   4  14  23  21     4   3   3     0     1224  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    19   4               hiwawa   0  -1   1   1    12   4  14  23  21     4   3   3     0     1496  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    20   0                yosud   0  -1   1   1     0  11   8  22  10     3   3   3     0      911  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    20   1                yosud   0  -1   1   1     0  11   8  22  10     3   3   3     0      880  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    20   2                yosud   0  -1   1   1     0  11   8  22  10     3   3   3     0     1082  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    20   3                yosud   0  -1   1   1     0  11   8  22  10     3   3   3     0      893  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    20   4                yosud   0  -1   1   1     0  11   8  22  10     3   3   3     0     1033  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    21   0                obacu   0  -1   1   1     9  16   1  24   3     3   3   3     0      932  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    21   1                obacu   0  -1   1   1     9  16   1  24   3     3   3   3     0     1089  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    21   2                obacu   0  -1   1   1     9  16   1  24   3     3   3   3     0     1081  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    21   3                obacu   0  -1   1   1     9  16   1  24   3     3   3   3     0     1171  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    21   4                obacu   0  -1   1   1     9  16   1  24   3     3   3   3     0     2231  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    22   0              hilejin   0  -1   1   1     7   5   9   3  20     4   4   4     0      797  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    22   1              hilejin   0  -1   1   1     7   5   9   3  20     4   4   4     0     1055  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    22   2              hilejin   0  -1   1   1     7   5   9   3  20     4   4   4     0     1000  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    22   3              hilejin   0  -1   1   1     7   5   9   3  20     4   4   4     0     1910  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    22   4              hilejin   0  -1   1   1     7   5   9   3  20     4   4   4     0      736  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    23   0              sleshen   0  -1   1   1     6  11  16   0  23     4   4   4     0     1040  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    23   1              sleshen   0  -1   1   1     6  11  16   0  23     4   4   4     0      812  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    23   2              sleshen   0  -1   1   1     6  11  16   0  23     4   4   4     0      944  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    23   3              sleshen   0  -1   1   1     6  11  16   0  23     4   4   4     0     1055  -1  -1       -1
+ 30  29   1   1   1   2          GERMANISTIK    23   4              sleshen   0  -1   1   1     6  11  16   0  23     4   4   4     0      998  -1  -1       -1

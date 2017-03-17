@@ -1,0 +1,554 @@
+ECOsub3 [07-2012]
+  9   0   0
+ 24   1   2   1 LEHRAMT
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0  pimuide   0  -1   0   0  18  19   0  21  10 -1  -1  -1
+  1  furasti   0  -1   0   0  14  12  24   6  13 -1  -1  -1
+  2   nalber   0  -1   0   0   1  22   4   9   5 -1  -1  -1
+  3   botuyn   0  -1   0   0   2  11  17   7  16 -1  -1  -1
+  4    yosud   0  -1   0   0  15   8  20  23   3 -1  -1  -1
+  5  permife   0  -1   0   0  20   1  13  15  10 -1  -1  -1
+  6   jaciyn   0  -1   0   1  14  23   2  21   9 -1  -1  -1
+  7    medan   0  -1   0   1   3  17   7   5   4 -1  -1  -1
+  8   ubajec   0  -1   0   1  16  11  12  18   8 -1  -1  -1
+  9  laumens   0  -1   0   1   6  24   0  19  22 -1  -1  -1
+ 10    noste   0  -1   0   1  18   3  16   8  17 -1  -1  -1
+ 11    obacu   0  -1   0   1  11  15   2  22  10 -1  -1  -1
+ 12    botsy   0  -1   1   0   5  17   1  16  12 -1  -1  -1
+ 13  kiwehon   0  -1   1   0   6   7  22  15   3 -1  -1  -1
+ 14  molkate   0  -1   1   0  11  23   4  20   0 -1  -1  -1
+ 15  larnist   0  -1   1   0  14   9   2  18  10 -1  -1  -1
+ 16  umeuken   0  -1   1   0  13  21   8  24  19 -1  -1  -1
+ 17    tewok   0  -1   1   0  10   3   0   5   1 -1  -1  -1
+ 18   schese   0  -1   1   1  24   4  14  23  13 -1  -1  -1
+ 19   hiwawa   0  -1   1   1   6   8  16  21  20 -1  -1  -1
+ 20   uwimor   0  -1   1   1   7  18  22  19  12 -1  -1  -1
+ 21  sleshen   0  -1   1   1  15   2  11  17   9 -1  -1  -1
+ 22  hilejin   0  -1   1   1  16   4  18  14  21 -1  -1  -1
+ 23    frask   0  -1   1   1  19   2  24   8  23 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 pimuide 
+  0   1 furasti 
+  0   2 nalber 
+  0   3 botuyn 
+  0   4 yosud 
+  1   0 permife 
+  1   1 jaciyn 
+  1   2 medan 
+  1   3 ubajec 
+  1   4 laumens 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 pimuide   0   0  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  0 pimuide   0   1  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  0 pimuide   0   2   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  0 pimuide   0   3  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  0 pimuide   0   4  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  1 furasti   0   0  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  1 furasti   0   1  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  1 furasti   0   2  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  1 furasti   0   3   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  1 furasti   0   4  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  2 nalber   0   0   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  2 nalber   0   1  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  2 nalber   0   2   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  2 nalber   0   3   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  2 nalber   0   4   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  3 botuyn   0   0   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  3 botuyn   0   1  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  3 botuyn   0   2  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  3 botuyn   0   3   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  3 botuyn   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  4 yosud   0   0  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  4 yosud   0   1   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  4 yosud   0   2  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  4 yosud   0   3  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  4 yosud   0   4   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  5 permife   0   0  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  5 permife   0   1   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  5 permife   0   2  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  5 permife   0   3  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  5 permife   0   4  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  6 jaciyn   0   0  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  6 jaciyn   0   1  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  6 jaciyn   0   2   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  6 jaciyn   0   3  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  6 jaciyn   0   4   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  7 medan   0   0   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  7 medan   0   1  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  7 medan   0   2   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  7 medan   0   3   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  7 medan   0   4   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  8 ubajec   0   0  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  8 ubajec   0   1  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  8 ubajec   0   2  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  8 ubajec   0   3  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  8 ubajec   0   4   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  9 laumens   0   0   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  9 laumens   0   1  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  9 laumens   0   2   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  9 laumens   0   3  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  9 laumens   0   4  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+ 10 noste   0   0  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+ 10 noste   0   1   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+ 10 noste   0   2  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+ 10 noste   0   3   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+ 10 noste   0   4  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+ 11 obacu   0   0  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+ 11 obacu   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+ 11 obacu   0   2   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+ 11 obacu   0   3  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+ 11 obacu   0   4  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+ 12 botsy   1   0   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 12 botsy   1   1  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 12 botsy   1   2   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 12 botsy   1   3  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 12 botsy   1   4  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 13 kiwehon   1   0   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 13 kiwehon   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 13 kiwehon   1   2  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 13 kiwehon   1   3  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 13 kiwehon   1   4   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 14 molkate   1   0  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 14 molkate   1   1  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 14 molkate   1   2   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 14 molkate   1   3  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 14 molkate   1   4   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 15 larnist   1   0  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 15 larnist   1   1   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 15 larnist   1   2   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 15 larnist   1   3  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 15 larnist   1   4  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 16 umeuken   1   0  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 16 umeuken   1   1  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 16 umeuken   1   2   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 16 umeuken   1   3  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 16 umeuken   1   4  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 17 tewok   1   0  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 17 tewok   1   1   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 17 tewok   1   2   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 17 tewok   1   3   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 17 tewok   1   4   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 18 schese   1   0  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 18 schese   1   1   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 18 schese   1   2  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 18 schese   1   3  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 18 schese   1   4  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 19 hiwawa   1   0   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 19 hiwawa   1   1   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 19 hiwawa   1   2  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 19 hiwawa   1   3  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 19 hiwawa   1   4  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 20 uwimor   1   0   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 20 uwimor   1   1  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 20 uwimor   1   2  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 20 uwimor   1   3  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 20 uwimor   1   4  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 21 sleshen   1   0  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 21 sleshen   1   1   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 21 sleshen   1   2  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 21 sleshen   1   3  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 21 sleshen   1   4   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 22 hilejin   1   0  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 22 hilejin   1   1   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 22 hilejin   1   2  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 22 hilejin   1   3  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 22 hilejin   1   4  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 23 frask   1   0  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 23 frask   1   1   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 23 frask   1   2  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 23 frask   1   3   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 23 frask   1   4  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0  21   0    sleshen  15   1           30
+  0   1  23   0      frask  19   1           30
+  0   2   5   0    permife  20   0           30
+  0   3  19   0     hiwawa   6   1           30
+  0   4  20   0     uwimor   7   1           30
+  0   5  13   0    kiwehon   6   0           30
+  0   6  17   0      tewok  10   0           30
+  0   7   9   0    laumens   6   1           30
+  0   8  18   0     schese  24   1           30
+  0   9   8   0     ubajec  16   1           30
+  0  10  12   0      botsy   5   0           30
+  0  11  10   0      noste  18   1           30
+  0  12   4   0      yosud  15   0           30
+  0  13   3   0     botuyn   2   0           30
+  0  14  11   0      obacu  11   1           30
+  0  15  14   0    molkate  11   0           30
+  0  16   0   0    pimuide  18   0           30
+  0  17   1   0    furasti  14   0           30
+  0  18  22   0    hilejin  16   1           30
+  0  19   7   0      medan   3   1           30
+  0  20   2   0     nalber   1   0           30
+  0  21  16   0    umeuken  13   0           30
+  0  22   6   0     jaciyn  14   1           30
+  0  23  15   0    larnist  14   0           30
+  1   0  23   1      frask   2   1           30
+  1   1  12   1      botsy  17   0           30
+  1   2   7   1      medan  17   1           30
+  1   3  10   1      noste   3   1           30
+  1   4   9   1    laumens  24   1           30
+  1   5  11   1      obacu  15   1           30
+  1   6   8   1     ubajec  11   1           30
+  1   7  20   1     uwimor  18   1           30
+  1   8  13   1    kiwehon   7   0           30
+  1   9  16   1    umeuken  21   0           30
+  1  10  22   1    hilejin   4   1           30
+  1  11   5   1    permife   1   0           30
+  1  12   0   1    pimuide  19   0           30
+  1  13   2   1     nalber  22   0           30
+  1  14   1   1    furasti  12   0           30
+  1  15  15   1    larnist   9   0           30
+  1  16   3   1     botuyn  11   0           30
+  1  17   4   1      yosud   8   0           30
+  1  18   6   1     jaciyn  23   1           31
+  1  19  19   1     hiwawa   8   1           30
+  1  20  17   1      tewok   3   0           30
+  1  21  14   1    molkate  23   0           30
+  1  22  18   1     schese   4   1           30
+  1  23  21   1    sleshen   2   1           30
+  2   0  16   2    umeuken   8   0           30
+  2   1  14   2    molkate   4   0           30
+  2   2  19   2     hiwawa  16   1           30
+  2   3   7   2      medan   7   1           30
+  2   4   6   2     jaciyn   2   1           30
+  2   5  18   2     schese  14   1           30
+  2   6   4   2      yosud  20   0           30
+  2   7   2   2     nalber   4   0           30
+  2   8   3   2     botuyn  17   0           30
+  2   9  21   2    sleshen  11   1           30
+  2  10  10   2      noste  16   1           30
+  2  11  17   2      tewok   0   0           30
+  2  12  15   2    larnist   2   0           30
+  2  13  20   2     uwimor  22   1           30
+  2  14  13   2    kiwehon  22   0           30
+  2  15  12   2      botsy   1   0           30
+  2  16  22   2    hilejin  18   1           30
+  2  17   5   2    permife  13   0           30
+  2  18   0   2    pimuide   0   0           30
+  2  19   9   2    laumens   0   1           30
+  2  20   1   2    furasti  24   0           30
+  2  21  23   2      frask  24   1           30
+  2  22   8   2     ubajec  12   1           30
+  2  23  11   2      obacu   2   1           30
+  3   0  13   3    kiwehon  15   0           30
+  3   1   2   3     nalber   9   0           30
+  3   2   0   3    pimuide  21   0           30
+  3   3  16   3    umeuken  24   0           30
+  3   4  21   3    sleshen  17   1           30
+  3   5  23   3      frask   8   1           30
+  3   6   5   3    permife  15   0           30
+  3   7  17   3      tewok   5   0           30
+  3   8  19   3     hiwawa  21   1           30
+  3   9  11   3      obacu  22   1           30
+  3  10   3   3     botuyn   7   0           30
+  3  11  18   3     schese  23   1           30
+  3  12  15   3    larnist  18   0           30
+  3  13  20   3     uwimor  19   1           30
+  3  14  14   3    molkate  20   0           30
+  3  15   6   3     jaciyn  21   1           30
+  3  16   1   3    furasti   6   0           30
+  3  17   8   3     ubajec  18   1           30
+  3  18  22   3    hilejin  14   1           30
+  3  19   7   3      medan   5   1           30
+  3  20   9   3    laumens  19   1           30
+  3  21  12   3      botsy  16   0           30
+  3  22  10   3      noste   8   1           30
+  3  23   4   3      yosud  23   0           30
+  4   0  21   4    sleshen   9   1           30
+  4   1  16   4    umeuken  19   0           30
+  4   2   1   4    furasti  13   0           30
+  4   3   9   4    laumens  22   1           30
+  4   4  13   4    kiwehon   3   0           30
+  4   5  14   4    molkate   0   0           30
+  4   6   0   4    pimuide  10   0           30
+  4   7  17   4      tewok   1   0           33
+  4   8  20   4     uwimor  12   1           31
+  4   9  15   4    larnist  10   0           30
+  4  10  12   4      botsy  12   0           30
+  4  11   7   4      medan   4   1           30
+  4  12  19   4     hiwawa  20   1           30
+  4  13   3   4     botuyn  16   0           30
+  4  14   2   4     nalber   5   0           30
+  4  15   5   4    permife  10   0           30
+  4  16  10   4      noste  17   1           30
+  4  17   4   4      yosud   3   0           30
+  4  18   8   4     ubajec   8   1           30
+  4  19  11   4      obacu  10   1           30
+  4  20  23   4      frask  23   1           30
+  4  21  22   4    hilejin  21   1           30
+  4  22   6   4     jaciyn   9   1           30
+  4  23  18   4     schese  13   1           30
+  5   0  19   0     hiwawa   6   1           30
+  5   1  18   0     schese  24   1           30
+  5   2  20   0     uwimor   7   1           30
+  5   3   7   0      medan   3   1           30
+  5   4  15   0    larnist  14   0           30
+  5   5  21   0    sleshen  15   1           30
+  5   6   4   0      yosud  15   0           30
+  5   7   1   0    furasti  14   0           30
+  5   8  11   0      obacu  11   1           30
+  5   9  10   0      noste  18   1           30
+  5  10   0   0    pimuide  18   0           30
+  5  11   8   0     ubajec  16   1           30
+  5  12  17   0      tewok  10   0           30
+  5  13   6   0     jaciyn  14   1           30
+  5  14   2   0     nalber   1   0           30
+  5  15  14   0    molkate  11   0           30
+  5  16  13   0    kiwehon   6   0           30
+  5  17   9   0    laumens   6   1           30
+  5  18  23   0      frask  19   1           30
+  5  19  16   0    umeuken  13   0           30
+  5  20  12   0      botsy   5   0           30
+  5  21   3   0     botuyn   2   0           30
+  5  22   5   0    permife  20   0           30
+  5  23  22   0    hilejin  16   1           30
+  6   0  22   1    hilejin   4   1           30
+  6   1  20   1     uwimor  18   1           30
+  6   2  17   1      tewok   3   0           30
+  6   3   6   1     jaciyn  23   1           30
+  6   4   0   1    pimuide  19   0           30
+  6   5  16   1    umeuken  21   0           30
+  6   6   1   1    furasti  12   0           30
+  6   7   2   1     nalber  22   0           30
+  6   8  15   1    larnist   9   0           30
+  6   9  11   1      obacu  15   1           30
+  6  10   3   1     botuyn  11   0           30
+  6  11  18   1     schese   4   1           30
+  6  12   8   1     ubajec  11   1           30
+  6  13  21   1    sleshen   2   1           30
+  6  14  13   1    kiwehon   7   0           30
+  6  15  23   1      frask   2   1           30
+  6  16   7   1      medan  17   1           31
+  6  17  12   1      botsy  17   0           30
+  6  18   9   1    laumens  24   1           30
+  6  19   4   1      yosud   8   0           30
+  6  20  14   1    molkate  23   0           30
+  6  21   5   1    permife   1   0           30
+  6  22  10   1      noste   3   1           30
+  6  23  19   1     hiwawa   8   1           30
+  7   0  20   2     uwimor  22   1           30
+  7   1   6   2     jaciyn   2   1           30
+  7   2  23   2      frask  24   1           30
+  7   3  13   2    kiwehon  22   0           30
+  7   4  19   2     hiwawa  16   1           30
+  7   5   9   2    laumens   0   1           30
+  7   6   5   2    permife  13   0           30
+  7   7  17   2      tewok   0   0           31
+  7   8   8   2     ubajec  12   1           30
+  7   9  16   2    umeuken   8   0           29
+  7  10  11   2      obacu   2   1           30
+  7  11  15   2    larnist   2   0           30
+  7  12   0   2    pimuide   0   0           30
+  7  13  18   2     schese  14   1           30
+  7  14   3   2     botuyn  17   0           30
+  7  15   7   2      medan   7   1           30
+  7  16   2   2     nalber   4   0           30
+  7  17   1   2    furasti  24   0           30
+  7  18  10   2      noste  16   1           30
+  7  19  14   2    molkate   4   0           30
+  7  20  21   2    sleshen  11   1           30
+  7  21   4   2      yosud  20   0           30
+  7  22  12   2      botsy   1   0           30
+  7  23  22   2    hilejin  18   1           30
+  8   0   3   3     botuyn   7   0           30
+  8   1   4   3      yosud  23   0           30
+  8   2  22   3    hilejin  14   1           30
+  8   3  13   3    kiwehon  15   0           30
+  8   4   6   3     jaciyn  21   1           30
+  8   5  16   3    umeuken  24   0           30
+  8   6   1   3    furasti   6   0           30
+  8   7  18   3     schese  23   1           31
+  8   8  17   3      tewok   5   0           30
+  8   9  19   3     hiwawa  21   1           29
+  8  10  23   3      frask   8   1           30
+  8  11   9   3    laumens  19   1           30
+  8  12   7   3      medan   5   1           30
+  8  13   0   3    pimuide  21   0           30
+  8  14  14   3    molkate  20   0           30
+  8  15  10   3      noste   8   1           30
+  8  16   2   3     nalber   9   0           30
+  8  17  21   3    sleshen  17   1           30
+  8  18  12   3      botsy  16   0           30
+  8  19   8   3     ubajec  18   1           30
+  8  20  15   3    larnist  18   0           30
+  8  21  11   3      obacu  22   1           30
+  8  22  20   3     uwimor  19   1           30
+  8  23   5   3    permife  15   0           30
+  9   0  14   4    molkate   0   0           30
+  9   1  18   4     schese  13   1           30
+  9   2   9   4    laumens  22   1           30
+  9   3   1   4    furasti  13   0           30
+  9   4  17   4      tewok   1   0           30
+  9   5  10   4      noste  17   1           30
+  9   6  23   4      frask  23   1           30
+  9   7  21   4    sleshen   9   1           30
+  9   8   4   4      yosud   3   0           30
+  9   9   8   4     ubajec   8   1           30
+  9  10  19   4     hiwawa  20   1           30
+  9  11   0   4    pimuide  10   0           30
+  9  12   3   4     botuyn  16   0           30
+  9  13   2   4     nalber   5   0           30
+  9  14  15   4    larnist  10   0           30
+  9  15   6   4     jaciyn   9   1           30
+  9  16  13   4    kiwehon   3   0           30
+  9  17   5   4    permife  10   0           30
+  9  18  12   4      botsy  12   0           30
+  9  19  16   4    umeuken  19   0           30
+  9  20   7   4      medan   4   1           31
+  9  21  22   4    hilejin  21   1           30
+  9  22  20   4     uwimor  12   1           30
+  9  23  11   4      obacu  10   1           30
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0  14 molkate   8   7   8 1940861032
+   1   7 medan   4   4   4 1940861032
+   2   0 pimuide   1   1   1 1940861032
+   3  13 kiwehon   8   7   7 1940861032
+   4   2 nalber   2   2   2 1940861032
+   5  17 tewok   7   7   7 1940861032
+   6  23 frask   4   4   4 1940861032
+   7   5 permife   1   1   1 1940861032
+   8  15 larnist   4   3   4 1940861032
+   9  21 sleshen   3   3   3 1940861032
+  10   9 laumens   5   4   4 1940861032
+  11   1 furasti   1   1   1 1940861032
+  12   8 ubajec   4   4   4 1940861032
+  13   6 jaciyn   4   4   4 1940861032
+  14  12 botsy   8   8   8 1940861032
+  15  16 umeuken   8   8   8 1940861032
+  16  11 obacu   4   4   4 1940861032
+  17  20 uwimor   4   4   4 1940861032
+  18  22 hilejin   4   3   3 1940861032
+  19   3 botuyn   1   1   1 1940861032
+  20  19 hiwawa   4   4   4 1940861032
+  21   4 yosud   1   1   1 1940861032
+  22  18 schese   4   4   4 1940861032
+  23  10 noste   4   3   3 1940861032
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 valenz_response valenz_rt sichtbar_response sichtbar_korrekt sichtbar_rt
+  9  24   1   2   1   1              LEHRAMT     0   0              pimuide   0  -1   0   0    18  19   0  21  10     1   1   1     0      999   0  -1      690
+  9  24   1   2   1   1              LEHRAMT     0   1              pimuide   0  -1   0   0    18  19   0  21  10     1   1   1     0      938   0  -1      790
+  9  24   1   2   1   1              LEHRAMT     0   2              pimuide   0  -1   0   0    18  19   0  21  10     1   1   1     0     1162   0  -1      683
+  9  24   1   2   1   1              LEHRAMT     0   3              pimuide   0  -1   0   0    18  19   0  21  10     1   1   1     1     1137   0  -1      634
+  9  24   1   2   1   1              LEHRAMT     0   4              pimuide   0  -1   0   0    18  19   0  21  10     1   1   1     0      798   0  -1      902
+  9  24   1   2   1   1              LEHRAMT     1   0              furasti   0  -1   0   0    14  12  24   6  13     1   1   1     0     1029   1  -1     2886
+  9  24   1   2   1   1              LEHRAMT     1   1              furasti   0  -1   0   0    14  12  24   6  13     1   1   1     0      934   1  -1     3679
+  9  24   1   2   1   1              LEHRAMT     1   2              furasti   0  -1   0   0    14  12  24   6  13     1   1   1     0     1018   1  -1      801
+  9  24   1   2   1   1              LEHRAMT     1   3              furasti   0  -1   0   0    14  12  24   6  13     1   1   1     0     2221   1  -1     1098
+  9  24   1   2   1   1              LEHRAMT     1   4              furasti   0  -1   0   0    14  12  24   6  13     1   1   1     0     1064   1  -1      833
+  9  24   1   2   1   1              LEHRAMT     2   0               nalber   0  -1   0   0     1  22   4   9   5     2   2   2     0      835   2  -1     2798
+  9  24   1   2   1   1              LEHRAMT     2   1               nalber   0  -1   0   0     1  22   4   9   5     2   2   2     0     1028   2  -1     2856
+  9  24   1   2   1   1              LEHRAMT     2   2               nalber   0  -1   0   0     1  22   4   9   5     2   2   2     0     1539   2  -1      889
+  9  24   1   2   1   1              LEHRAMT     2   3               nalber   0  -1   0   0     1  22   4   9   5     2   2   2     0    19355   2  -1     2115
+  9  24   1   2   1   1              LEHRAMT     2   4               nalber   0  -1   0   0     1  22   4   9   5     2   2   2     0     2222   2  -1     1940
+  9  24   1   2   1   1              LEHRAMT     3   0               botuyn   0  -1   0   0     2  11  17   7  16     1   1   1     0      980   3  -1      877
+  9  24   1   2   1   1              LEHRAMT     3   1               botuyn   0  -1   0   0     2  11  17   7  16     1   1   1     0     1118   3  -1      884
+  9  24   1   2   1   1              LEHRAMT     3   2               botuyn   0  -1   0   0     2  11  17   7  16     1   1   1     0     1166   3  -1      842
+  9  24   1   2   1   1              LEHRAMT     3   3               botuyn   0  -1   0   0     2  11  17   7  16     1   1   1     0      909   3  -1      696
+  9  24   1   2   1   1              LEHRAMT     3   4               botuyn   0  -1   0   0     2  11  17   7  16     1   1   1     0     1227   3  -1      993
+  9  24   1   2   1   1              LEHRAMT     4   0                yosud   0  -1   0   0    15   8  20  23   3     1   1   1     0     1248   4  -1      877
+  9  24   1   2   1   1              LEHRAMT     4   1                yosud   0  -1   0   0    15   8  20  23   3     1   1   1     0      821   4  -1     1037
+  9  24   1   2   1   1              LEHRAMT     4   2                yosud   0  -1   0   0    15   8  20  23   3     1   1   1     0      737   4  -1      859
+  9  24   1   2   1   1              LEHRAMT     4   3                yosud   0  -1   0   0    15   8  20  23   3     1   1   1     0     1077   4  -1     1054
+  9  24   1   2   1   1              LEHRAMT     4   4                yosud   0  -1   0   0    15   8  20  23   3     1   1   1     0     1044   4  -1      787
+  9  24   1   2   1   1              LEHRAMT     5   0              permife   0  -1   0   0    20   1  13  15  10     1   1   1     0      992   5  -1      968
+  9  24   1   2   1   1              LEHRAMT     5   1              permife   0  -1   0   0    20   1  13  15  10     1   1   1     0      917   5  -1      957
+  9  24   1   2   1   1              LEHRAMT     5   2              permife   0  -1   0   0    20   1  13  15  10     1   1   1     0      701   5  -1      650
+  9  24   1   2   1   1              LEHRAMT     5   3              permife   0  -1   0   0    20   1  13  15  10     1   1   1     0     1356   5  -1      554
+  9  24   1   2   1   1              LEHRAMT     5   4              permife   0  -1   0   0    20   1  13  15  10     1   1   1     0      727   5  -1      599
+  9  24   1   2   1   1              LEHRAMT     6   0               jaciyn   0  -1   0   1    14  23   2  21   9     4   4   4     1     1027   5  -1     5277
+  9  24   1   2   1   1              LEHRAMT     6   1               jaciyn   0  -1   0   1    14  23   2  21   9     4   4   4     1     1656  17  -1     3687
+  9  24   1   2   1   1              LEHRAMT     6   2               jaciyn   0  -1   0   1    14  23   2  21   9     4   4   4     1      884   5  -1      814
+  9  24   1   2   1   1              LEHRAMT     6   3               jaciyn   0  -1   0   1    14  23   2  21   9     4   4   4     1      848   2  -1      745
+  9  24   1   2   1   1              LEHRAMT     6   4               jaciyn   0  -1   0   1    14  23   2  21   9     4   4   4     1      787   4  -1      793
+  9  24   1   2   1   1              LEHRAMT     7   0                medan   0  -1   0   1     3  17   7   5   4     4   4   4     1     1010   9  -1     2516
+  9  24   1   2   1   1              LEHRAMT     7   1                medan   0  -1   0   1     3  17   7   5   4     4   4   4     1      764   5  -1     4594
+  9  24   1   2   1   1              LEHRAMT     7   2                medan   0  -1   0   1     3  17   7   5   4     4   4   4     1     1198   3  -1     6236
+  9  24   1   2   1   1              LEHRAMT     7   3                medan   0  -1   0   1     3  17   7   5   4     4   4   4     1     1573   0  -1     1419
+  9  24   1   2   1   1              LEHRAMT     7   4                medan   0  -1   0   1     3  17   7   5   4     4   4   4     1     1181  20  -1     1524
+  9  24   1   2   1   1              LEHRAMT     8   0               ubajec   0  -1   0   1    16  11  12  18   8     4   4   4     1     1340  17  -1     1842
+  9  24   1   2   1   1              LEHRAMT     8   1               ubajec   0  -1   0   1    16  11  12  18   8     4   4   4     1     1020   1  -1     2792
+  9  24   1   2   1   1              LEHRAMT     8   2               ubajec   0  -1   0   1    16  11  12  18   8     4   4   4     0      919   1  -1     1695
+  9  24   1   2   1   1              LEHRAMT     8   3               ubajec   0  -1   0   1    16  11  12  18   8     4   4   4     1     2810   5  -1     1455
+  9  24   1   2   1   1              LEHRAMT     8   4               ubajec   0  -1   0   1    16  11  12  18   8     4   4   4     1      738   4  -1     6053
+  9  24   1   2   1   1              LEHRAMT     9   0              laumens   0  -1   0   1     6  24   0  19  22     5   4   4     1     1112  20  -1     7415
+  9  24   1   2   1   1              LEHRAMT     9   1              laumens   0  -1   0   1     6  24   0  19  22     5   4   4     1      731   5  -1    11950
+  9  24   1   2   1   1              LEHRAMT     9   2              laumens   0  -1   0   1     6  24   0  19  22     5   4   4     1      901   4  -1     2868
+  9  24   1   2   1   1              LEHRAMT     9   3              laumens   0  -1   0   1     6  24   0  19  22     5   4   4     1      883   5  -1     2718
+  9  24   1   2   1   1              LEHRAMT     9   4              laumens   0  -1   0   1     6  24   0  19  22     5   4   4     1      725   4  -1     4163
+  9  24   1   2   1   1              LEHRAMT    10   0                noste   0  -1   0   1    18   3  16   8  17     4   3   3     1     1221   4  -1     3206
+  9  24   1   2   1   1              LEHRAMT    10   1                noste   0  -1   0   1    18   3  16   8  17     4   3   3     1      811  21  -1     4645
+  9  24   1   2   1   1              LEHRAMT    10   2                noste   0  -1   0   1    18   3  16   8  17     4   3   3     1     1281   2  -1     5492
+  9  24   1   2   1   1              LEHRAMT    10   3                noste   0  -1   0   1    18   3  16   8  17     4   3   3     1     1068   4  -1     3004
+  9  24   1   2   1   1              LEHRAMT    10   4                noste   0  -1   0   1    18   3  16   8  17     4   3   3     1     1265   4  -1     3143
+  9  24   1   2   1   1              LEHRAMT    11   0                obacu   0  -1   0   1    11  15   2  22  10     4   4   4     1      898   3  -1     2199
+  9  24   1   2   1   1              LEHRAMT    11   1                obacu   0  -1   0   1    11  15   2  22  10     4   4   4     1      879   5  -1     1352
+  9  24   1   2   1   1              LEHRAMT    11   2                obacu   0  -1   0   1    11  15   2  22  10     4   4   4     1      899   4  -1     3936
+  9  24   1   2   1   1              LEHRAMT    11   3                obacu   0  -1   0   1    11  15   2  22  10     4   4   4     1      918   2  -1     8307
+  9  24   1   2   1   1              LEHRAMT    11   4                obacu   0  -1   0   1    11  15   2  22  10     4   4   4     1      789   5  -1      839
+  9  24   1   2   1   1              LEHRAMT    12   0                botsy   0  -1   1   0     5  17   1  16  12     8   8   8     0     1022  12  -1      726
+  9  24   1   2   1   1              LEHRAMT    12   1                botsy   0  -1   1   0     5  17   1  16  12     8   8   8     0      802  12  -1      782
+  9  24   1   2   1   1              LEHRAMT    12   2                botsy   0  -1   1   0     5  17   1  16  12     8   8   8     0      643  12  -1      818
+  9  24   1   2   1   1              LEHRAMT    12   3                botsy   0  -1   1   0     5  17   1  16  12     8   8   8     0     2725  12  -1      812
+  9  24   1   2   1   1              LEHRAMT    12   4                botsy   0  -1   1   0     5  17   1  16  12     8   8   8     0      696  12  -1      759
+  9  24   1   2   1   1              LEHRAMT    13   0              kiwehon   0  -1   1   0     6   7  22  15   3     8   7   7     0     1500  13  -1     2178
+  9  24   1   2   1   1              LEHRAMT    13   1              kiwehon   0  -1   1   0     6   7  22  15   3     8   7   7     0      865  13  -1     2181
+  9  24   1   2   1   1              LEHRAMT    13   2              kiwehon   0  -1   1   0     6   7  22  15   3     8   7   7     0      889  13  -1     1527
+  9  24   1   2   1   1              LEHRAMT    13   3              kiwehon   0  -1   1   0     6   7  22  15   3     8   7   7     0      629  13  -1     1722
+  9  24   1   2   1   1              LEHRAMT    13   4              kiwehon   0  -1   1   0     6   7  22  15   3     8   7   7     0     1394  13  -1     1182
+  9  24   1   2   1   1              LEHRAMT    14   0              molkate   0  -1   1   0    11  23   4  20   0     8   7   8     0      981  14  -1     1003
+  9  24   1   2   1   1              LEHRAMT    14   1              molkate   0  -1   1   0    11  23   4  20   0     8   7   8     0      959  14  -1     1132
+  9  24   1   2   1   1              LEHRAMT    14   2              molkate   0  -1   1   0    11  23   4  20   0     8   7   8     0      775  14  -1      929
+  9  24   1   2   1   1              LEHRAMT    14   3              molkate   0  -1   1   0    11  23   4  20   0     8   7   8     0      789  14  -1      909
+  9  24   1   2   1   1              LEHRAMT    14   4              molkate   0  -1   1   0    11  23   4  20   0     8   7   8     0     1121  14  -1     1104
+  9  24   1   2   1   1              LEHRAMT    15   0              larnist   0  -1   1   0    14   9   2  18  10     4   3   4     0      883  15  -1      965
+  9  24   1   2   1   1              LEHRAMT    15   1              larnist   0  -1   1   0    14   9   2  18  10     4   3   4     0     1189  15  -1     1886
+  9  24   1   2   1   1              LEHRAMT    15   2              larnist   0  -1   1   0    14   9   2  18  10     4   3   4     0     1253  15  -1     2400
+  9  24   1   2   1   1              LEHRAMT    15   3              larnist   0  -1   1   0    14   9   2  18  10     4   3   4     0     1031  15  -1     2566
+  9  24   1   2   1   1              LEHRAMT    15   4              larnist   0  -1   1   0    14   9   2  18  10     4   3   4     0     1082  15  -1     1975
+  9  24   1   2   1   1              LEHRAMT    16   0              umeuken   0  -1   1   0    13  21   8  24  19     8   8   8     0      887  16  -1     2635
+  9  24   1   2   1   1              LEHRAMT    16   1              umeuken   0  -1   1   0    13  21   8  24  19     8   8   8     0      859  16  -1     3547
+  9  24   1   2   1   1              LEHRAMT    16   2              umeuken   0  -1   1   0    13  21   8  24  19     8   8   8     0     1458  16  -1     2154
+  9  24   1   2   1   1              LEHRAMT    16   3              umeuken   0  -1   1   0    13  21   8  24  19     8   8   8     0     1058  16  -1     1553
+  9  24   1   2   1   1              LEHRAMT    16   4              umeuken   0  -1   1   0    13  21   8  24  19     8   8   8     0      836  16  -1      638
+  9  24   1   2   1   1              LEHRAMT    17   0                tewok   0  -1   1   0    10   3   0   5   1     7   7   7     0     1505  17  -1      841
+  9  24   1   2   1   1              LEHRAMT    17   1                tewok   0  -1   1   0    10   3   0   5   1     7   7   7     0     1164  17  -1     1733
+  9  24   1   2   1   1              LEHRAMT    17   2                tewok   0  -1   1   0    10   3   0   5   1     7   7   7     0      752  17  -1     1664
+  9  24   1   2   1   1              LEHRAMT    17   3                tewok   0  -1   1   0    10   3   0   5   1     7   7   7     0      588  17  -1     1523
+  9  24   1   2   1   1              LEHRAMT    17   4                tewok   0  -1   1   0    10   3   0   5   1     7   7   7     0      916  17  -1      797
+  9  24   1   2   1   1              LEHRAMT    18   0               schese   0  -1   1   1    24   4  14  23  13     4   4   4     1      976   6  -1     1666
+  9  24   1   2   1   1              LEHRAMT    18   1               schese   0  -1   1   1    24   4  14  23  13     4   4   4     0     1705  12  -1      912
+  9  24   1   2   1   1              LEHRAMT    18   2               schese   0  -1   1   1    24   4  14  23  13     4   4   4     1     1158   2  -1     9828
+  9  24   1   2   1   1              LEHRAMT    18   3               schese   0  -1   1   1    24   4  14  23  13     4   4   4     1     1039  14  -1     4576
+  9  24   1   2   1   1              LEHRAMT    18   4               schese   0  -1   1   1    24   4  14  23  13     4   4   4     1     1136  14  -1      801
+  9  24   1   2   1   1              LEHRAMT    19   0               hiwawa   0  -1   1   1     6   8  16  21  20     4   4   4     1     1055   4  -1     2300
+  9  24   1   2   1   1              LEHRAMT    19   1               hiwawa   0  -1   1   1     6   8  16  21  20     4   4   4     1      996  12  -1      940
+  9  24   1   2   1   1              LEHRAMT    19   2               hiwawa   0  -1   1   1     6   8  16  21  20     4   4   4     1     1467  14  -1     7237
+  9  24   1   2   1   1              LEHRAMT    19   3               hiwawa   0  -1   1   1     6   8  16  21  20     4   4   4     1     1189  16  -1     1057
+  9  24   1   2   1   1              LEHRAMT    19   4               hiwawa   0  -1   1   1     6   8  16  21  20     4   4   4     1      849  14  -1      720
+  9  24   1   2   1   1              LEHRAMT    20   0               uwimor   0  -1   1   1     7  18  22  19  12     4   4   4     1     1234  15  -1     4237
+  9  24   1   2   1   1              LEHRAMT    20   1               uwimor   0  -1   1   1     7  18  22  19  12     4   4   4     1     1019  22  -1     4415
+  9  24   1   2   1   1              LEHRAMT    20   2               uwimor   0  -1   1   1     7  18  22  19  12     4   4   4     1     1492  14  -1     2126
+  9  24   1   2   1   1              LEHRAMT    20   3               uwimor   0  -1   1   1     7  18  22  19  12     4   4   4     1      801  14  -1     8039
+  9  24   1   2   1   1              LEHRAMT    20   4               uwimor   0  -1   1   1     7  18  22  19  12     4   4   4     1      997  12  -1      729
+  9  24   1   2   1   1              LEHRAMT    21   0              sleshen   0  -1   1   1    15   2  11  17   9     3   3   3     1     1466   3  -1     2303
+  9  24   1   2   1   1              LEHRAMT    21   1              sleshen   0  -1   1   1    15   2  11  17   9     3   3   3     1      853  21  -1     1153
+  9  24   1   2   1   1              LEHRAMT    21   2              sleshen   0  -1   1   1    15   2  11  17   9     3   3   3     0     1084  14  -1      751
+  9  24   1   2   1   1              LEHRAMT    21   3              sleshen   0  -1   1   1    15   2  11  17   9     3   3   3     1      802  12  -1     1224
+  9  24   1   2   1   1              LEHRAMT    21   4              sleshen   0  -1   1   1    15   2  11  17   9     3   3   3     1      787  12  -1     1254
+  9  24   1   2   1   1              LEHRAMT    22   0              hilejin   0  -1   1   1    16   4  18  14  21     4   3   3     1      855   3  -1    12943
+  9  24   1   2   1   1              LEHRAMT    22   1              hilejin   0  -1   1   1    16   4  18  14  21     4   3   3     1      897  23  -1     2073
+  9  24   1   2   1   1              LEHRAMT    22   2              hilejin   0  -1   1   1    16   4  18  14  21     4   3   3     1     1043  14  -1     2709
+  9  24   1   2   1   1              LEHRAMT    22   3              hilejin   0  -1   1   1    16   4  18  14  21     4   3   3     1     1258  12  -1      984
+  9  24   1   2   1   1              LEHRAMT    22   4              hilejin   0  -1   1   1    16   4  18  14  21     4   3   3     1     2133  14  -1      799
+  9  24   1   2   1   1              LEHRAMT    23   0                frask   0  -1   1   1    19   2  24   8  23     4   4   4     1     1103   3  -1     7626
+  9  24   1   2   1   1              LEHRAMT    23   1                frask   0  -1   1   1    19   2  24   8  23     4   4   4     1      746  23  -1      996
+  9  24   1   2   1   1              LEHRAMT    23   2                frask   0  -1   1   1    19   2  24   8  23     4   4   4     1     1206  14  -1     7101
+  9  24   1   2   1   1              LEHRAMT    23   3                frask   0  -1   1   1    19   2  24   8  23     4   4   4     1      994  12  -1     3191
+  9  24   1   2   1   1              LEHRAMT    23   4                frask   0  -1   1   1    19   2  24   8  23     4   4   4     1      627  14  -1      809

@@ -1,0 +1,21 @@
+# read txt file, remove tab from last row
+def getList (listname):
+    wordList = []
+    for eachLine in range(len(listname)) :
+        currentWord = listname[eachLine][:-1]
+        wordList.append(currentWord) 
+    return wordList
+
+
+print(range(150))
+
+for everyList in range(150):
+    number = everyList+1
+    list1 = list(open("DataDemographics"number".txt", "r")) #File needs to be in current working directory
+    list1a = (list1[0])
+    list1b = (list1[1])
+    list1b =(list1b[:-1])
+    outputFile = open("./Neu30062015/DataDemographics"number".txt", "a") 
+    outputFile.write(list1a) 
+    outputFile.write(list1b)
+    outputFile.close()

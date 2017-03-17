@@ -1,0 +1,249 @@
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0  laumens   0  -1   0   0   7  16  15   1  13 -1  -1  -1
+  1  kiwehon   0  -1   0   0   6  17  20   3   5 -1  -1  -1
+  2    frask   0  -1   0   0  23  18  19   9   4 -1  -1  -1
+  3    medan   0  -1   0   0  12  22   8  11  24 -1  -1  -1
+  4    noste   0  -1   0   0   2  14   0  10  21 -1  -1  -1
+  5   ubajec   0  -1   0   0  19  12  18  17   1 -1  -1  -1
+  6   hiwawa   0  -1   0   1   0  10  22   9  23 -1  -1  -1
+  7  sleshen   0  -1   0   1   6  24  16  13  11 -1  -1  -1
+  8  larnist   0  -1   0   1   8   2   3   7   4 -1  -1  -1
+  9  furasti   0  -1   0   1  21  20  14  15   5 -1  -1  -1
+ 10  pimuide   0  -1   0   1  19   6  17  18  15 -1  -1  -1
+ 11  permife   0  -1   0   1  10  20   4   3   0 -1  -1  -1
+ 12    yosud   0  -1   1   0  24  17  23   2  11 -1  -1  -1
+ 13   botuyn   0  -1   1   0  13   6   9   8  19 -1  -1  -1
+ 14    obacu   0  -1   1   0   7   3  22  15  20 -1  -1  -1
+ 15    botsy   0  -1   1   0  14   4   5  16  21 -1  -1  -1
+ 16   uwimor   0  -1   1   0   0  10  12  18   1 -1  -1  -1
+ 17  hilejin   0  -1   1   0   6  23   5   7  10 -1  -1  -1
+ 18   jaciyn   0  -1   1   1  18   2  17   3   9 -1  -1  -1
+ 19   schese   0  -1   1   1   8  15  14  16   4 -1  -1  -1
+ 20  molkate   0  -1   1   1   0  24  22   1  12 -1  -1  -1
+ 21    tewok   0  -1   1   1  13  20  19  21  11 -1  -1  -1
+ 22  umeuken   0  -1   1   1  19   4   0  15  20 -1  -1  -1
+ 23   nalber   0  -1   1   1   6  10   1  11   9 -1  -1  -1
+ 24   hübsch   1   0   0   0  23   7  21   5  22 -1  -1  -1
+ 25    schön   1   0   0   0  14  24   8  11  12 -1  -1  -1
+ 26    jacht   1   0   0   0   9  13  16   1   2 -1  -1  -1
+ 27   schatz   1   0   0   1  11   9   6  13   8 -1  -1  -1
+ 28     baby   1   0   0   1  22   2  24  14   0 -1  -1  -1
+ 29     tanz   1   0   0   1  20  16   4   3  15 -1  -1  -1
+ 30   ananas   1   0   1   0   8  18  22  14  13 -1  -1  -1
+ 31    sanft   1   0   1   0   3   7  17  16  12 -1  -1  -1
+ 32    sacht   1   0   1   0   5  24  21  23   2 -1  -1  -1
+ 33     jazz   1   0   1   1   3  12  21  17  16 -1  -1  -1
+ 34     bach   1   0   1   1  19   2  11   0   9 -1  -1  -1
+ 35  hautnah   1   0   1   1   1  13   7  14  15 -1  -1  -1
+ 36     irre   1   1   0   0  18   7   1  19   5 -1  -1  -1
+ 37     mord   1   1   0   0  23  10  17  21  12 -1  -1  -1
+ 38    krieg   1   1   0   0  11   4   2  20  17 -1  -1  -1
+ 39    groll   1   1   0   1  15  10  21  12  14 -1  -1  -1
+ 40  erreger   1   1   0   1   7   6  16   3   1 -1  -1  -1
+ 41    kippe   1   1   0   1  24  22   5  19  23 -1  -1  -1
+ 42    eklig   1   1   1   0  24  22   5   8  20 -1  -1  -1
+ 43    viper   1   1   1   0   4   6  10  18  23 -1  -1  -1
+ 44   gierig   1   1   1   0   3   7   2  20  16 -1  -1  -1
+ 45   kerker   1   1   1   1   8  19  12  18   5 -1  -1  -1
+ 46  grimmig   1   1   1   1   1  22   9  14   6 -1  -1  -1
+ 47    droge   1   1   1   1  24  11  23  10  21 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 laumens 
+  0   1 kiwehon 
+  0   2 frask 
+  0   3 medan 
+  0   4 noste 
+  1   0 ubajec 
+  1   1 hiwawa 
+  1   2 sleshen 
+  1   3 larnist 
+  1   4 furasti 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 laumens   0   0   7 bild/neg (8)s (Large).bmp
+  0 laumens   0   1  16 bild/neg (17)s (Large).bmp
+  0 laumens   0   2  15 bild/neg (16)s (Large).bmp
+  0 laumens   0   3   1 bild/neg (2)s (Large).bmp
+  0 laumens   0   4  13 bild/neg (14)s (Large).bmp
+  1 kiwehon   0   0   6 bild/neg (7)s (Large).bmp
+  1 kiwehon   0   1  17 bild/neg (18)s (Large).bmp
+  1 kiwehon   0   2  20 bild/neg (21)s (Large).bmp
+  1 kiwehon   0   3   3 bild/neg (4)s (Large).bmp
+  1 kiwehon   0   4   5 bild/neg (6)s (Large).bmp
+  2 frask   0   0  23 bild/neg (24)s (Large).bmp
+  2 frask   0   1  18 bild/neg (19)s (Large).bmp
+  2 frask   0   2  19 bild/neg (20)s (Large).bmp
+  2 frask   0   3   9 bild/neg (10)s (Large).bmp
+  2 frask   0   4   4 bild/neg (5)s (Large).bmp
+  3 medan   0   0  12 bild/neg (13)s (Large).bmp
+  3 medan   0   1  22 bild/neg (23)s (Large).bmp
+  3 medan   0   2   8 bild/neg (9)s (Large).bmp
+  3 medan   0   3  11 bild/neg (12)s (Large).bmp
+  3 medan   0   4  24 bild/neg (25)s (Large).bmp
+  4 noste   0   0   2 bild/neg (3)s (Large).bmp
+  4 noste   0   1  14 bild/neg (15)s (Large).bmp
+  4 noste   0   2   0 bild/neg (1)s (Large).bmp
+  4 noste   0   3  10 bild/neg (11)s (Large).bmp
+  4 noste   0   4  21 bild/neg (22)s (Large).bmp
+  5 ubajec   0   0  19 bild/neg (20)s (Large).bmp
+  5 ubajec   0   1  12 bild/neg (13)s (Large).bmp
+  5 ubajec   0   2  18 bild/neg (19)s (Large).bmp
+  5 ubajec   0   3  17 bild/neg (18)s (Large).bmp
+  5 ubajec   0   4   1 bild/neg (2)s (Large).bmp
+  6 hiwawa   0   0   0 bild/neg (1)s (Large).bmp
+  6 hiwawa   0   1  10 bild/neg (11)s (Large).bmp
+  6 hiwawa   0   2  22 bild/neg (23)s (Large).bmp
+  6 hiwawa   0   3   9 bild/neg (10)s (Large).bmp
+  6 hiwawa   0   4  23 bild/neg (24)s (Large).bmp
+  7 sleshen   0   0   6 bild/neg (7)s (Large).bmp
+  7 sleshen   0   1  24 bild/neg (25)s (Large).bmp
+  7 sleshen   0   2  16 bild/neg (17)s (Large).bmp
+  7 sleshen   0   3  13 bild/neg (14)s (Large).bmp
+  7 sleshen   0   4  11 bild/neg (12)s (Large).bmp
+  8 larnist   0   0   8 bild/neg (9)s (Large).bmp
+  8 larnist   0   1   2 bild/neg (3)s (Large).bmp
+  8 larnist   0   2   3 bild/neg (4)s (Large).bmp
+  8 larnist   0   3   7 bild/neg (8)s (Large).bmp
+  8 larnist   0   4   4 bild/neg (5)s (Large).bmp
+  9 furasti   0   0  21 bild/neg (22)s (Large).bmp
+  9 furasti   0   1  20 bild/neg (21)s (Large).bmp
+  9 furasti   0   2  14 bild/neg (15)s (Large).bmp
+  9 furasti   0   3  15 bild/neg (16)s (Large).bmp
+  9 furasti   0   4   5 bild/neg (6)s (Large).bmp
+ 10 pimuide   0   0  19 bild/neg (20)s (Large).bmp
+ 10 pimuide   0   1   6 bild/neg (7)s (Large).bmp
+ 10 pimuide   0   2  17 bild/neg (18)s (Large).bmp
+ 10 pimuide   0   3  18 bild/neg (19)s (Large).bmp
+ 10 pimuide   0   4  15 bild/neg (16)s (Large).bmp
+ 11 permife   0   0  10 bild/neg (11)s (Large).bmp
+ 11 permife   0   1  20 bild/neg (21)s (Large).bmp
+ 11 permife   0   2   4 bild/neg (5)s (Large).bmp
+ 11 permife   0   3   3 bild/neg (4)s (Large).bmp
+ 11 permife   0   4   0 bild/neg (1)s (Large).bmp
+ 12 yosud   1   0  24 bild/pos (25)s (Large).bmp
+ 12 yosud   1   1  17 bild/pos (18)s (Large).bmp
+ 12 yosud   1   2  23 bild/pos (24)s (Large).bmp
+ 12 yosud   1   3   2 bild/pos (3)s (Large).bmp
+ 12 yosud   1   4  11 bild/pos (12)s (Large).bmp
+ 13 botuyn   1   0  13 bild/pos (14)s (Large).bmp
+ 13 botuyn   1   1   6 bild/pos (7)s (Large).bmp
+ 13 botuyn   1   2   9 bild/pos (10)s (Large).bmp
+ 13 botuyn   1   3   8 bild/pos (9)s (Large).bmp
+ 13 botuyn   1   4  19 bild/pos (20)s (Large).bmp
+ 14 obacu   1   0   7 bild/pos (8)s (Large).bmp
+ 14 obacu   1   1   3 bild/pos (4)s (Large).bmp
+ 14 obacu   1   2  22 bild/pos (23)s (Large).bmp
+ 14 obacu   1   3  15 bild/pos (16)s (Large).bmp
+ 14 obacu   1   4  20 bild/pos (21)s (Large).bmp
+ 15 botsy   1   0  14 bild/pos (15)s (Large).bmp
+ 15 botsy   1   1   4 bild/pos (5)s (Large).bmp
+ 15 botsy   1   2   5 bild/pos (6)s (Large).bmp
+ 15 botsy   1   3  16 bild/pos (17)s (Large).bmp
+ 15 botsy   1   4  21 bild/pos (22)s (Large).bmp
+ 16 uwimor   1   0   0 bild/pos (1)s (Large).bmp
+ 16 uwimor   1   1  10 bild/pos (11)s (Large).bmp
+ 16 uwimor   1   2  12 bild/pos (13)s (Large).bmp
+ 16 uwimor   1   3  18 bild/pos (19)s (Large).bmp
+ 16 uwimor   1   4   1 bild/pos (2)s (Large).bmp
+ 17 hilejin   1   0   6 bild/pos (7)s (Large).bmp
+ 17 hilejin   1   1  23 bild/pos (24)s (Large).bmp
+ 17 hilejin   1   2   5 bild/pos (6)s (Large).bmp
+ 17 hilejin   1   3   7 bild/pos (8)s (Large).bmp
+ 17 hilejin   1   4  10 bild/pos (11)s (Large).bmp
+ 18 jaciyn   1   0  18 bild/pos (19)s (Large).bmp
+ 18 jaciyn   1   1   2 bild/pos (3)s (Large).bmp
+ 18 jaciyn   1   2  17 bild/pos (18)s (Large).bmp
+ 18 jaciyn   1   3   3 bild/pos (4)s (Large).bmp
+ 18 jaciyn   1   4   9 bild/pos (10)s (Large).bmp
+ 19 schese   1   0   8 bild/pos (9)s (Large).bmp
+ 19 schese   1   1  15 bild/pos (16)s (Large).bmp
+ 19 schese   1   2  14 bild/pos (15)s (Large).bmp
+ 19 schese   1   3  16 bild/pos (17)s (Large).bmp
+ 19 schese   1   4   4 bild/pos (5)s (Large).bmp
+ 20 molkate   1   0   0 bild/pos (1)s (Large).bmp
+ 20 molkate   1   1  24 bild/pos (25)s (Large).bmp
+ 20 molkate   1   2  22 bild/pos (23)s (Large).bmp
+ 20 molkate   1   3   1 bild/pos (2)s (Large).bmp
+ 20 molkate   1   4  12 bild/pos (13)s (Large).bmp
+ 21 tewok   1   0  13 bild/pos (14)s (Large).bmp
+ 21 tewok   1   1  20 bild/pos (21)s (Large).bmp
+ 21 tewok   1   2  19 bild/pos (20)s (Large).bmp
+ 21 tewok   1   3  21 bild/pos (22)s (Large).bmp
+ 21 tewok   1   4  11 bild/pos (12)s (Large).bmp
+ 22 umeuken   1   0  19 bild/pos (20)s (Large).bmp
+ 22 umeuken   1   1   4 bild/pos (5)s (Large).bmp
+ 22 umeuken   1   2   0 bild/pos (1)s (Large).bmp
+ 22 umeuken   1   3  15 bild/pos (16)s (Large).bmp
+ 22 umeuken   1   4  20 bild/pos (21)s (Large).bmp
+ 23 nalber   1   0   6 bild/pos (7)s (Large).bmp
+ 23 nalber   1   1  10 bild/pos (11)s (Large).bmp
+ 23 nalber   1   2   1 bild/pos (2)s (Large).bmp
+ 23 nalber   1   3  11 bild/pos (12)s (Large).bmp
+ 23 nalber   1   4   9 bild/pos (10)s (Large).bmp
+ 24 hübsch   0   0  23 bild/neg (24)s (Large).bmp
+ 24 hübsch   0   1   7 bild/neg (8)s (Large).bmp
+ 24 hübsch   0   2  21 bild/neg (22)s (Large).bmp
+ 24 hübsch   0   3   5 bild/neg (6)s (Large).bmp
+ 24 hübsch   0   4  22 bild/neg (23)s (Large).bmp
+ 25 schön   0   0  14 bild/neg (15)s (Large).bmp
+ 25 schön   0   1  24 bild/neg (25)s (Large).bmp
+ 25 schön   0   2   8 bild/neg (9)s (Large).bmp
+ 25 schön   0   3  11 bild/neg (12)s (Large).bmp
+ 25 schön   0   4  12 bild/neg (13)s (Large).bmp
+ 26 jacht   0   0   9 bild/neg (10)s (Large).bmp
+ 26 jacht   0   1  13 bild/neg (14)s (Large).bmp
+ 26 jacht   0   2  16 bild/neg (17)s (Large).bmp
+ 26 jacht   0   3   1 bild/neg (2)s (Large).bmp
+ 26 jacht   0   4   2 bild/neg (3)s (Large).bmp
+ 27 schatz   0   0  11 bild/neg (12)s (Large).bmp
+ 27 schatz   0   1   9 bild/neg (10)s (Large).bmp
+ 27 schatz   0   2   6 bild/neg (7)s (Large).bmp
+ 27 schatz   0   3  13 bild/neg (14)s (Large).bmp
+ 27 schatz   0   4   8 bild/neg (9)s (Large).bmp
+ 28 baby   0   0  22 bild/neg (23)s (Large).bmp
+ 28 baby   0   1   2 bild/neg (3)s (Large).bmp
+ 28 baby   0   2  24 bild/neg (25)s (Large).bmp
+ 28 baby   0   3  14 bild/neg (15)s (Large).bmp
+ 28 baby   0   4   0 bild/neg (1)s (Large).bmp
+ 29 tanz   0   0  20 bild/neg (21)s (Large).bmp
+ 29 tanz   0   1  16 bild/neg (17)s (Large).bmp
+ 29 tanz   0   2   4 bild/neg (5)s (Large).bmp
+ 29 tanz   0   3   3 bild/neg (4)s (Large).bmp
+ 29 tanz   0   4  15 bild/neg (16)s (Large).bmp
+ 30 ananas   1   0   8 bild/pos (9)s (Large).bmp
+ 30 ananas   1   1  18 bild/pos (19)s (Large).bmp
+ 30 ananas   1   2  22 bild/pos (23)s (Large).bmp
+ 30 ananas   1   3  14 bild/pos (15)s (Large).bmp
+ 30 ananas   1   4  13 bild/pos (14)s (Large).bmp
+ 31 sanft   1   0   3 bild/pos (4)s (Large).bmp
+ 31 sanft   1   1   7 bild/pos (8)s (Large).bmp
+ 31 sanft   1   2  17 bild/pos (18)s (Large).bmp
+ 31 sanft   1   3  16 bild/pos (17)s (Large).bmp
+ 31 sanft   1   4  12 bild/pos (13)s (Large).bmp
+ 32 sacht   1   0   5 bild/pos (6)s (Large).bmp
+ 32 sacht   1   1  24 bild/pos (25)s (Large).bmp
+ 32 sacht   1   2  21 bild/pos (22)s (Large).bmp
+ 32 sacht   1   3  23 bild/pos (24)s (Large).bmp
+ 32 sacht   1   4   2 bild/pos (3)s (Large).bmp
+ 33 jazz   1   0   3 bild/pos (4)s (Large).bmp
+ 33 jazz   1   1  12 bild/pos (13)s (Large).bmp
+ 33 jazz   1   2  21 bild/pos (22)s (Large).bmp
+ 33 jazz   1   3  17 bild/pos (18)s (Large).bmp
+ 33 jazz   1   4  16 bild/pos (17)s (Large).bmp
+ 34 bach   1   0  19 bild/pos (20)s (Large).bmp
+ 34 bach   1   1   2 bild/pos (3)s (Large).bmp
+ 34 bach   1   2  11 bild/pos (12)s (Large).bmp
+ 34 bach   1   3   0 bild/pos (1)s (Large).bmp
+ 34 bach   1   4   9 bild/pos (10)s (Large).bmp
+ 35 hautnah   1   0   1 bild/pos (2)s (Large).bmp
+ 35 hautnah   1   1  13 bild/pos (14)s (Large).bmp
+ 35 hautnah   1   2   7 bild/pos (8)s (Large).bmp
+ 35 hautnah   1   3  14 bild/pos (15)s (Large).bmp
+ 35 hautnah   1   4  15 bild/pos (16)s (Large).bmp
+ 36 irre   0   0  18 bild/neg (19)s (Large).bmp
+ 36 irre   0   1   7 bild/neg (8)s (Large).bmp
+ 36

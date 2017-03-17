@@ -1,0 +1,554 @@
+ECOsub3 [07-2012]
+ 46   0   0
+ 25   1   1   1 POOLITTOLOGIE
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0  hilejin   0  -1   0   0  21  23   1  13  16 -1  -1  -1
+  1  molkate   0  -1   0   0   6   2   0  12  14 -1  -1  -1
+  2    obacu   0  -1   0   0  11   7   9  22  24 -1  -1  -1
+  3   hiwawa   0  -1   0   0  15   4  20   3   8 -1  -1  -1
+  4  umeuken   0  -1   0   0   5  10  19  18  17 -1  -1  -1
+  5  permife   0  -1   0   0   3   8  10  22  21 -1  -1  -1
+  6    tewok   0  -1   0   1  23   6  20  13  16 -1  -1  -1
+  7   ubajec   0  -1   0   1   2  17   1   9  11 -1  -1  -1
+  8   nalber   0  -1   0   1   5  15  12   7  19 -1  -1  -1
+  9   schese   0  -1   0   1  24   0  14  18   4 -1  -1  -1
+ 10    noste   0  -1   0   1  20  10  12   2   7 -1  -1  -1
+ 11  larnist   0  -1   0   1   0  15   3  14   9 -1  -1  -1
+ 12    yosud   0  -1   1   0   9  21   4  24  15 -1  -1  -1
+ 13  furasti   0  -1   1   0   8   5  18   0   1 -1  -1  -1
+ 14  sleshen   0  -1   1   0  16   2  13   3   6 -1  -1  -1
+ 15   uwimor   0  -1   1   0  12  11  17  10  23 -1  -1  -1
+ 16  pimuide   0  -1   1   0  22  19   7  20  14 -1  -1  -1
+ 17   botuyn   0  -1   1   0  22  16   7   9  20 -1  -1  -1
+ 18    frask   0  -1   1   1  18   6   0   4  24 -1  -1  -1
+ 19  laumens   0  -1   1   1   2  19   1   8  23 -1  -1  -1
+ 20  kiwehon   0  -1   1   1  14  11   3  17  13 -1  -1  -1
+ 21   jaciyn   0  -1   1   1  21  10  15  12   5 -1  -1  -1
+ 22    botsy   0  -1   1   1   0  19  15   5  12 -1  -1  -1
+ 23    medan   0  -1   1   1   1   7  10  13   6 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 hilejin 
+  0   1 molkate 
+  0   2 obacu 
+  0   3 hiwawa 
+  0   4 umeuken 
+  1   0 permife 
+  1   1 tewok 
+  1   2 ubajec 
+  1   3 nalber 
+  1   4 schese 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 hilejin   0   0  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  0 hilejin   0   1  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  0 hilejin   0   2   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  0 hilejin   0   3  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  0 hilejin   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  1 molkate   0   0   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  1 molkate   0   1   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  1 molkate   0   2   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  1 molkate   0   3  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  1 molkate   0   4  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  2 obacu   0   0  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  2 obacu   0   1   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  2 obacu   0   2   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  2 obacu   0   3  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  2 obacu   0   4  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  3 hiwawa   0   0  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  3 hiwawa   0   1   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  3 hiwawa   0   2  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  3 hiwawa   0   3   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  3 hiwawa   0   4   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  4 umeuken   0   0   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  4 umeuken   0   1  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  4 umeuken   0   2  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  4 umeuken   0   3  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  4 umeuken   0   4  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  5 permife   0   0   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  5 permife   0   1   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  5 permife   0   2  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  5 permife   0   3  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  5 permife   0   4  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  6 tewok   0   0  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  6 tewok   0   1   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  6 tewok   0   2  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  6 tewok   0   3  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  6 tewok   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  7 ubajec   0   0   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  7 ubajec   0   1  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  7 ubajec   0   2   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  7 ubajec   0   3   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  7 ubajec   0   4  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  8 nalber   0   0   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  8 nalber   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  8 nalber   0   2  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  8 nalber   0   3   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  8 nalber   0   4  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  9 schese   0   0  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  9 schese   0   1   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  9 schese   0   2  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  9 schese   0   3  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  9 schese   0   4   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+ 10 noste   0   0  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+ 10 noste   0   1  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+ 10 noste   0   2  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+ 10 noste   0   3   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+ 10 noste   0   4   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+ 11 larnist   0   0   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+ 11 larnist   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+ 11 larnist   0   2   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+ 11 larnist   0   3  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+ 11 larnist   0   4   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+ 12 yosud   1   0   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 12 yosud   1   1  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 12 yosud   1   2   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 12 yosud   1   3  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 12 yosud   1   4  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 13 furasti   1   0   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 13 furasti   1   1   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 13 furasti   1   2  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 13 furasti   1   3   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 13 furasti   1   4   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 14 sleshen   1   0  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 14 sleshen   1   1   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 14 sleshen   1   2  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 14 sleshen   1   3   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 14 sleshen   1   4   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 15 uwimor   1   0  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 15 uwimor   1   1  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 15 uwimor   1   2  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 15 uwimor   1   3  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 15 uwimor   1   4  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 16 pimuide   1   0  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 16 pimuide   1   1  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 16 pimuide   1   2   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 16 pimuide   1   3  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 16 pimuide   1   4  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 17 botuyn   1   0  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 17 botuyn   1   1  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 17 botuyn   1   2   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 17 botuyn   1   3   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 17 botuyn   1   4  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 18 frask   1   0  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 18 frask   1   1   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 18 frask   1   2   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 18 frask   1   3   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 18 frask   1   4  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 19 laumens   1   0   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 19 laumens   1   1  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 19 laumens   1   2   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 19 laumens   1   3   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 19 laumens   1   4  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 20 kiwehon   1   0  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 20 kiwehon   1   1  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 20 kiwehon   1   2   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 20 kiwehon   1   3  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 20 kiwehon   1   4  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 21 jaciyn   1   0  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 21 jaciyn   1   1  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 21 jaciyn   1   2  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 21 jaciyn   1   3  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 21 jaciyn   1   4   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 22 botsy   1   0   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 22 botsy   1   1  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 22 botsy   1   2  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 22 botsy   1   3   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 22 botsy   1   4  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 23 medan   1   0   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 23 medan   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 23 medan   1   2  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 23 medan   1   3  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 23 medan   1   4   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0   2   0      obacu  11   0           30
+  0   1  20   0    kiwehon  14   1           30
+  0   2   5   0    permife   3   0           30
+  0   3  23   0      medan   1   1           30
+  0   4  16   0    pimuide  22   0           30
+  0   5   6   0      tewok  23   1           30
+  0   6   4   0    umeuken   5   0           30
+  0   7  11   0    larnist   0   1           30
+  0   8  21   0     jaciyn  21   1           31
+  0   9  12   0      yosud   9   0           30
+  0  10  13   0    furasti   8   0           30
+  0  11  15   0     uwimor  12   0           30
+  0  12  22   0      botsy   0   1           30
+  0  13   1   0    molkate   6   0           30
+  0  14   3   0     hiwawa  15   0           30
+  0  15  18   0      frask  18   1           30
+  0  16   0   0    hilejin  21   0           30
+  0  17   7   0     ubajec   2   1           31
+  0  18  10   0      noste  20   1           30
+  0  19  17   0     botuyn  22   0           30
+  0  20  19   0    laumens   2   1           30
+  0  21   8   0     nalber   5   1           31
+  0  22  14   0    sleshen  16   0           30
+  0  23   9   0     schese  24   1           31
+  1   0  23   1      medan   7   1           30
+  1   1   0   1    hilejin  23   0           30
+  1   2   4   1    umeuken  10   0           30
+  1   3   7   1     ubajec  17   1           30
+  1   4   9   1     schese   0   1           30
+  1   5  16   1    pimuide  19   0           30
+  1   6  15   1     uwimor  11   0           30
+  1   7  14   1    sleshen   2   0           30
+  1   8   5   1    permife   8   0           30
+  1   9  10   1      noste  10   1           30
+  1  10  21   1     jaciyn  10   1           30
+  1  11   3   1     hiwawa   4   0           30
+  1  12  12   1      yosud  21   0           30
+  1  13  19   1    laumens  19   1           30
+  1  14   6   1      tewok   6   1           30
+  1  15  20   1    kiwehon  11   1           30
+  1  16  18   1      frask   6   1           30
+  1  17   8   1     nalber  15   1           30
+  1  18  13   1    furasti   5   0           31
+  1  19  11   1    larnist  15   1           30
+  1  20  22   1      botsy  19   1           30
+  1  21   2   1      obacu   7   0           30
+  1  22  17   1     botuyn  16   0           30
+  1  23   1   1    molkate   2   0           30
+  2   0  19   2    laumens   1   1           31
+  2   1   5   2    permife  10   0           30
+  2   2   2   2      obacu   9   0           30
+  2   3  18   2      frask   0   1           30
+  2   4   0   2    hilejin   1   0           30
+  2   5  22   2      botsy  15   1           30
+  2   6  20   2    kiwehon   3   1           30
+  2   7  14   2    sleshen  13   0           30
+  2   8  13   2    furasti  18   0           30
+  2   9   3   2     hiwawa  20   0           30
+  2  10  11   2    larnist   3   1           30
+  2  11  10   2      noste  12   1           30
+  2  12  23   2      medan  10   1           31
+  2  13   4   2    umeuken  19   0           30
+  2  14   6   2      tewok  20   1           30
+  2  15  15   2     uwimor  17   0           30
+  2  16  21   2     jaciyn  15   1           30
+  2  17   8   2     nalber  12   1           31
+  2  18  16   2    pimuide   7   0           30
+  2  19   9   2     schese  14   1           31
+  2  20   1   2    molkate   0   0           33
+  2  21  12   2      yosud   4   0           30
+  2  22   7   2     ubajec   1   1           30
+  2  23  17   2     botuyn   7   0           30
+  3   0  12   3      yosud  24   0           30
+  3   1  22   3      botsy   5   1           30
+  3   2  17   3     botuyn   9   0           30
+  3   3  16   3    pimuide  20   0           30
+  3   4  13   3    furasti   0   0           30
+  3   5  20   3    kiwehon  17   1           30
+  3   6   0   3    hilejin  13   0           30
+  3   7   7   3     ubajec   9   1           30
+  3   8   8   3     nalber   7   1           30
+  3   9   4   3    umeuken  18   0           30
+  3  10   2   3      obacu  22   0           30
+  3  11  19   3    laumens   8   1           31
+  3  12   9   3     schese  18   1           31
+  3  13  23   3      medan  13   1           31
+  3  14   3   3     hiwawa   3   0           30
+  3  15  11   3    larnist  14   1           30
+  3  16  18   3      frask   4   1           31
+  3  17  15   3     uwimor  10   0           30
+  3  18  14   3    sleshen   3   0           30
+  3  19  21   3     jaciyn  12   1           31
+  3  20   5   3    permife  22   0           30
+  3  21   1   3    molkate  12   0           30
+  3  22  10   3      noste   2   1           30
+  3  23   6   3      tewok  13   1           30
+  4   0   2   4      obacu  24   0           30
+  4   1   5   4    permife  21   0           30
+  4   2   0   4    hilejin  16   0           30
+  4   3  10   4      noste   7   1           30
+  4   4   8   4     nalber  19   1           30
+  4   5   3   4     hiwawa   8   0           30
+  4   6   1   4    molkate  14   0           30
+  4   7  22   4      botsy  12   1           31
+  4   8  17   4     botuyn  20   0           30
+  4   9  20   4    kiwehon  13   1           31
+  4  10  14   4    sleshen   6   0           30
+  4  11   6   4      tewok  16   1           30
+  4  12  16   4    pimuide  14   0           30
+  4  13  23   4      medan   6   1           30
+  4  14  12   4      yosud  15   0           30
+  4  15  19   4    laumens  23   1           30
+  4  16  15   4     uwimor  23   0           30
+  4  17   4   4    umeuken  17   0           30
+  4  18  13   4    furasti   1   0           30
+  4  19   9   4     schese   4   1           31
+  4  20  11   4    larnist   9   1           30
+  4  21  18   4      frask  24   1           31
+  4  22  21   4     jaciyn   5   1           30
+  4  23   7   4     ubajec  11   1           30
+  5   0  11   0    larnist   0   1           30
+  5   1  10   0      noste  20   1           30
+  5   2  15   0     uwimor  12   0           30
+  5   3   8   0     nalber   5   1           30
+  5   4   6   0      tewok  23   1           30
+  5   5   4   0    umeuken   5   0           30
+  5   6  22   0      botsy   0   1           30
+  5   7  20   0    kiwehon  14   1           31
+  5   8   0   0    hilejin  21   0           30
+  5   9  16   0    pimuide  22   0           30
+  5  10   9   0     schese  24   1           30
+  5  11  19   0    laumens   2   1           30
+  5  12  14   0    sleshen  16   0           30
+  5  13  18   0      frask  18   1           31
+  5  14  21   0     jaciyn  21   1           30
+  5  15   2   0      obacu  11   0           30
+  5  16   3   0     hiwawa  15   0           30
+  5  17  13   0    furasti   8   0           30
+  5  18  12   0      yosud   9   0           30
+  5  19   1   0    molkate   6   0           30
+  5  20  23   0      medan   1   1           30
+  5  21   5   0    permife   3   0           30
+  5  22  17   0     botuyn  22   0           30
+  5  23   7   0     ubajec   2   1           30
+  6   0   1   1    molkate   2   0           30
+  6   1  21   1     jaciyn  10   1           31
+  6   2  17   1     botuyn  16   0           30
+  6   3   3   1     hiwawa   4   0           30
+  6   4  12   1      yosud  21   0           30
+  6   5  16   1    pimuide  19   0           30
+  6   6  20   1    kiwehon  11   1           31
+  6   7   6   1      tewok   6   1           30
+  6   8   9   1     schese   0   1           31
+  6   9  23   1      medan   7   1           30
+  6  10  22   1      botsy  19   1           30
+  6  11   4   1    umeuken  10   0           30
+  6  12  13   1    furasti   5   0           30
+  6  13  19   1    laumens  19   1           30
+  6  14  14   1    sleshen   2   0           31
+  6  15  15   1     uwimor  11   0           30
+  6  16   8   1     nalber  15   1           30
+  6  17  11   1    larnist  15   1           30
+  6  18   2   1      obacu   7   0           30
+  6  19   7   1     ubajec  17   1           31
+  6  20  10   1      noste  10   1           31
+  6  21  18   1      frask   6   1           30
+  6  22   0   1    hilejin  23   0           30
+  6  23   5   1    permife   8   0           30
+  7   0  15   2     uwimor  17   0           30
+  7   1  17   2     botuyn   7   0           30
+  7   2  10   2      noste  12   1           31
+  7   3  19   2    laumens   1   1           30
+  7   4   9   2     schese  14   1           30
+  7   5  23   2      medan  10   1           30
+  7   6   8   2     nalber  12   1           30
+  7   7  12   2      yosud   4   0           30
+  7   8  16   2    pimuide   7   0           30
+  7   9  13   2    furasti  18   0           30
+  7  10   7   2     ubajec   1   1           31
+  7  11   3   2     hiwawa  20   0           30
+  7  12   4   2    umeuken  19   0           30
+  7  13  20   2    kiwehon   3   1           30
+  7  14   0   2    hilejin   1   0           30
+  7  15   5   2    permife  10   0           30
+  7  16   6   2      tewok  20   1           30
+  7  17  21   2     jaciyn  15   1           30
+  7  18  11   2    larnist   3   1           31
+  7  19   1   2    molkate   0   0           30
+  7  20  18   2      frask   0   1           30
+  7  21  14   2    sleshen  13   0           30
+  7  22  22   2      botsy  15   1           30
+  7  23   2   2      obacu   9   0           30
+  8   0   8   3     nalber   7   1           30
+  8   1  23   3      medan  13   1           30
+  8   2  20   3    kiwehon  17   1           30
+  8   3   2   3      obacu  22   0           30
+  8   4  10   3      noste   2   1           30
+  8   5  13   3    furasti   0   0           30
+  8   6  11   3    larnist  14   1           31
+  8   7   0   3    hilejin  13   0           30
+  8   8   9   3     schese  18   1           31
+  8   9   3   3     hiwawa   3   0           30
+  8  10   4   3    umeuken  18   0           30
+  8  11  16   3    pimuide  20   0           30
+  8  12   5   3    permife  22   0           30
+  8  13  15   3     uwimor  10   0           30
+  8  14   7   3     ubajec   9   1           30
+  8  15  22   3      botsy   5   1           30
+  8  16  17   3     botuyn   9   0           30
+  8  17  12   3      yosud  24   0           30
+  8  18   6   3      tewok  13   1           30
+  8  19  14   3    sleshen   3   0           30
+  8  20  18   3      frask   4   1           30
+  8  21  21   3     jaciyn  12   1           31
+  8  22   1   3    molkate  12   0           30
+  8  23  19   3    laumens   8   1           30
+  9   0   8   4     nalber  19   1           31
+  9   1   6   4      tewok  16   1           30
+  9   2   1   4    molkate  14   0           30
+  9   3  20   4    kiwehon  13   1           30
+  9   4  11   4    larnist   9   1           30
+  9   5  16   4    pimuide  14   0           30
+  9   6   5   4    permife  21   0           30
+  9   7   0   4    hilejin  16   0           30
+  9   8   2   4      obacu  24   0           30
+  9   9  15   4     uwimor  23   0           30
+  9  10  22   4      botsy  12   1           30
+  9  11   7   4     ubajec  11   1           30
+  9  12  12   4      yosud  15   0           30
+  9  13  10   4      noste   7   1           30
+  9  14  18   4      frask  24   1           30
+  9  15  17   4     botuyn  20   0           30
+  9  16   3   4     hiwawa   8   0           30
+  9  17  23   4      medan   6   1           30
+  9  18  14   4    sleshen   6   0           30
+  9  19   9   4     schese   4   1           30
+  9  20  21   4     jaciyn   5   1           30
+  9  21  19   4    laumens  23   1           30
+  9  22  13   4    furasti   1   0           30
+  9  23   4   4    umeuken  17   0           30
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0   1 molkate   8   8   8 1755721832
+   1  17 botuyn   6   5   5 1755721832
+   2   7 ubajec   7   7   7 1755721832
+   3  11 larnist   5   5   5 1755721832
+   4   9 schese   5   5   4 1755721832
+   5  19 laumens   7   7   7 1755721832
+   6  22 botsy   5   5   4 1755721832
+   7   0 hilejin   5   5   4 1755721832
+   8   8 nalber   7   6   7 1755721832
+   9  10 noste   7   7   7 1755721832
+  10  16 pimuide   4   4   3 1755721832
+  11   3 hiwawa   5   5   4 1755721832
+  12   2 obacu   6   6   7 1755721832
+  13  13 furasti   8   8   7 1755721832
+  14  23 medan   6   6   6 1755721832
+  15  12 yosud   8   7   7 1755721832
+  16  21 jaciyn   3   3   3 1755721832
+  17   4 umeuken   6   5   7 1755721832
+  18  15 uwimor   7   7   7 1755721832
+  19   6 tewok   6   6   7 1755721832
+  20  20 kiwehon   6   5   4 1755721832
+  21  18 frask   5   4   4 1755721832
+  22  14 sleshen   3   3   3 1755721832
+  23   5 permife   6   5   5 1755721832
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 valenz_response valenz_rt sichtbar_response sichtbar_korrekt sichtbar_rt
+ 46  25   1   1   1   1        POOLITTOLOGIE     0   0              hilejin   0  -1   0   0    21  23   1  13  16     5   5   4     1      959  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     0   1              hilejin   0  -1   0   0    21  23   1  13  16     5   5   4     1     1046  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     0   2              hilejin   0  -1   0   0    21  23   1  13  16     5   5   4     0     4384  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     0   3              hilejin   0  -1   0   0    21  23   1  13  16     5   5   4     1      750  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     0   4              hilejin   0  -1   0   0    21  23   1  13  16     5   5   4     1     1000  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     1   0              molkate   0  -1   0   0     6   2   0  12  14     8   8   8     1     1414  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     1   1              molkate   0  -1   0   0     6   2   0  12  14     8   8   8     1     3551  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     1   2              molkate   0  -1   0   0     6   2   0  12  14     8   8   8     1     1480  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     1   3              molkate   0  -1   0   0     6   2   0  12  14     8   8   8     1     1214  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     1   4              molkate   0  -1   0   0     6   2   0  12  14     8   8   8     1     2033  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     2   0                obacu   0  -1   0   0    11   7   9  22  24     6   6   7     1     1016  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     2   1                obacu   0  -1   0   0    11   7   9  22  24     6   6   7     1     2022  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     2   2                obacu   0  -1   0   0    11   7   9  22  24     6   6   7     1     1087  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     2   3                obacu   0  -1   0   0    11   7   9  22  24     6   6   7     1      735  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     2   4                obacu   0  -1   0   0    11   7   9  22  24     6   6   7     1     1503  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     3   0               hiwawa   0  -1   0   0    15   4  20   3   8     5   5   4     1     1318  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     3   1               hiwawa   0  -1   0   0    15   4  20   3   8     5   5   4     1      830  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     3   2               hiwawa   0  -1   0   0    15   4  20   3   8     5   5   4     1     1503  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     3   3               hiwawa   0  -1   0   0    15   4  20   3   8     5   5   4     1     1055  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     3   4               hiwawa   0  -1   0   0    15   4  20   3   8     5   5   4     1      982  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     4   0              umeuken   0  -1   0   0     5  10  19  18  17     6   5   7     1      855  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     4   1              umeuken   0  -1   0   0     5  10  19  18  17     6   5   7     1     1304  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     4   2              umeuken   0  -1   0   0     5  10  19  18  17     6   5   7     0     1832  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     4   3              umeuken   0  -1   0   0     5  10  19  18  17     6   5   7     1      935  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     4   4              umeuken   0  -1   0   0     5  10  19  18  17     6   5   7     1     1079  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     5   0              permife   0  -1   0   0     3   8  10  22  21     6   5   5     1     1255  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     5   1              permife   0  -1   0   0     3   8  10  22  21     6   5   5     1     2030  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     5   2              permife   0  -1   0   0     3   8  10  22  21     6   5   5     1      759  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     5   3              permife   0  -1   0   0     3   8  10  22  21     6   5   5     1      958  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     5   4              permife   0  -1   0   0     3   8  10  22  21     6   5   5     1     1262  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     6   0                tewok   0  -1   0   1    23   6  20  13  16     6   6   7     1     1413  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     6   1                tewok   0  -1   0   1    23   6  20  13  16     6   6   7     1     1070  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     6   2                tewok   0  -1   0   1    23   6  20  13  16     6   6   7     1      973  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     6   3                tewok   0  -1   0   1    23   6  20  13  16     6   6   7     0      743  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     6   4                tewok   0  -1   0   1    23   6  20  13  16     6   6   7     1     1045  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     7   0               ubajec   0  -1   0   1     2  17   1   9  11     7   7   7     1     1854  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     7   1               ubajec   0  -1   0   1     2  17   1   9  11     7   7   7     1      870  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     7   2               ubajec   0  -1   0   1     2  17   1   9  11     7   7   7     1     1013  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     7   3               ubajec   0  -1   0   1     2  17   1   9  11     7   7   7     1     1750  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     7   4               ubajec   0  -1   0   1     2  17   1   9  11     7   7   7     1     1124  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     8   0               nalber   0  -1   0   1     5  15  12   7  19     7   6   7     1      918  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     8   1               nalber   0  -1   0   1     5  15  12   7  19     7   6   7     1     2015  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     8   2               nalber   0  -1   0   1     5  15  12   7  19     7   6   7     0     2981  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     8   3               nalber   0  -1   0   1     5  15  12   7  19     7   6   7     1      901  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     8   4               nalber   0  -1   0   1     5  15  12   7  19     7   6   7     1      997  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     9   0               schese   0  -1   0   1    24   0  14  18   4     5   5   4     1      653  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     9   1               schese   0  -1   0   1    24   0  14  18   4     5   5   4     1     1813  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     9   2               schese   0  -1   0   1    24   0  14  18   4     5   5   4     1     1382  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     9   3               schese   0  -1   0   1    24   0  14  18   4     5   5   4     1      924  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE     9   4               schese   0  -1   0   1    24   0  14  18   4     5   5   4     1      757  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    10   0                noste   0  -1   0   1    20  10  12   2   7     7   7   7     1     1077  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    10   1                noste   0  -1   0   1    20  10  12   2   7     7   7   7     1     1437  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    10   2                noste   0  -1   0   1    20  10  12   2   7     7   7   7     1     3229  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    10   3                noste   0  -1   0   1    20  10  12   2   7     7   7   7     1      541  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    10   4                noste   0  -1   0   1    20  10  12   2   7     7   7   7     1     1183  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    11   0              larnist   0  -1   0   1     0  15   3  14   9     5   5   5     1     1343  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    11   1              larnist   0  -1   0   1     0  15   3  14   9     5   5   5     1     2318  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    11   2              larnist   0  -1   0   1     0  15   3  14   9     5   5   5     1     1813  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    11   3              larnist   0  -1   0   1     0  15   3  14   9     5   5   5     1      798  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    11   4              larnist   0  -1   0   1     0  15   3  14   9     5   5   5     1      910  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    12   0                yosud   0  -1   1   0     9  21   4  24  15     8   7   7     0      559  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    12   1                yosud   0  -1   1   0     9  21   4  24  15     8   7   7     0      648  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    12   2                yosud   0  -1   1   0     9  21   4  24  15     8   7   7     0     1663  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    12   3                yosud   0  -1   1   0     9  21   4  24  15     8   7   7     0      654  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    12   4                yosud   0  -1   1   0     9  21   4  24  15     8   7   7     0     1032  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    13   0              furasti   0  -1   1   0     8   5  18   0   1     8   8   7     0     2215  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    13   1              furasti   0  -1   1   0     8   5  18   0   1     8   8   7     0      991  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    13   2              furasti   0  -1   1   0     8   5  18   0   1     8   8   7     0      663  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    13   3              furasti   0  -1   1   0     8   5  18   0   1     8   8   7     0     1319  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    13   4              furasti   0  -1   1   0     8   5  18   0   1     8   8   7     0      783  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    14   0              sleshen   0  -1   1   0    16   2  13   3   6     3   3   3     0     1638  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    14   1              sleshen   0  -1   1   0    16   2  13   3   6     3   3   3     0      799  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    14   2              sleshen   0  -1   1   0    16   2  13   3   6     3   3   3     0      702  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    14   3              sleshen   0  -1   1   0    16   2  13   3   6     3   3   3     0     1582  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    14   4              sleshen   0  -1   1   0    16   2  13   3   6     3   3   3     0     1175  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    15   0               uwimor   0  -1   1   0    12  11  17  10  23     7   7   7     1     3320  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    15   1               uwimor   0  -1   1   0    12  11  17  10  23     7   7   7     0      998  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    15   2               uwimor   0  -1   1   0    12  11  17  10  23     7   7   7     0     2199  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    15   3               uwimor   0  -1   1   0    12  11  17  10  23     7   7   7     0     5384  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    15   4               uwimor   0  -1   1   0    12  11  17  10  23     7   7   7     0      998  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    16   0              pimuide   0  -1   1   0    22  19   7  20  14     4   4   3     0      679  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    16   1              pimuide   0  -1   1   0    22  19   7  20  14     4   4   3     0     2198  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    16   2              pimuide   0  -1   1   0    22  19   7  20  14     4   4   3     0      887  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    16   3              pimuide   0  -1   1   0    22  19   7  20  14     4   4   3     1     1783  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    16   4              pimuide   0  -1   1   0    22  19   7  20  14     4   4   3     0     1926  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    17   0               botuyn   0  -1   1   0    22  16   7   9  20     6   5   5     0     1231  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    17   1               botuyn   0  -1   1   0    22  16   7   9  20     6   5   5     0     1367  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    17   2               botuyn   0  -1   1   0    22  16   7   9  20     6   5   5     0     1623  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    17   3               botuyn   0  -1   1   0    22  16   7   9  20     6   5   5     0      872  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    17   4               botuyn   0  -1   1   0    22  16   7   9  20     6   5   5     0      847  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    18   0                frask   0  -1   1   1    18   6   0   4  24     5   4   4     0      813  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    18   1                frask   0  -1   1   1    18   6   0   4  24     5   4   4     0      735  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    18   2                frask   0  -1   1   1    18   6   0   4  24     5   4   4     0      901  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    18   3                frask   0  -1   1   1    18   6   0   4  24     5   4   4     0     1181  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    18   4                frask   0  -1   1   1    18   6   0   4  24     5   4   4     0      797  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    19   0              laumens   0  -1   1   1     2  19   1   8  23     7   7   7     0     1030  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    19   1              laumens   0  -1   1   1     2  19   1   8  23     7   7   7     0      774  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    19   2              laumens   0  -1   1   1     2  19   1   8  23     7   7   7     0     1397  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    19   3              laumens   0  -1   1   1     2  19   1   8  23     7   7   7     0     1037  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    19   4              laumens   0  -1   1   1     2  19   1   8  23     7   7   7     0     1966  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    20   0              kiwehon   0  -1   1   1    14  11   3  17  13     6   5   4     1     1078  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    20   1              kiwehon   0  -1   1   1    14  11   3  17  13     6   5   4     0     1799  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    20   2              kiwehon   0  -1   1   1    14  11   3  17  13     6   5   4     0     1477  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    20   3              kiwehon   0  -1   1   1    14  11   3  17  13     6   5   4     0     1213  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    20   4              kiwehon   0  -1   1   1    14  11   3  17  13     6   5   4     0     1078  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    21   0               jaciyn   0  -1   1   1    21  10  15  12   5     3   3   3     0     1131  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    21   1               jaciyn   0  -1   1   1    21  10  15  12   5     3   3   3     0     1853  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    21   2               jaciyn   0  -1   1   1    21  10  15  12   5     3   3   3     0      774  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    21   3               jaciyn   0  -1   1   1    21  10  15  12   5     3   3   3     1     1142  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    21   4               jaciyn   0  -1   1   1    21  10  15  12   5     3   3   3     0      797  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    22   0                botsy   0  -1   1   1     0  19  15   5  12     5   5   4     1      989  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    22   1                botsy   0  -1   1   1     0  19  15   5  12     5   5   4     0     1262  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    22   2                botsy   0  -1   1   1     0  19  15   5  12     5   5   4     0     1894  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    22   3                botsy   0  -1   1   1     0  19  15   5  12     5   5   4     1     2845  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    22   4                botsy   0  -1   1   1     0  19  15   5  12     5   5   4     1     1823  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    23   0                medan   0  -1   1   1     1   7  10  13   6     6   6   6     0     1094  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    23   1                medan   0  -1   1   1     1   7  10  13   6     6   6   6     0     2822  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    23   2                medan   0  -1   1   1     1   7  10  13   6     6   6   6     0     1046  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    23   3                medan   0  -1   1   1     1   7  10  13   6     6   6   6     0      814  -1  -1       -1
+ 46  25   1   1   1   1        POOLITTOLOGIE    23   4                medan   0  -1   1   1     1   7  10  13   6     6   6   6     0      869  -1  -1       -1

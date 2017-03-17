@@ -1,0 +1,1 @@
+These are the data of the rating of the bottle logos and the aero logos.

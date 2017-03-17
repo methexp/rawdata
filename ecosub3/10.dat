@@ -1,0 +1,554 @@
+ECOsub3 [07-2012]
+ 10   0   0
+ 24   2   1   1 SOONDERPPAEDA
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0    botsy   0  -1   0   0  20   5   2   6   1 -1  -1  -1
+  1  kiwehon   0  -1   0   0  10  19  17  15  23 -1  -1  -1
+  2   schese   0  -1   0   0  12  14  22  21  18 -1  -1  -1
+  3  larnist   0  -1   0   0   9  13   4  11   3 -1  -1  -1
+  4  permife   0  -1   0   0  16   0  24   7   8 -1  -1  -1
+  5  sleshen   0  -1   0   0  11  21   7  22   4 -1  -1  -1
+  6   hiwawa   0  -1   0   1   3  13   0  23  14 -1  -1  -1
+  7  furasti   0  -1   0   1   8   9  17  15   2 -1  -1  -1
+  8   ubajec   0  -1   0   1   1  12  20  19   5 -1  -1  -1
+  9  laumens   0  -1   0   1  10  16   6  24  18 -1  -1  -1
+ 10   jaciyn   0  -1   0   1   3  23   4  14  17 -1  -1  -1
+ 11    obacu   0  -1   0   1  19  12  11   9  20 -1  -1  -1
+ 12  umeuken   0  -1   1   0   3   4  14   8  17 -1  -1  -1
+ 13  molkate   0  -1   1   0   6  12  24   0  18 -1  -1  -1
+ 14    frask   0  -1   1   0  11  22  19  20  15 -1  -1  -1
+ 15   nalber   0  -1   1   0  21  13   2  10  16 -1  -1  -1
+ 16    noste   0  -1   1   0   1   7  23   9   5 -1  -1  -1
+ 17    tewok   0  -1   1   0   1   2  18  20   3 -1  -1  -1
+ 18  pimuide   0  -1   1   1  15  16  14  13  19 -1  -1  -1
+ 19    medan   0  -1   1   1  10   5  12  23   6 -1  -1  -1
+ 20   botuyn   0  -1   1   1  22  17   4  21  24 -1  -1  -1
+ 21  hilejin   0  -1   1   1   0   7   8  11   9 -1  -1  -1
+ 22    yosud   0  -1   1   1   2   8   9  24  17 -1  -1  -1
+ 23   uwimor   0  -1   1   1   1  22   5  11  23 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 botsy 
+  0   1 kiwehon 
+  0   2 schese 
+  0   3 larnist 
+  0   4 permife 
+  1   0 sleshen 
+  1   1 hiwawa 
+  1   2 furasti 
+  1   3 ubajec 
+  1   4 laumens 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 botsy   0   0  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  0 botsy   0   1   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  0 botsy   0   2   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  0 botsy   0   3   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  0 botsy   0   4   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  1 kiwehon   0   0  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  1 kiwehon   0   1  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  1 kiwehon   0   2  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  1 kiwehon   0   3  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  1 kiwehon   0   4  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  2 schese   0   0  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  2 schese   0   1  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  2 schese   0   2  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  2 schese   0   3  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  2 schese   0   4  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  3 larnist   0   0   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  3 larnist   0   1  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  3 larnist   0   2   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  3 larnist   0   3  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  3 larnist   0   4   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  4 permife   0   0  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  4 permife   0   1   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  4 permife   0   2  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  4 permife   0   3   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  4 permife   0   4   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  5 sleshen   0   0  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  5 sleshen   0   1  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  5 sleshen   0   2   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  5 sleshen   0   3  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  5 sleshen   0   4   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  6 hiwawa   0   0   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  6 hiwawa   0   1  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  6 hiwawa   0   2   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  6 hiwawa   0   3  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  6 hiwawa   0   4  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  7 furasti   0   0   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  7 furasti   0   1   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  7 furasti   0   2  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  7 furasti   0   3  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  7 furasti   0   4   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  8 ubajec   0   0   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  8 ubajec   0   1  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  8 ubajec   0   2  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  8 ubajec   0   3  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  8 ubajec   0   4   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  9 laumens   0   0  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  9 laumens   0   1  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  9 laumens   0   2   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  9 laumens   0   3  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  9 laumens   0   4  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+ 10 jaciyn   0   0   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+ 10 jaciyn   0   1  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+ 10 jaciyn   0   2   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+ 10 jaciyn   0   3  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+ 10 jaciyn   0   4  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+ 11 obacu   0   0  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+ 11 obacu   0   1  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+ 11 obacu   0   2  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+ 11 obacu   0   3   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+ 11 obacu   0   4  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+ 12 umeuken   1   0   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 12 umeuken   1   1   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 12 umeuken   1   2  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 12 umeuken   1   3   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 12 umeuken   1   4  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 13 molkate   1   0   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 13 molkate   1   1  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 13 molkate   1   2  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 13 molkate   1   3   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 13 molkate   1   4  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 14 frask   1   0  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 14 frask   1   1  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 14 frask   1   2  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 14 frask   1   3  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 14 frask   1   4  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 15 nalber   1   0  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 15 nalber   1   1  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 15 nalber   1   2   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 15 nalber   1   3  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 15 nalber   1   4  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 16 noste   1   0   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 16 noste   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 16 noste   1   2  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 16 noste   1   3   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 16 noste   1   4   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 17 tewok   1   0   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 17 tewok   1   1   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 17 tewok   1   2  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 17 tewok   1   3  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 17 tewok   1   4   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 18 pimuide   1   0  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 18 pimuide   1   1  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 18 pimuide   1   2  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 18 pimuide   1   3  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 18 pimuide   1   4  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 19 medan   1   0  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 19 medan   1   1   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 19 medan   1   2  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 19 medan   1   3  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 19 medan   1   4   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 20 botuyn   1   0  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 20 botuyn   1   1  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 20 botuyn   1   2   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 20 botuyn   1   3  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 20 botuyn   1   4  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 21 hilejin   1   0   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 21 hilejin   1   1   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 21 hilejin   1   2   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 21 hilejin   1   3  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 21 hilejin   1   4   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 22 yosud   1   0   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 22 yosud   1   1   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 22 yosud   1   2   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 22 yosud   1   3  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 22 yosud   1   4  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 23 uwimor   1   0   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 23 uwimor   1   1  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 23 uwimor   1   2   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 23 uwimor   1   3  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 23 uwimor   1   4  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0   7   0    furasti   8   1           30
+  0   1  10   0     jaciyn   3   1           30
+  0   2   1   0    kiwehon  10   0           30
+  0   3   8   0     ubajec   1   1           30
+  0   4  15   0     nalber  21   0           30
+  0   5   9   0    laumens  10   1           30
+  0   6  18   0    pimuide  15   1           30
+  0   7  14   0      frask  11   0           30
+  0   8   5   0    sleshen  11   0           30
+  0   9  12   0    umeuken   3   0           30
+  0  10   4   0    permife  16   0           30
+  0  11  23   0     uwimor   1   1           30
+  0  12  16   0      noste   1   0           30
+  0  13   6   0     hiwawa   3   1           30
+  0  14  17   0      tewok   1   0           30
+  0  15  22   0      yosud   2   1           30
+  0  16  19   0      medan  10   1           30
+  0  17   2   0     schese  12   0           30
+  0  18  13   0    molkate   6   0           30
+  0  19   0   0      botsy  20   0           30
+  0  20  21   0    hilejin   0   1           30
+  0  21  20   0     botuyn  22   1           30
+  0  22  11   0      obacu  19   1           30
+  0  23   3   0    larnist   9   0           30
+  1   0  16   1      noste   7   0           30
+  1   1   5   1    sleshen  21   0           30
+  1   2  17   1      tewok   2   0           30
+  1   3   1   1    kiwehon  19   0           30
+  1   4   0   1      botsy   5   0           30
+  1   5  18   1    pimuide  16   1           30
+  1   6  21   1    hilejin   7   1           30
+  1   7   3   1    larnist  13   0           30
+  1   8  12   1    umeuken   4   0           30
+  1   9  15   1     nalber  13   0           30
+  1  10  23   1     uwimor  22   1           30
+  1  11  10   1     jaciyn  23   1           30
+  1  12   6   1     hiwawa  13   1           30
+  1  13   9   1    laumens  16   1           30
+  1  14  22   1      yosud   8   1           30
+  1  15  11   1      obacu  12   1           30
+  1  16   4   1    permife   0   0           30
+  1  17   2   1     schese  14   0           30
+  1  18   8   1     ubajec  12   1           30
+  1  19   7   1    furasti   9   1           30
+  1  20  14   1      frask  22   0           30
+  1  21  20   1     botuyn  17   1           30
+  1  22  19   1      medan   5   1           30
+  1  23  13   1    molkate  12   0           30
+  2   0   9   2    laumens   6   1           30
+  2   1  14   2      frask  19   0           30
+  2   2  20   2     botuyn   4   1           29
+  2   3  23   2     uwimor   5   1           30
+  2   4   7   2    furasti  17   1           30
+  2   5   4   2    permife  24   0           30
+  2   6   6   2     hiwawa   0   1           30
+  2   7  17   2      tewok  18   0           30
+  2   8   3   2    larnist   4   0           30
+  2   9  12   2    umeuken  14   0           30
+  2  10  15   2     nalber   2   0           30
+  2  11  16   2      noste  23   0           30
+  2  12   5   2    sleshen   7   0           30
+  2  13  22   2      yosud   9   1           30
+  2  14  19   2      medan  12   1           30
+  2  15  18   2    pimuide  14   1           30
+  2  16  11   2      obacu  11   1           31
+  2  17   8   2     ubajec  20   1           30
+  2  18   0   2      botsy   2   0           30
+  2  19  10   2     jaciyn   4   1           30
+  2  20  21   2    hilejin   8   1           30
+  2  21   1   2    kiwehon  17   0           30
+  2  22  13   2    molkate  24   0           30
+  2  23   2   2     schese  22   0           30
+  3   0  18   3    pimuide  13   1           30
+  3   1  14   3      frask  20   0           30
+  3   2   5   3    sleshen  22   0           30
+  3   3   3   3    larnist  11   0           30
+  3   4  19   3      medan  23   1           30
+  3   5  20   3     botuyn  21   1           31
+  3   6  23   3     uwimor  11   1           30
+  3   7  16   3      noste   9   0           30
+  3   8  10   3     jaciyn  14   1           30
+  3   9  11   3      obacu   9   1           30
+  3  10   0   3      botsy   6   0           30
+  3  11  22   3      yosud  24   1           30
+  3  12   6   3     hiwawa  23   1           30
+  3  13   7   3    furasti  15   1           30
+  3  14  15   3     nalber  10   0           30
+  3  15   1   3    kiwehon  15   0           30
+  3  16   4   3    permife   7   0           30
+  3  17   8   3     ubajec  19   1           30
+  3  18  13   3    molkate   0   0           30
+  3  19  21   3    hilejin  11   1           30
+  3  20   2   3     schese  21   0           30
+  3  21   9   3    laumens  24   1           30
+  3  22  12   3    umeuken   8   0           30
+  3  23  17   3      tewok  20   0           30
+  4   0  16   4      noste   5   0           30
+  4   1   5   4    sleshen   4   0           30
+  4   2  21   4    hilejin   9   1           30
+  4   3   6   4     hiwawa  14   1           30
+  4   4   7   4    furasti   2   1           30
+  4   5  10   4     jaciyn  17   1           30
+  4   6   8   4     ubajec   5   1           30
+  4   7   4   4    permife   8   0           30
+  4   8  23   4     uwimor  23   1           30
+  4   9  12   4    umeuken  17   0           30
+  4  10   0   4      botsy   1   0           30
+  4  11   3   4    larnist   3   0           30
+  4  12  18   4    pimuide  19   1           30
+  4  13  14   4      frask  15   0           30
+  4  14  22   4      yosud  17   1           30
+  4  15  19   4      medan   6   1           30
+  4  16   9   4    laumens  18   1           30
+  4  17   2   4     schese  18   0           30
+  4  18  20   4     botuyn  24   1           30
+  4  19  11   4      obacu  20   1           30
+  4  20  15   4     nalber  16   0           30
+  4  21  17   4      tewok   3   0           30
+  4  22   1   4    kiwehon  23   0           30
+  4  23  13   4    molkate  18   0           30
+  5   0   9   0    laumens  10   1           30
+  5   1   0   0      botsy  20   0           30
+  5   2   7   0    furasti   8   1           30
+  5   3  18   0    pimuide  15   1           30
+  5   4  21   0    hilejin   0   1           30
+  5   5   4   0    permife  16   0           30
+  5   6  16   0      noste   1   0           30
+  5   7  15   0     nalber  21   0           30
+  5   8   6   0     hiwawa   3   1           30
+  5   9   8   0     ubajec   1   1           30
+  5  10  23   0     uwimor   1   1           30
+  5  11  22   0      yosud   2   1           30
+  5  12  10   0     jaciyn   3   1           30
+  5  13  12   0    umeuken   3   0           30
+  5  14  17   0      tewok   1   0           30
+  5  15   5   0    sleshen  11   0           30
+  5  16   1   0    kiwehon  10   0           30
+  5  17  20   0     botuyn  22   1           31
+  5  18   3   0    larnist   9   0           30
+  5  19  13   0    molkate   6   0           30
+  5  20   2   0     schese  12   0           30
+  5  21  11   0      obacu  19   1           30
+  5  22  14   0      frask  11   0           30
+  5  23  19   0      medan  10   1           30
+  6   0   3   1    larnist  13   0           30
+  6   1   4   1    permife   0   0           30
+  6   2   0   1      botsy   5   0           30
+  6   3  13   1    molkate  12   0           30
+  6   4   6   1     hiwawa  13   1           30
+  6   5  23   1     uwimor  22   1           30
+  6   6   8   1     ubajec  12   1           30
+  6   7   2   1     schese  14   0           30
+  6   8  16   1      noste   7   0           30
+  6   9   9   1    laumens  16   1           30
+  6  10  21   1    hilejin   7   1           30
+  6  11  19   1      medan   5   1           30
+  6  12  12   1    umeuken   4   0           30
+  6  13  22   1      yosud   8   1           30
+  6  14  20   1     botuyn  17   1           30
+  6  15  11   1      obacu  12   1           30
+  6  16  17   1      tewok   2   0           30
+  6  17  14   1      frask  22   0           30
+  6  18  10   1     jaciyn  23   1           30
+  6  19  15   1     nalber  13   0           30
+  6  20  18   1    pimuide  16   1           30
+  6  21   7   1    furasti   9   1           30
+  6  22   5   1    sleshen  21   0           30
+  6  23   1   1    kiwehon  19   0           30
+  7   0  14   2      frask  19   0           30
+  7   1   9   2    laumens   6   1           30
+  7   2  20   2     botuyn   4   1           30
+  7   3   2   2     schese  22   0           30
+  7   4  23   2     uwimor   5   1           30
+  7   5  10   2     jaciyn   4   1           30
+  7   6  18   2    pimuide  14   1           30
+  7   7   0   2      botsy   2   0           30
+  7   8  22   2      yosud   9   1           30
+  7   9   6   2     hiwawa   0   1           30
+  7  10  12   2    umeuken  14   0           30
+  7  11   5   2    sleshen   7   0           30
+  7  12  17   2      tewok  18   0           30
+  7  13  13   2    molkate  24   0           30
+  7  14  16   2      noste  23   0           30
+  7  15  15   2     nalber   2   0           30
+  7  16  19   2      medan  12   1           30
+  7  17   7   2    furasti  17   1           30
+  7  18  21   2    hilejin   8   1           30
+  7  19   4   2    permife  24   0           30
+  7  20   3   2    larnist   4   0           30
+  7  21   1   2    kiwehon  17   0           30
+  7  22  11   2      obacu  11   1           30
+  7  23   8   2     ubajec  20   1           30
+  8   0   6   3     hiwawa  23   1           30
+  8   1   8   3     ubajec  19   1           30
+  8   2  20   3     botuyn  21   1           30
+  8   3  11   3      obacu   9   1           30
+  8   4  12   3    umeuken   8   0           30
+  8   5   3   3    larnist  11   0           30
+  8   6  15   3     nalber  10   0           31
+  8   7   0   3      botsy   6   0           30
+  8   8   2   3     schese  21   0           30
+  8   9   9   3    laumens  24   1           30
+  8  10  10   3     jaciyn  14   1           30
+  8  11   4   3    permife   7   0           30
+  8  12  18   3    pimuide  13   1           30
+  8  13  19   3      medan  23   1           30
+  8  14  21   3    hilejin  11   1           30
+  8  15  22   3      yosud  24   1           30
+  8  16   7   3    furasti  15   1           30
+  8  17  13   3    molkate   0   0           30
+  8  18  23   3     uwimor  11   1           30
+  8  19  16   3      noste   9   0           30
+  8  20   1   3    kiwehon  15   0           30
+  8  21  17   3      tewok  20   0           30
+  8  22  14   3      frask  20   0           30
+  8  23   5   3    sleshen  22   0           30
+  9   0  10   4     jaciyn  17   1           30
+  9   1   0   4      botsy   1   0           30
+  9   2   3   4    larnist   3   0           30
+  9   3   6   4     hiwawa  14   1           30
+  9   4  22   4      yosud  17   1           30
+  9   5  12   4    umeuken  17   0           30
+  9   6   1   4    kiwehon  23   0           30
+  9   7  16   4      noste   5   0           30
+  9   8  17   4      tewok   3   0           30
+  9   9  11   4      obacu  20   1           30
+  9  10  18   4    pimuide  19   1           30
+  9  11  23   4     uwimor  23   1           30
+  9  12  15   4     nalber  16   0           30
+  9  13  20   4     botuyn  24   1           30
+  9  14   4   4    permife   8   0           30
+  9  15  21   4    hilejin   9   1           30
+  9  16   8   4     ubajec   5   1           30
+  9  17   5   4    sleshen   4   0           30
+  9  18   7   4    furasti   2   1           30
+  9  19  14   4      frask  15   0           30
+  9  20   2   4     schese  18   0           30
+  9  21  13   4    molkate  18   0           30
+  9  22  19   4      medan   6   1           30
+  9  23   9   4    laumens  18   1           30
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0  15 nalber   7   6   6 1940861032
+   1  23 uwimor   5   3   2 1940861032
+   2  13 molkate   7   6   6 1940861032
+   3  16 noste   8   8   8 1940861032
+   4   5 sleshen   7   6   7 1940861032
+   5  10 jaciyn   3   2   2 1940861032
+   6  19 medan   7   7   7 1940861032
+   7  20 botuyn   3   2   2 1940861032
+   8  12 umeuken   7   6   7 1940861032
+   9   0 botsy   7   8   6 1940861032
+  10   8 ubajec   2   3   1 1940861032
+  11  18 pimuide   6   5   5 1940861032
+  12  22 yosud   3   2   1 1940861032
+  13   1 kiwehon   2   1   1 1940861032
+  14  21 hilejin   1   1   1 1940861032
+  15  11 obacu   4   4   4 1940861032
+  16   9 laumens   6   6   6 1940861032
+  17   2 schese   4   4   1 1940861032
+  18  14 frask   3   3   1 1940861032
+  19   7 furasti   3   3   1 1940861032
+  20   4 permife   3   2   3 1940861032
+  21   3 larnist   3   3   1 1940861032
+  22   6 hiwawa   6   6   6 1940861032
+  23  17 tewok   7   7   6 1940861032
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 valenz_response valenz_rt sichtbar_response sichtbar_korrekt sichtbar_rt
+ 10  24   2   1   1   1        SOONDERPPAEDA     0   0                botsy   0  -1   0   0    20   5   2   6   1     7   8   6     0      559  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     0   1                botsy   0  -1   0   0    20   5   2   6   1     7   8   6     1      655  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     0   2                botsy   0  -1   0   0    20   5   2   6   1     7   8   6     0      529  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     0   3                botsy   0  -1   0   0    20   5   2   6   1     7   8   6     1     1922  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     0   4                botsy   0  -1   0   0    20   5   2   6   1     7   8   6     1     1456  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     1   0              kiwehon   0  -1   0   0    10  19  17  15  23     2   1   1     1      654  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     1   1              kiwehon   0  -1   0   0    10  19  17  15  23     2   1   1     0      648  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     1   2              kiwehon   0  -1   0   0    10  19  17  15  23     2   1   1     0      812  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     1   3              kiwehon   0  -1   0   0    10  19  17  15  23     2   1   1     0      554  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     1   4              kiwehon   0  -1   0   0    10  19  17  15  23     2   1   1     0     1393  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     2   0               schese   0  -1   0   0    12  14  22  21  18     4   4   1     0      708  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     2   1               schese   0  -1   0   0    12  14  22  21  18     4   4   1     1     1610  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     2   2               schese   0  -1   0   0    12  14  22  21  18     4   4   1     0      526  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     2   3               schese   0  -1   0   0    12  14  22  21  18     4   4   1     0      535  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     2   4               schese   0  -1   0   0    12  14  22  21  18     4   4   1     0      475  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     3   0              larnist   0  -1   0   0     9  13   4  11   3     3   3   1     0      396  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     3   1              larnist   0  -1   0   0     9  13   4  11   3     3   3   1     1      700  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     3   2              larnist   0  -1   0   0     9  13   4  11   3     3   3   1     0      699  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     3   3              larnist   0  -1   0   0     9  13   4  11   3     3   3   1     0      839  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     3   4              larnist   0  -1   0   0     9  13   4  11   3     3   3   1     1      919  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     4   0              permife   0  -1   0   0    16   0  24   7   8     3   2   3     0     1148  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     4   1              permife   0  -1   0   0    16   0  24   7   8     3   2   3     0      811  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     4   2              permife   0  -1   0   0    16   0  24   7   8     3   2   3     0      701  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     4   3              permife   0  -1   0   0    16   0  24   7   8     3   2   3     1     1305  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     4   4              permife   0  -1   0   0    16   0  24   7   8     3   2   3     1      513  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     5   0              sleshen   0  -1   0   0    11  21   7  22   4     7   6   7     0     1022  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     5   1              sleshen   0  -1   0   0    11  21   7  22   4     7   6   7     0      543  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     5   2              sleshen   0  -1   0   0    11  21   7  22   4     7   6   7     0      683  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     5   3              sleshen   0  -1   0   0    11  21   7  22   4     7   6   7     0     1090  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     5   4              sleshen   0  -1   0   0    11  21   7  22   4     7   6   7     1      438  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     6   0               hiwawa   0  -1   0   1     3  13   0  23  14     6   6   6     1      735  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     6   1               hiwawa   0  -1   0   1     3  13   0  23  14     6   6   6     1      912  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     6   2               hiwawa   0  -1   0   1     3  13   0  23  14     6   6   6     1      600  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     6   3               hiwawa   0  -1   0   1     3  13   0  23  14     6   6   6     1    27115  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     6   4               hiwawa   0  -1   0   1     3  13   0  23  14     6   6   6     1      988  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     7   0              furasti   0  -1   0   1     8   9  17  15   2     3   3   1     1      639  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     7   1              furasti   0  -1   0   1     8   9  17  15   2     3   3   1     1      814  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     7   2              furasti   0  -1   0   1     8   9  17  15   2     3   3   1     1      663  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     7   3              furasti   0  -1   0   1     8   9  17  15   2     3   3   1     1      812  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     7   4              furasti   0  -1   0   1     8   9  17  15   2     3   3   1     1      695  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     8   0               ubajec   0  -1   0   1     1  12  20  19   5     2   3   1     1      739  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     8   1               ubajec   0  -1   0   1     1  12  20  19   5     2   3   1     1     1012  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     8   2               ubajec   0  -1   0   1     1  12  20  19   5     2   3   1     1      683  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     8   3               ubajec   0  -1   0   1     1  12  20  19   5     2   3   1     1      563  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     8   4               ubajec   0  -1   0   1     1  12  20  19   5     2   3   1     1     1043  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     9   0              laumens   0  -1   0   1    10  16   6  24  18     6   6   6     1      704  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     9   1              laumens   0  -1   0   1    10  16   6  24  18     6   6   6     1      634  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     9   2              laumens   0  -1   0   1    10  16   6  24  18     6   6   6     1      726  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     9   3              laumens   0  -1   0   1    10  16   6  24  18     6   6   6     1      920  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA     9   4              laumens   0  -1   0   1    10  16   6  24  18     6   6   6     1     7764  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    10   0               jaciyn   0  -1   0   1     3  23   4  14  17     3   2   2     1      626  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    10   1               jaciyn   0  -1   0   1     3  23   4  14  17     3   2   2     1     3758  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    10   2               jaciyn   0  -1   0   1     3  23   4  14  17     3   2   2     1      603  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    10   3               jaciyn   0  -1   0   1     3  23   4  14  17     3   2   2     1      483  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    10   4               jaciyn   0  -1   0   1     3  23   4  14  17     3   2   2     1      602  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    11   0                obacu   0  -1   0   1    19  12  11   9  20     4   4   4     1     1050  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    11   1                obacu   0  -1   0   1    19  12  11   9  20     4   4   4     1      914  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    11   2                obacu   0  -1   0   1    19  12  11   9  20     4   4   4     1     1102  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    11   3                obacu   0  -1   0   1    19  12  11   9  20     4   4   4     1      682  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    11   4                obacu   0  -1   0   1    19  12  11   9  20     4   4   4     1      654  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    12   0              umeuken   0  -1   1   0     3   4  14   8  17     7   6   7     0      644  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    12   1              umeuken   0  -1   1   0     3   4  14   8  17     7   6   7     1     2330  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    12   2              umeuken   0  -1   1   0     3   4  14   8  17     7   6   7     0      631  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    12   3              umeuken   0  -1   1   0     3   4  14   8  17     7   6   7     1      994  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    12   4              umeuken   0  -1   1   0     3   4  14   8  17     7   6   7     0      696  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    13   0              molkate   0  -1   1   0     6  12  24   0  18     7   6   6     1      995  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    13   1              molkate   0  -1   1   0     6  12  24   0  18     7   6   6     1      585  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    13   2              molkate   0  -1   1   0     6  12  24   0  18     7   6   6     1      750  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    13   3              molkate   0  -1   1   0     6  12  24   0  18     7   6   6     0      417  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    13   4              molkate   0  -1   1   0     6  12  24   0  18     7   6   6     1      542  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    14   0                frask   0  -1   1   0    11  22  19  20  15     3   3   1     1     1022  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    14   1                frask   0  -1   1   0    11  22  19  20  15     3   3   1     1      729  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    14   2                frask   0  -1   1   0    11  22  19  20  15     3   3   1     1      947  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    14   3                frask   0  -1   1   0    11  22  19  20  15     3   3   1     1      519  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    14   4                frask   0  -1   1   0    11  22  19  20  15     3   3   1     1     4968  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    15   0               nalber   0  -1   1   0    21  13   2  10  16     7   6   6     0      845  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    15   1               nalber   0  -1   1   0    21  13   2  10  16     7   6   6     0      494  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    15   2               nalber   0  -1   1   0    21  13   2  10  16     7   6   6     0      889  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    15   3               nalber   0  -1   1   0    21  13   2  10  16     7   6   6     0      319  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    15   4               nalber   0  -1   1   0    21  13   2  10  16     7   6   6     0      966  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    16   0                noste   0  -1   1   0     1   7  23   9   5     8   8   8     0      820  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    16   1                noste   0  -1   1   0     1   7  23   9   5     8   8   8     0      795  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    16   2                noste   0  -1   1   0     1   7  23   9   5     8   8   8     0      667  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    16   3                noste   0  -1   1   0     1   7  23   9   5     8   8   8     0      920  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    16   4                noste   0  -1   1   0     1   7  23   9   5     8   8   8     1      601  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    17   0                tewok   0  -1   1   0     1   2  18  20   3     7   7   6     0     1040  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    17   1                tewok   0  -1   1   0     1   2  18  20   3     7   7   6     0      642  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    17   2                tewok   0  -1   1   0     1   2  18  20   3     7   7   6     0      889  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    17   3                tewok   0  -1   1   0     1   2  18  20   3     7   7   6     0      865  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    17   4                tewok   0  -1   1   0     1   2  18  20   3     7   7   6     0     1196  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    18   0              pimuide   0  -1   1   1    15  16  14  13  19     6   5   5     1      710  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    18   1              pimuide   0  -1   1   1    15  16  14  13  19     6   5   5     1      511  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    18   2              pimuide   0  -1   1   1    15  16  14  13  19     6   5   5     1     1209  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    18   3              pimuide   0  -1   1   1    15  16  14  13  19     6   5   5     1     1084  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    18   4              pimuide   0  -1   1   1    15  16  14  13  19     6   5   5     1     1456  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    19   0                medan   0  -1   1   1    10   5  12  23   6     7   7   7     1      916  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    19   1                medan   0  -1   1   1    10   5  12  23   6     7   7   7     1     1011  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    19   2                medan   0  -1   1   1    10   5  12  23   6     7   7   7     1     1125  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    19   3                medan   0  -1   1   1    10   5  12  23   6     7   7   7     1      675  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    19   4                medan   0  -1   1   1    10   5  12  23   6     7   7   7     1     1055  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    20   0               botuyn   0  -1   1   1    22  17   4  21  24     3   2   2     1      795  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    20   1               botuyn   0  -1   1   1    22  17   4  21  24     3   2   2     1      590  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    20   2               botuyn   0  -1   1   1    22  17   4  21  24     3   2   2     1      860  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    20   3               botuyn   0  -1   1   1    22  17   4  21  24     3   2   2     1     1104  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    20   4               botuyn   0  -1   1   1    22  17   4  21  24     3   2   2     1     1651  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    21   0              hilejin   0  -1   1   1     0   7   8  11   9     1   1   1     1     1368  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    21   1              hilejin   0  -1   1   1     0   7   8  11   9     1   1   1     1     1360  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    21   2              hilejin   0  -1   1   1     0   7   8  11   9     1   1   1     1     1657  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    21   3              hilejin   0  -1   1   1     0   7   8  11   9     1   1   1     1      993  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    21   4              hilejin   0  -1   1   1     0   7   8  11   9     1   1   1     1      448  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    22   0                yosud   0  -1   1   1     2   8   9  24  17     3   2   1     1      616  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    22   1                yosud   0  -1   1   1     2   8   9  24  17     3   2   1     1     1911  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    22   2                yosud   0  -1   1   1     2   8   9  24  17     3   2   1     1      685  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    22   3                yosud   0  -1   1   1     2   8   9  24  17     3   2   1     1      794  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    22   4                yosud   0  -1   1   1     2   8   9  24  17     3   2   1     1      557  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    23   0               uwimor   0  -1   1   1     1  22   5  11  23     5   3   2     1      829  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    23   1               uwimor   0  -1   1   1     1  22   5  11  23     5   3   2     1      644  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    23   2               uwimor   0  -1   1   1     1  22   5  11  23     5   3   2     1      713  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    23   3               uwimor   0  -1   1   1     1  22   5  11  23     5   3   2     1      748  -1  -1       -1
+ 10  24   2   1   1   1        SOONDERPPAEDA    23   4               uwimor   0  -1   1   1     1  22   5  11  23     5   3   2     1     1014  -1  -1       -1

@@ -1,0 +1,839 @@
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0  larnist   0  -1   0   0  12   9  17   7   1 -1  -1  -1
+  1  laumens   0  -1   0   0  24   3  20  16  11 -1  -1  -1
+  2  permife   0  -1   0   0   2  19  14  10   8 -1  -1  -1
+  3  kiwehon   0  -1   0   0  18   0   6  21   4 -1  -1  -1
+  4  umeuken   0  -1   0   0  23  15  22  13   5 -1  -1  -1
+  5  sleshen   0  -1   0   0  12   2   8   5  19 -1  -1  -1
+  6    obacu   0  -1   0   1   3  13  21  24  18 -1  -1  -1
+  7   uwimor   0  -1   0   1  23  14  22  17  20 -1  -1  -1
+  8    frask   0  -1   0   1  15   9  10  16   6 -1  -1  -1
+  9   hiwawa   0  -1   0   1  11   7   0   1   4 -1  -1  -1
+ 10    yosud   0  -1   0   1  12   3   4  21  13 -1  -1  -1
+ 11    tewok   0  -1   0   1  10  15   5  16   1 -1  -1  -1
+ 12  hilejin   0  -1   1   0  11  20  17   5   7 -1  -1  -1
+ 13    medan   0  -1   1   0  22   2  21  13  12 -1  -1  -1
+ 14    botsy   0  -1   1   0  19  18  24  23  14 -1  -1  -1
+ 15   botuyn   0  -1   1   0   1   8   3   4  10 -1  -1  -1
+ 16  furasti   0  -1   1   0   9  16   6   0  15 -1  -1  -1
+ 17  molkate   0  -1   1   0   4   3   6   8  14 -1  -1  -1
+ 18  pimuide   0  -1   1   1  12  15   5  17  11 -1  -1  -1
+ 19   nalber   0  -1   1   1  20  23  19  10  16 -1  -1  -1
+ 20   schese   0  -1   1   1   1  21  13   2   7 -1  -1  -1
+ 21    noste   0  -1   1   1  24   9   0  18  22 -1  -1  -1
+ 22   ubajec   0  -1   1   1  19   4  20  13   3 -1  -1  -1
+ 23   jaciyn   0  -1   1   1  22  10   6  17   5 -1  -1  -1
+ 24     bach   1   0   0   0   6   8  20   0  19 -1  -1  -1
+ 25   ananas   1   0   0   0  24  18   9   7  22 -1  -1  -1
+ 26    schön   1   0   0   0  23  17  14   2  11 -1  -1  -1
+ 27     baby   1   0   0   1  21  17  22   7  13 -1  -1  -1
+ 28   schatz   1   0   0   1   1  15  23  24   9 -1  -1  -1
+ 29     jazz   1   0   0   1   8  16  14   2   3 -1  -1  -1
+ 30    sacht   1   0   1   0  15  11  23  18  24 -1  -1  -1
+ 31     tanz   1   0   1   0   0   1   8  21  14 -1  -1  -1
+ 32   hübsch   1   0   1   0  16   7  12   9   2 -1  -1  -1
+ 33    jacht   1   0   1   1  20   0   4   7  15 -1  -1  -1
+ 34    sanft   1   0   1   1  12  19   5  11   9 -1  -1  -1
+ 35  hautnah   1   0   1   1  14   6  13   2  24 -1  -1  -1
+ 36   gierig   1   1   0   0  10  12  18  19  20 -1  -1  -1
+ 37    viper   1   1   0   0   5   0   4   6  11 -1  -1  -1
+ 38    groll   1   1   0   0  13   6   2   4   1 -1  -1  -1
+ 39  grimmig   1   1   0   1  12  19   8  21  11 -1  -1  -1
+ 40    kippe   1   1   0   1  24   0   9  14  15 -1  -1  -1
+ 41   kerker   1   1   0   1  17  20  10   3  18 -1  -1  -1
+ 42    eklig   1   1   1   0  10  18  21   8  22 -1  -1  -1
+ 43    krieg   1   1   1   0  17  16  23   3   1 -1  -1  -1
+ 44  erreger   1   1   1   0  17  19  16  22   9 -1  -1  -1
+ 45     mord   1   1   1   1  14   2   6  15  11 -1  -1  -1
+ 46    droge   1   1   1   1   3   8   5   7  13 -1  -1  -1
+ 47     irre   1   1   1   1  10   0  12   1  23 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 larnist 
+  0   1 laumens 
+  0   2 permife 
+  0   3 kiwehon 
+  0   4 umeuken 
+  1   0 sleshen 
+  1   1 obacu 
+  1   2 uwimor 
+  1   3 frask 
+  1   4 hiwawa 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 larnist   0   0  12 bild/neg (13)s (Large).bmp
+  0 larnist   0   1   9 bild/neg (10)s (Large).bmp
+  0 larnist   0   2  17 bild/neg (18)s (Large).bmp
+  0 larnist   0   3   7 bild/neg (8)s (Large).bmp
+  0 larnist   0   4   1 bild/neg (2)s (Large).bmp
+  1 laumens   0   0  24 bild/neg (25)s (Large).bmp
+  1 laumens   0   1   3 bild/neg (4)s (Large).bmp
+  1 laumens   0   2  20 bild/neg (21)s (Large).bmp
+  1 laumens   0   3  16 bild/neg (17)s (Large).bmp
+  1 laumens   0   4  11 bild/neg (12)s (Large).bmp
+  2 permife   0   0   2 bild/neg (3)s (Large).bmp
+  2 permife   0   1  19 bild/neg (20)s (Large).bmp
+  2 permife   0   2  14 bild/neg (15)s (Large).bmp
+  2 permife   0   3  10 bild/neg (11)s (Large).bmp
+  2 permife   0   4   8 bild/neg (9)s (Large).bmp
+  3 kiwehon   0   0  18 bild/neg (19)s (Large).bmp
+  3 kiwehon   0   1   0 bild/neg (1)s (Large).bmp
+  3 kiwehon   0   2   6 bild/neg (7)s (Large).bmp
+  3 kiwehon   0   3  21 bild/neg (22)s (Large).bmp
+  3 kiwehon   0   4   4 bild/neg (5)s (Large).bmp
+  4 umeuken   0   0  23 bild/neg (24)s (Large).bmp
+  4 umeuken   0   1  15 bild/neg (16)s (Large).bmp
+  4 umeuken   0   2  22 bild/neg (23)s (Large).bmp
+  4 umeuken   0   3  13 bild/neg (14)s (Large).bmp
+  4 umeuken   0   4   5 bild/neg (6)s (Large).bmp
+  5 sleshen   0   0  12 bild/neg (13)s (Large).bmp
+  5 sleshen   0   1   2 bild/neg (3)s (Large).bmp
+  5 sleshen   0   2   8 bild/neg (9)s (Large).bmp
+  5 sleshen   0   3   5 bild/neg (6)s (Large).bmp
+  5 sleshen   0   4  19 bild/neg (20)s (Large).bmp
+  6 obacu   0   0   3 bild/neg (4)s (Large).bmp
+  6 obacu   0   1  13 bild/neg (14)s (Large).bmp
+  6 obacu   0   2  21 bild/neg (22)s (Large).bmp
+  6 obacu   0   3  24 bild/neg (25)s (Large).bmp
+  6 obacu   0   4  18 bild/neg (19)s (Large).bmp
+  7 uwimor   0   0  23 bild/neg (24)s (Large).bmp
+  7 uwimor   0   1  14 bild/neg (15)s (Large).bmp
+  7 uwimor   0   2  22 bild/neg (23)s (Large).bmp
+  7 uwimor   0   3  17 bild/neg (18)s (Large).bmp
+  7 uwimor   0   4  20 bild/neg (21)s (Large).bmp
+  8 frask   0   0  15 bild/neg (16)s (Large).bmp
+  8 frask   0   1   9 bild/neg (10)s (Large).bmp
+  8 frask   0   2  10 bild/neg (11)s (Large).bmp
+  8 frask   0   3  16 bild/neg (17)s (Large).bmp
+  8 frask   0   4   6 bild/neg (7)s (Large).bmp
+  9 hiwawa   0   0  11 bild/neg (12)s (Large).bmp
+  9 hiwawa   0   1   7 bild/neg (8)s (Large).bmp
+  9 hiwawa   0   2   0 bild/neg (1)s (Large).bmp
+  9 hiwawa   0   3   1 bild/neg (2)s (Large).bmp
+  9 hiwawa   0   4   4 bild/neg (5)s (Large).bmp
+ 10 yosud   0   0  12 bild/neg (13)s (Large).bmp
+ 10 yosud   0   1   3 bild/neg (4)s (Large).bmp
+ 10 yosud   0   2   4 bild/neg (5)s (Large).bmp
+ 10 yosud   0   3  21 bild/neg (22)s (Large).bmp
+ 10 yosud   0   4  13 bild/neg (14)s (Large).bmp
+ 11 tewok   0   0  10 bild/neg (11)s (Large).bmp
+ 11 tewok   0   1  15 bild/neg (16)s (Large).bmp
+ 11 tewok   0   2   5 bild/neg (6)s (Large).bmp
+ 11 tewok   0   3  16 bild/neg (17)s (Large).bmp
+ 11 tewok   0   4   1 bild/neg (2)s (Large).bmp
+ 12 hilejin   1   0  11 bild/pos (12)s (Large).bmp
+ 12 hilejin   1   1  20 bild/pos (21)s (Large).bmp
+ 12 hilejin   1   2  17 bild/pos (18)s (Large).bmp
+ 12 hilejin   1   3   5 bild/pos (6)s (Large).bmp
+ 12 hilejin   1   4   7 bild/pos (8)s (Large).bmp
+ 13 medan   1   0  22 bild/pos (23)s (Large).bmp
+ 13 medan   1   1   2 bild/pos (3)s (Large).bmp
+ 13 medan   1   2  21 bild/pos (22)s (Large).bmp
+ 13 medan   1   3  13 bild/pos (14)s (Large).bmp
+ 13 medan   1   4  12 bild/pos (13)s (Large).bmp
+ 14 botsy   1   0  19 bild/pos (20)s (Large).bmp
+ 14 botsy   1   1  18 bild/pos (19)s (Large).bmp
+ 14 botsy   1   2  24 bild/pos (25)s (Large).bmp
+ 14 botsy   1   3  23 bild/pos (24)s (Large).bmp
+ 14 botsy   1   4  14 bild/pos (15)s (Large).bmp
+ 15 botuyn   1   0   1 bild/pos (2)s (Large).bmp
+ 15 botuyn   1   1   8 bild/pos (9)s (Large).bmp
+ 15 botuyn   1   2   3 bild/pos (4)s (Large).bmp
+ 15 botuyn   1   3   4 bild/pos (5)s (Large).bmp
+ 15 botuyn   1   4  10 bild/pos (11)s (Large).bmp
+ 16 furasti   1   0   9 bild/pos (10)s (Large).bmp
+ 16 furasti   1   1  16 bild/pos (17)s (Large).bmp
+ 16 furasti   1   2   6 bild/pos (7)s (Large).bmp
+ 16 furasti   1   3   0 bild/pos (1)s (Large).bmp
+ 16 furasti   1   4  15 bild/pos (16)s (Large).bmp
+ 17 molkate   1   0   4 bild/pos (5)s (Large).bmp
+ 17 molkate   1   1   3 bild/pos (4)s (Large).bmp
+ 17 molkate   1   2   6 bild/pos (7)s (Large).bmp
+ 17 molkate   1   3   8 bild/pos (9)s (Large).bmp
+ 17 molkate   1   4  14 bild/pos (15)s (Large).bmp
+ 18 pimuide   1   0  12 bild/pos (13)s (Large).bmp
+ 18 pimuide   1   1  15 bild/pos (16)s (Large).bmp
+ 18 pimuide   1   2   5 bild/pos (6)s (Large).bmp
+ 18 pimuide   1   3  17 bild/pos (18)s (Large).bmp
+ 18 pimuide   1   4  11 bild/pos (12)s (Large).bmp
+ 19 nalber   1   0  20 bild/pos (21)s (Large).bmp
+ 19 nalber   1   1  23 bild/pos (24)s (Large).bmp
+ 19 nalber   1   2  19 bild/pos (20)s (Large).bmp
+ 19 nalber   1   3  10 bild/pos (11)s (Large).bmp
+ 19 nalber   1   4  16 bild/pos (17)s (Large).bmp
+ 20 schese   1   0   1 bild/pos (2)s (Large).bmp
+ 20 schese   1   1  21 bild/pos (22)s (Large).bmp
+ 20 schese   1   2  13 bild/pos (14)s (Large).bmp
+ 20 schese   1   3   2 bild/pos (3)s (Large).bmp
+ 20 schese   1   4   7 bild/pos (8)s (Large).bmp
+ 21 noste   1   0  24 bild/pos (25)s (Large).bmp
+ 21 noste   1   1   9 bild/pos (10)s (Large).bmp
+ 21 noste   1   2   0 bild/pos (1)s (Large).bmp
+ 21 noste   1   3  18 bild/pos (19)s (Large).bmp
+ 21 noste   1   4  22 bild/pos (23)s (Large).bmp
+ 22 ubajec   1   0  19 bild/pos (20)s (Large).bmp
+ 22 ubajec   1   1   4 bild/pos (5)s (Large).bmp
+ 22 ubajec   1   2  20 bild/pos (21)s (Large).bmp
+ 22 ubajec   1   3  13 bild/pos (14)s (Large).bmp
+ 22 ubajec   1   4   3 bild/pos (4)s (Large).bmp
+ 23 jaciyn   1   0  22 bild/pos (23)s (Large).bmp
+ 23 jaciyn   1   1  10 bild/pos (11)s (Large).bmp
+ 23 jaciyn   1   2   6 bild/pos (7)s (Large).bmp
+ 23 jaciyn   1   3  17 bild/pos (18)s (Large).bmp
+ 23 jaciyn   1   4   5 bild/pos (6)s (Large).bmp
+ 24 bach   0   0   6 bild/neg (7)s (Large).bmp
+ 24 bach   0   1   8 bild/neg (9)s (Large).bmp
+ 24 bach   0   2  20 bild/neg (21)s (Large).bmp
+ 24 bach   0   3   0 bild/neg (1)s (Large).bmp
+ 24 bach   0   4  19 bild/neg (20)s (Large).bmp
+ 25 ananas   0   0  24 bild/neg (25)s (Large).bmp
+ 25 ananas   0   1  18 bild/neg (19)s (Large).bmp
+ 25 ananas   0   2   9 bild/neg (10)s (Large).bmp
+ 25 ananas   0   3   7 bild/neg (8)s (Large).bmp
+ 25 ananas   0   4  22 bild/neg (23)s (Large).bmp
+ 26 schön   0   0  23 bild/neg (24)s (Large).bmp
+ 26 schön   0   1  17 bild/neg (18)s (Large).bmp
+ 26 schön   0   2  14 bild/neg (15)s (Large).bmp
+ 26 schön   0   3   2 bild/neg (3)s (Large).bmp
+ 26 schön   0   4  11 bild/neg (12)s (Large).bmp
+ 27 baby   0   0  21 bild/neg (22)s (Large).bmp
+ 27 baby   0   1  17 bild/neg (18)s (Large).bmp
+ 27 baby   0   2  22 bild/neg (23)s (Large).bmp
+ 27 baby   0   3   7 bild/neg (8)s (Large).bmp
+ 27 baby   0   4  13 bild/neg (14)s (Large).bmp
+ 28 schatz   0   0   1 bild/neg (2)s (Large).bmp
+ 28 schatz   0   1  15 bild/neg (16)s (Large).bmp
+ 28 schatz   0   2  23 bild/neg (24)s (Large).bmp
+ 28 schatz   0   3  24 bild/neg (25)s (Large).bmp
+ 28 schatz   0   4   9 bild/neg (10)s (Large).bmp
+ 29 jazz   0   0   8 bild/neg (9)s (Large).bmp
+ 29 jazz   0   1  16 bild/neg (17)s (Large).bmp
+ 29 jazz   0   2  14 bild/neg (15)s (Large).bmp
+ 29 jazz   0   3   2 bild/neg (3)s (Large).bmp
+ 29 jazz   0   4   3 bild/neg (4)s (Large).bmp
+ 30 sacht   1   0  15 bild/pos (16)s (Large).bmp
+ 30 sacht   1   1  11 bild/pos (12)s (Large).bmp
+ 30 sacht   1   2  23 bild/pos (24)s (Large).bmp
+ 30 sacht   1   3  18 bild/pos (19)s (Large).bmp
+ 30 sacht   1   4  24 bild/pos (25)s (Large).bmp
+ 31 tanz   1   0   0 bild/pos (1)s (Large).bmp
+ 31 tanz   1   1   1 bild/pos (2)s (Large).bmp
+ 31 tanz   1   2   8 bild/pos (9)s (Large).bmp
+ 31 tanz   1   3  21 bild/pos (22)s (Large).bmp
+ 31 tanz   1   4  14 bild/pos (15)s (Large).bmp
+ 32 hübsch   1   0  16 bild/pos (17)s (Large).bmp
+ 32 hübsch   1   1   7 bild/pos (8)s (Large).bmp
+ 32 hübsch   1   2  12 bild/pos (13)s (Large).bmp
+ 32 hübsch   1   3   9 bild/pos (10)s (Large).bmp
+ 32 hübsch   1   4   2 bild/pos (3)s (Large).bmp
+ 33 jacht   1   0  20 bild/pos (21)s (Large).bmp
+ 33 jacht   1   1   0 bild/pos (1)s (Large).bmp
+ 33 jacht   1   2   4 bild/pos (5)s (Large).bmp
+ 33 jacht   1   3   7 bild/pos (8)s (Large).bmp
+ 33 jacht   1   4  15 bild/pos (16)s (Large).bmp
+ 34 sanft   1   0  12 bild/pos (13)s (Large).bmp
+ 34 sanft   1   1  19 bild/pos (20)s (Large).bmp
+ 34 sanft   1   2   5 bild/pos (6)s (Large).bmp
+ 34 sanft   1   3  11 bild/pos (12)s (Large).bmp
+ 34 sanft   1   4   9 bild/pos (10)s (Large).bmp
+ 35 hautnah   1   0  14 bild/pos (15)s (Large).bmp
+ 35 hautnah   1   1   6 bild/pos (7)s (Large).bmp
+ 35 hautnah   1   2  13 bild/pos (14)s (Large).bmp
+ 35 hautnah   1   3   2 bild/pos (3)s (Large).bmp
+ 35 hautnah   1   4  24 bild/pos (25)s (Large).bmp
+ 36 gierig   0   0  10 bild/neg (11)s (Large).bmp
+ 36 gierig   0   1  12 bild/neg (13)s (Large).bmp
+ 36 gierig   0   2  18 bild/neg (19)s (Large).bmp
+ 36 gierig   0   3  19 bild/neg (20)s (Large).bmp
+ 36 gierig   0   4  20 bild/neg (21)s (Large).bmp
+ 37 viper   0   0   5 bild/neg (6)s (Large).bmp
+ 37 viper   0   1   0 bild/neg (1)s (Large).bmp
+ 37 viper   0   2   4 bild/neg (5)s (Large).bmp
+ 37 viper   0   3   6 bild/neg (7)s (Large).bmp
+ 37 viper   0   4  11 bild/neg (12)s (Large).bmp
+ 38 groll   0   0  13 bild/neg (14)s (Large).bmp
+ 38 groll   0   1   6 bild/neg (7)s (Large).bmp
+ 38 groll   0   2   2 bild/neg (3)s (Large).bmp
+ 38 groll   0   3   4 bild/neg (5)s (Large).bmp
+ 38 groll   0   4   1 bild/neg (2)s (Large).bmp
+ 39 grimmig   0   0  12 bild/neg (13)s (Large).bmp
+ 39 grimmig   0   1  19 bild/neg (20)s (Large).bmp
+ 39 grimmig   0   2   8 bild/neg (9)s (Large).bmp
+ 39 grimmig   0   3  21 bild/neg (22)s (Large).bmp
+ 39 grimmig   0   4  11 bild/neg (12)s (Large).bmp
+ 40 kippe   0   0  24 bild/neg (25)s (Large).bmp
+ 40 kippe   0   1   0 bild/neg (1)s (Large).bmp
+ 40 kippe   0   2   9 bild/neg (10)s (Large).bmp
+ 40 kippe   0   3  14 bild/neg (15)s (Large).bmp
+ 40 kippe   0   4  15 bild/neg (16)s (Large).bmp
+ 41 kerker   0   0  17 bild/neg (18)s (Large).bmp
+ 41 kerker   0   1  20 bild/neg (21)s (Large).bmp
+ 41 kerker   0   2  10 bild/neg (11)s (Large).bmp
+ 41 kerker   0   3   3 bild/neg (4)s (Large).bmp
+ 41 kerker   0   4  18 bild/neg (19)s (Large).bmp
+ 42 eklig   1   0  10 bild/pos (11)s (Large).bmp
+ 42 eklig   1   1  18 bild/pos (19)s (Large).bmp
+ 42 eklig   1   2  21 bild/pos (22)s (Large).bmp
+ 42 eklig   1   3   8 bild/pos (9)s (Large).bmp
+ 42 eklig   1   4  22 bild/pos (23)s (Large).bmp
+ 43 krieg   1   0  17 bild/pos (18)s (Large).bmp
+ 43 krieg   1   1  16 bild/pos (17)s (Large).bmp
+ 43 krieg   1   2  23 bild/pos (24)s (Large).bmp
+ 43 krieg   1   3   3 bild/pos (4)s (Large).bmp
+ 43 krieg   1   4   1 bild/pos (2)s (Large).bmp
+ 44 erreger   1   0  17 bild/pos (18)s (Large).bmp
+ 44 erreger   1   1  19 bild/pos (20)s (Large).bmp
+ 44 erreger   1   2  16 bild/pos (17)s (Large).bmp
+ 44 erreger   1   3  22 bild/pos (23)s (Large).bmp
+ 44 erreger   1   4   9 bild/pos (10)s (Large).bmp
+ 45 mord   1   0  14 bild/pos (15)s (Large).bmp
+ 45 mord   1   1   2 bild/pos (3)s (Large).bmp
+ 45 mord   1   2   6 bild/pos (7)s (Large).bmp
+ 45 mord   1   3  15 bild/pos (16)s (Large).bmp
+ 45 mord   1   4  11 bild/pos (12)s (Large).bmp
+ 46 droge   1   0   3 bild/pos (4)s (Large).bmp
+ 46 droge   1   1   8 bild/pos (9)s (Large).bmp
+ 46 droge   1   2   5 bild/pos (6)s (Large).bmp
+ 46 droge   1   3   7 bild/pos (8)s (Large).bmp
+ 46 droge   1   4  13 bild/pos (14)s (Large).bmp
+ 47 irre   1   0  10 bild/pos (11)s (Large).bmp
+ 47 irre   1   1   0 bild/pos (1)s (Large).bmp
+ 47 irre   1   2  12 bild/pos (13)s (Large).bmp
+ 47 irre   1   3   1 bild/pos (2)s (Large).bmp
+ 47 irre   1   4  23 bild/pos (24)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0  46   0      droge   3   1           31
+  0   1  30   0      sacht  15   0          101
+  0   2  10   0      yosud  12   1           31
+  0   3   8   0      frask  15   1           31
+  0   4  24   0       bach   6   0          101
+  0   5   5   0    sleshen  12   0          101
+  0   6  31   0       tanz   0   0          101
+  0   7  29   0       jazz   8   1           31
+  0   8  37   0      viper   5   0          101
+  0   9  11   0      tewok  10   1           31
+  0  10  14   0      botsy  19   0          101
+  0  11  34   0      sanft  12   1           31
+  0  12  38   0      groll  13   0          101
+  0  13   0   0    larnist  12   0          101
+  0  14  27   0       baby  21   1           31
+  0  15  13   0      medan  22   0          101
+  0  16  43   0      krieg  17   0          101
+  0  17  47   0       irre  10   1           31
+  0  18   1   0    laumens  24   0          101
+  0  19   3   0    kiwehon  18   0          101
+  0  20  41   0     kerker  17   1           31
+  0  21  17   0    molkate   4   0          101
+  0  22  28   0     schatz   1   1           31
+  0  23  23   0     jaciyn  22   1           31
+  0  24  16   0    furasti   9   0          101
+  0  25  40   0      kippe  24   1           31
+  0  26   2   0    permife   2   0          101
+  0  27  39   0    grimmig  12   1           31
+  0  28  26   0      schön  23   0          101
+  0  29  21   0      noste  24   1           31
+  0  30   9   0     hiwawa  11   1           31
+  0  31   6   0      obacu   3   1           31
+  0  32   7   0     uwimor  23   1           31
+  0  33  20   0     schese   1   1           31
+  0  34  35   0    hautnah  14   1           31
+  0  35  25   0     ananas  24   0          101
+  0  36   4   0    umeuken  23   0          101
+  0  37  15   0     botuyn   1   0          101
+  0  38  33   0      jacht  20   1           31
+  0  39  32   0     hübsch  16   0          101
+  0  40  12   0    hilejin  11   0          101
+  0  41  44   0    erreger  17   0          101
+  0  42  19   0     nalber  20   1           31
+  0  43  22   0     ubajec  19   1           31
+  0  44  45   0       mord  14   1           31
+  0  45  42   0      eklig  10   0          101
+  0  46  18   0    pimuide  12   1           31
+  0  47  36   0     gierig  10   0          101
+  1   0   2   1    permife  19   0          101
+  1   1  10   1      yosud   3   1           31
+  1   2   8   1      frask   9   1           31
+  1   3  46   1      droge   8   1           31
+  1   4  18   1    pimuide  15   1           31
+  1   5  45   1       mord   2   1           31
+  1   6   1   1    laumens   3   0          101
+  1   7  27   1       baby  17   1           31
+  1   8  26   1      schön  17   0          101
+  1   9  44   1    erreger  19   0          101
+  1  10  22   1     ubajec   4   1           31
+  1  11  33   1      jacht   0   1           31
+  1  12  38   1      groll   6   0          101
+  1  13  41   1     kerker  20   1           31
+  1  14  12   1    hilejin  20   0          101
+  1  15  20   1     schese  21   1           31
+  1  16  37   1      viper   0   0          101
+  1  17  47   1       irre   0   1           31
+  1  18  32   1     hübsch   7   0          101
+  1  19  23   1     jaciyn  10   1           31
+  1  20   7   1     uwimor  14   1           31
+  1  21  30   1      sacht  11   0          101
+  1  22  16   1    furasti  16   0          101
+  1  23  35   1    hautnah   6   1           31
+  1  24  14   1      botsy  18   0          101
+  1  25  24   1       bach   8   0          101
+  1  26   6   1      obacu  13   1           31
+  1  27  13   1      medan   2   0          101
+  1  28   4   1    umeuken  15   0          101
+  1  29  31   1       tanz   1   0          101
+  1  30   9   1     hiwawa   7   1           31
+  1  31  21   1      noste   9   1           31
+  1  32  34   1      sanft  19   1           31
+  1  33  11   1      tewok  15   1           31
+  1  34   0   1    larnist   9   0          101
+  1  35   3   1    kiwehon   0   0          101
+  1  36  17   1    molkate   3   0          101
+  1  37   5   1    sleshen   2   0          101
+  1  38  43   1      krieg  16   0          101
+  1  39  36   1     gierig  12   0          101
+  1  40  39   1    grimmig  19   1           31
+  1  41  28   1     schatz  15   1           31
+  1  42  29   1       jazz  16   1           31
+  1  43  19   1     nalber  23   1           31
+  1  44  40   1      kippe   0   1           31
+  1  45  25   1     ananas  18   0          101
+  1  46  42   1      eklig  18   0          101
+  1  47  15   1     botuyn   8   0          101
+  2   0  38   2      groll   2   0          101
+  2   1  28   2     schatz  23   1           31
+  2   2  42   2      eklig  21   0          101
+  2   3  18   2    pimuide   5   1           31
+  2   4  11   2      tewok   5   1           31
+  2   5  37   2      viper   4   0          101
+  2   6  21   2      noste   0   1           31
+  2   7   0   2    larnist  17   0          101
+  2   8  44   2    erreger  16   0          101
+  2   9  22   2     ubajec  20   1           31
+  2  10  25   2     ananas   9   0          101
+  2  11   4   2    umeuken  22   0          101
+  2  12  33   2      jacht   4   1           31
+  2  13  43   2      krieg  23   0          101
+  2  14  26   2      schön  14   0          101
+  2  15  40   2      kippe   9   1           31
+  2  16  35   2    hautnah  13   1           31
+  2  17  20   2     schese  13   1           31
+  2  18  29   2       jazz  14   1           31
+  2  19  36   2     gierig  18   0          101
+  2  20   3   2    kiwehon   6   0          101
+  2  21  45   2       mord   6   1           31
+  2  22   1   2    laumens  20   0          101
+  2  23  47   2       irre  12   1           31
+  2  24  32   2     hübsch  12   0          101
+  2  25   5   2    sleshen   8   0          101
+  2  26  27   2       baby  22   1           31
+  2  27  10   2      yosud   4   1           31
+  2  28   8   2      frask  10   1           31
+  2  29  46   2      droge   5   1           31
+  2  30  12   2    hilejin  17   0          101
+  2  31  39   2    grimmig   8   1           31
+  2  32  13   2      medan  21   0          101
+  2  33  31   2       tanz   8   0          101
+  2  34   6   2      obacu  21   1           31
+  2  35   9   2     hiwawa   0   1           31
+  2  36   2   2    permife  14   0          101
+  2  37  19   2     nalber  19   1           31
+  2  38  41   2     kerker  10   1           31
+  2  39   7   2     uwimor  22   1           31
+  2  40  17   2    molkate   6   0          101
+  2  41  16   2    furasti   6   0          101
+  2  42  23   2     jaciyn   6   1           31
+  2  43  34   2      sanft   5   1           31
+  2  44  24   2       bach  20   0          101
+  2  45  15   2     botuyn   3   0          101
+  2  46  14   2      botsy  24   0          101
+  2  47  30   2      sacht  23   0          101
+  3   0  43   3      krieg   3   0          101
+  3   1  14   3      botsy  23   0          101
+  3   2  22   3     ubajec  13   1           31
+  3   3  25   3     ananas   7   0          101
+  3   4  46   3      droge   7   1           31
+  3   5  18   3    pimuide  17   1           31
+  3   6  24   3       bach   0   0          101
+  3   7   8   3      frask  16   1           31
+  3   8  15   3     botuyn   4   0          101
+  3   9  37   3      viper   6   0          101
+  3  10  41   3     kerker   3   1           31
+  3  11  10   3      yosud  21   1           31
+  3  12   4   3    umeuken  13   0          101
+  3  13  34   3      sanft  11   1           31
+  3  14  27   3       baby   7   1           31
+  3  15  21   3      noste  18   1           31
+  3  16  12   3    hilejin   5   0          101
+  3  17  28   3     schatz  24   1           31
+  3  18  35   3    hautnah   2   1           31
+  3  19  29   3       jazz   2   1           31
+  3  20  40   3      kippe  14   1           31
+  3  21  19   3     nalber  10   1           31
+  3  22  33   3      jacht   7   1           31
+  3  23  30   3      sacht  18   0          101
+  3  24  31   3       tanz  21   0          101
+  3  25  11   3      tewok  16   1           31
+  3  26   7   3     uwimor  17   1           31
+  3  27  45   3       mord  15   1           31
+  3  28   6   3      obacu  24   1           31
+  3  29  44   3    erreger  22   0          101
+  3  30  23   3     jaciyn  17   1           31
+  3  31   1   3    laumens  16   0          101
+  3  32   2   3    permife  10   0          101
+  3  33   3   3    kiwehon  21   0          101
+  3  34  20   3     schese   2   1           31
+  3  35  36   3     gierig  19   0          101
+  3  36  38   3      groll   4   0          101
+  3  37  32   3     hübsch   9   0          101
+  3  38  42   3      eklig   8   0          101
+  3  39   0   3    larnist   7   0          101
+  3  40  26   3      schön   2   0          101
+  3  41  47   3       irre   1   1           31
+  3  42   9   3     hiwawa   1   1           31
+  3  43  39   3    grimmig  21   1           31
+  3  44  17   3    molkate   8   0          101
+  3  45  16   3    furasti   0   0          101
+  3  46   5   3    sleshen   5   0          101
+  3  47  13   3      medan  13   0          101
+  4   0  34   4      sanft   9   1           31
+  4   1  46   4      droge  13   1           31
+  4   2  36   4     gierig  20   0          101
+  4   3   9   4     hiwawa   4   1           31
+  4   4  30   4      sacht  24   0          101
+  4   5  41   4     kerker  18   1           31
+  4   6  21   4      noste  22   1           31
+  4   7  18   4    pimuide  11   1           31
+  4   8  27   4       baby  13   1           31
+  4   9   8   4      frask   6   1           31
+  4  10  29   4       jazz   3   1           31
+  4  11  15   4     botuyn  10   0          101
+  4  12  10   4      yosud  13   1           31
+  4  13  47   4       irre  23   1           31
+  4  14  13   4      medan  12   0          101
+  4  15  20   4     schese   7   1           31
+  4  16  43   4      krieg   1   0          101
+  4  17  44   4    erreger   9   0          101
+  4  18  42   4      eklig  22   0          101
+  4  19  37   4      viper  11   0          101
+  4  20  38   4      groll   1   0          101
+  4  21  39   4    grimmig  11   1           31
+  4  22  31   4       tanz  14   0          101
+  4  23   5   4    sleshen  19   0          101
+  4  24  24   4       bach  19   0          101
+  4  25  11   4      tewok   1   1           31
+  4  26   1   4    laumens  11   0          101
+  4  27  16   4    furasti  15   0          101
+  4  28   2   4    permife   8   0          101
+  4  29  25   4     ananas  22   0          101
+  4  30  40   4      kippe  15   1           31
+  4  31   7   4     uwimor  20   1           31
+  4  32   4   4    umeuken   5   0          101
+  4  33  28   4     schatz   9   1           31
+  4  34  14   4      botsy  14   0          101
+  4  35   0   4    larnist   1   0          101
+  4  36  33   4      jacht  15   1           31
+  4  37  35   4    hautnah  24   1           31
+  4  38   6   4      obacu  18   1           31
+  4  39  26   4      schön  11   0          101
+  4  40  19   4     nalber  16   1           31
+  4  41  17   4    molkate  14   0          101
+  4  42  23   4     jaciyn   5   1           30
+  4  43  12   4    hilejin   7   0          101
+  4  44  45   4       mord  11   1           31
+  4  45  22   4     ubajec   3   1           31
+  4  46  32   4     hübsch   2   0          101
+  4  47   3   4    kiwehon   4   0          101
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0  12 hilejin   7   7   7 1890267240
+   1  42 eklig   2   3   2 1890267240
+   2   1 laumens   5   5   5 1890267240
+   3  35 hautnah   6   6   6 1890267240
+   4  45 mord   2   4   4 1890267240
+   5   0 larnist   4   5   4 1890267240
+   6   8 frask   4   4   3 1890267240
+   7  37 viper   5   7   7 1890267240
+   8  18 pimuide   4   2   2 1890267240
+   9  13 medan   5   7   6 1890267240
+  10  20 schese   5   5   5 1890267240
+  11  36 gierig   3   7   7 1890267240
+  12  21 noste   4   7   7 1890267240
+  13  23 jaciyn   4   2   2 1890267240
+  14  43 krieg   3   3   2 1890267240
+  15  47 irre   5   5   5 1890267240
+  16   6 obacu   4   4   4 1890267240
+  17  14 botsy   5   6   6 1890267240
+  18  17 molkate   5   6   6 1890267240
+  19  22 ubajec   4   2   2 1890267240
+  20  25 ananas   7   7   7 1890267240
+  21  19 nalber   4   2   2 1890267240
+  22  16 furasti   4   7   7 1890267240
+  23  38 groll   4   4   4 1890267240
+  24   7 uwimor   4   2   2 1890267240
+  25  24 bach   6   6   6 1890267240
+  26  39 grimmig   4   6   6 1890267240
+  27  10 yosud   2   2   2 1890267240
+  28   5 sleshen   4   5   2 1890267240
+  29  46 droge   5   5   5 1890267240
+  30  29 jazz   5   5   5 1890267240
+  31  32 hübsch   7   7   7 1890267240
+  32  28 schatz   7   7   7 1890267240
+  33   3 kiwehon   5   5   5 1890267240
+  34  26 schön   6   6   6 1890267240
+  35  27 baby   5   5   5 1890267240
+  36  31 tanz   6   6   6 1890267240
+  37  15 botuyn   5   5   5 1890267240
+  38  40 kippe   5   5   5 1890267240
+  39  33 jacht   4   4   4 1890267240
+  40  44 erreger   3   2   3 1890267240
+  41   2 permife   4   2   2 1890267240
+  42   9 hiwawa   5   2   5 1890267240
+  43  41 kerker   2   2   2 1890267240
+  44  30 sacht   7   7   7 1890267240
+  45  34 sanft   7   7   7 1890267240
+  46   4 umeuken   5   5   5 1890267240
+  47  11 tewok   4   4   4 1890267240
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 sichtbar_response sichtbar_rt
+  0     0   0              larnist   0  -1   0   0    12   9  17   7   1     4   5   4     0     2625 
+  0     0   1              larnist   0  -1   0   0    12   9  17   7   1     4   5   4     0     4561 
+  0     0   2              larnist   0  -1   0   0    12   9  17   7   1     4   5   4     0     1617 
+  0     0   3              larnist   0  -1   0   0    12   9  17   7   1     4   5   4     0     2976 
+  0     0   4              larnist   0  -1   0   0    12   9  17   7   1     4   5   4     0     1146 
+  0     1   0              laumens   0  -1   0   0    24   3  20  16  11     5   5   5     1     1841 
+  0     1   1              laumens   0  -1   0   0    24   3  20  16  11     5   5   5     1     1512 
+  0     1   2              laumens   0  -1   0   0    24   3  20  16  11     5   5   5     1     1273 
+  0     1   3              laumens   0  -1   0   0    24   3  20  16  11     5   5   5     1     3680 
+  0     1   4              laumens   0  -1   0   0    24   3  20  16  11     5   5   5     1     1977 
+  0     2   0              permife   0  -1   0   0     2  19  14  10   8     4   2   2     2     1577 
+  0     2   1              permife   0  -1   0   0     2  19  14  10   8     4   2   2     2     4704 
+  0     2   2              permife   0  -1   0   0     2  19  14  10   8     4   2   2     2     3905 
+  0     2   3              permife   0  -1   0   0     2  19  14  10   8     4   2   2     2      874 
+  0     2   4              permife   0  -1   0   0     2  19  14  10   8     4   2   2     2     1721 
+  0     3   0              kiwehon   0  -1   0   0    18   0   6  21   4     5   5   5     3     4600 
+  0     3   1              kiwehon   0  -1   0   0    18   0   6  21   4     5   5   5     3    18320 
+  0     3   2              kiwehon   0  -1   0   0    18   0   6  21   4     5   5   5     3     1336 
+  0     3   3              kiwehon   0  -1   0   0    18   0   6  21   4     5   5   5     3     4209 
+  0     3   4              kiwehon   0  -1   0   0    18   0   6  21   4     5   5   5     3     4824 
+  0     4   0              umeuken   0  -1   0   0    23  15  22  13   5     5   5   5     4     2960 
+  0     4   1              umeuken   0  -1   0   0    23  15  22  13   5     5   5   5     4     1032 
+  0     4   2              umeuken   0  -1   0   0    23  15  22  13   5     5   5   5     4      639 
+  0     4   3              umeuken   0  -1   0   0    23  15  22  13   5     5   5   5     4     1176 
+  0     4   4              umeuken   0  -1   0   0    23  15  22  13   5     5   5   5     4     1169 
+  0     5   0              sleshen   0  -1   0   0    12   2   8   5  19     4   5   2     5     9873 
+  0     5   1              sleshen   0  -1   0   0    12   2   8   5  19     4   5   2     5      904 
+  0     5   2              sleshen   0  -1   0   0    12   2   8   5  19     4   5   2     5      946 
+  0     5   3              sleshen   0  -1   0   0    12   2   8   5  19     4   5   2     5      769 
+  0     5   4              sleshen   0  -1   0   0    12   2   8   5  19     4   5   2     5     1241 
+  0     6   0                obacu   0  -1   0   1     3  13  21  24  18     4   4   4     7     3909 
+  0     6   1                obacu   0  -1   0   1     3  13  21  24  18     4   4   4    27     2852 
+  0     6   2                obacu   0  -1   0   1     3  13  21  24  18     4   4   4    34     4828 
+  0     6   3                obacu   0  -1   0   1     3  13  21  24  18     4   4   4    14     1066 
+  0     6   4                obacu   0  -1   0   1     3  13  21  24  18     4   4   4    12     1893 
+  0     7   0               uwimor   0  -1   0   1    23  14  22  17  20     4   2   2    26     2500 
+  0     7   1               uwimor   0  -1   0   1    23  14  22  17  20     4   2   2    47     9301 
+  0     7   2               uwimor   0  -1   0   1    23  14  22  17  20     4   2   2     8     4117 
+  0     7   3               uwimor   0  -1   0   1    23  14  22  17  20     4   2   2    30     1276 
+  0     7   4               uwimor   0  -1   0   1    23  14  22  17  20     4   2   2    37     1284 
+  0     8   0                frask   0  -1   0   1    15   9  10  16   6     4   4   3    42     7668 
+  0     8   1                frask   0  -1   0   1    15   9  10  16   6     4   4   3    18    13774 
+  0     8   2                frask   0  -1   0   1    15   9  10  16   6     4   4   3     8     5221 
+  0     8   3                frask   0  -1   0   1    15   9  10  16   6     4   4   3    45     4253 
+  0     8   4                frask   0  -1   0   1    15   9  10  16   6     4   4   3    16     2587 
+  0     9   0               hiwawa   0  -1   0   1    11   7   0   1   4     5   2   5     3     1837 
+  0     9   1               hiwawa   0  -1   0   1    11   7   0   1   4     5   2   5    35    22332 
+  0     9   2               hiwawa   0  -1   0   1    11   7   0   1   4     5   2   5    21     3622 
+  0     9   3               hiwawa   0  -1   0   1    11   7   0   1   4     5   2   5    14      939 
+  0     9   4               hiwawa   0  -1   0   1    11   7   0   1   4     5   2   5     8     3972 
+  0    10   0                yosud   0  -1   0   1    12   3   4  21  13     2   2   2    45     3166 
+  0    10   1                yosud   0  -1   0   1    12   3   4  21  13     2   2   2    17    19292 
+  0    10   2                yosud   0  -1   0   1    12   3   4  21  13     2   2   2    43     4524 
+  0    10   3                yosud   0  -1   0   1    12   3   4  21  13     2   2   2    18    10141 
+  0    10   4                yosud   0  -1   0   1    12   3   4  21  13     2   2   2    30      723 
+  0    11   0                tewok   0  -1   0   1    10  15   5  16   1     4   4   4     8     2934 
+  0    11   1                tewok   0  -1   0   1    10  15   5  16   1     4   4   4    12     3772 
+  0    11   2                tewok   0  -1   0   1    10  15   5  16   1     4   4   4    38     1269 
+  0    11   3                tewok   0  -1   0   1    10  15   5  16   1     4   4   4    31     4846 
+  0    11   4                tewok   0  -1   0   1    10  15   5  16   1     4   4   4    11     1053 
+  0    12   0              hilejin   0  -1   1   0    11  20  17   5   7     7   7   7    12    13002 
+  0    12   1              hilejin   0  -1   1   0    11  20  17   5   7     7   7   7    12     1393 
+  0    12   2              hilejin   0  -1   1   0    11  20  17   5   7     7   7   7    12     1576 
+  0    12   3              hilejin   0  -1   1   0    11  20  17   5   7     7   7   7    12     1177 
+  0    12   4              hilejin   0  -1   1   0    11  20  17   5   7     7   7   7    12     2135 
+  0    13   0                medan   0  -1   1   0    22   2  21  13  12     5   7   6    13     9057 
+  0    13   1                medan   0  -1   1   0    22   2  21  13  12     5   7   6    13     4895 
+  0    13   2                medan   0  -1   1   0    22   2  21  13  12     5   7   6    13      929 
+  0    13   3                medan   0  -1   1   0    22   2  21  13  12     5   7   6    13     8777 
+  0    13   4                medan   0  -1   1   0    22   2  21  13  12     5   7   6    13      913 
+  0    14   0                botsy   0  -1   1   0    19  18  24  23  14     5   6   6    14     1944 
+  0    14   1                botsy   0  -1   1   0    19  18  24  23  14     5   6   6    14     7328 
+  0    14   2                botsy   0  -1   1   0    19  18  24  23  14     5   6   6    14     1649 
+  0    14   3                botsy   0  -1   1   0    19  18  24  23  14     5   6   6    14      862 
+  0    14   4                botsy   0  -1   1   0    19  18  24  23  14     5   6   6    14     1560 
+  0    15   0               botuyn   0  -1   1   0     1   8   3   4  10     5   5   5    15     1289 
+  0    15   1               botuyn   0  -1   1   0     1   8   3   4  10     5   5   5    15     4336 
+  0    15   2               botuyn   0  -1   1   0     1   8   3   4  10     5   5   5    15     2210 
+  0    15   3               botuyn   0  -1   1   0     1   8   3   4  10     5   5   5    15     1680 
+  0    15   4               botuyn   0  -1   1   0     1   8   3   4  10     5   5   5    15     1528 
+  0    16   0              furasti   0  -1   1   0     9  16   6   0  15     4   7   7    16      872 
+  0    16   1              furasti   0  -1   1   0     9  16   6   0  15     4   7   7    16     2288 
+  0    16   2              furasti   0  -1   1   0     9  16   6   0  15     4   7   7    16     1289 
+  0    16   3              furasti   0  -1   1   0     9  16   6   0  15     4   7   7    16     2078 
+  0    16   4              furasti   0  -1   1   0     9  16   6   0  15     4   7   7    16     1377 
+  0    17   0              molkate   0  -1   1   0     4   3   6   8  14     5   6   6    17     2623 
+  0    17   1              molkate   0  -1   1   0     4   3   6   8  14     5   6   6    17     2033 
+  0    17   2              molkate   0  -1   1   0     4   3   6   8  14     5   6   6    17      720 
+  0    17   3              molkate   0  -1   1   0     4   3   6   8  14     5   6   6    17      775 
+  0    17   4              molkate   0  -1   1   0     4   3   6   8  14     5   6   6    17     1233 
+  0    18   0              pimuide   0  -1   1   1    12  15   5  17  11     4   2   2    40     1628 
+  0    18   1              pimuide   0  -1   1   1    12  15   5  17  11     4   2   2    34     8374 
+  0    18   2              pimuide   0  -1   1   1    12  15   5  17  11     4   2   2    30      932 
+  0    18   3              pimuide   0  -1   1   1    12  15   5  17  11     4   2   2     2     2548 
+  0    18   4              pimuide   0  -1   1   1    12  15   5  17  11     4   2   2    46     4085 
+  0    19   0               nalber   0  -1   1   1    20  23  19  10  16     4   2   2    30     2644 
+  0    19   1               nalber   0  -1   1   1    20  23  19  10  16     4   2   2    24     3685 
+  0    19   2               nalber   0  -1   1   1    20  23  19  10  16     4   2   2    16     6828 
+  0    19   3               nalber   0  -1   1   1    20  23  19  10  16     4   2   2    37     1021 
+  0    19   4               nalber   0  -1   1   1    20  23  19  10  16     4   2   2    45     3204 
+  0    20   0               schese   0  -1   1   1     1  21  13   2   7     5   5   5     9     3388 
+  0    20   1               schese   0  -1   1   1     1  21  13   2   7     5   5   5    42     1140 
+  0    20   2               schese   0  -1   1   1     1  21  13   2   7     5   5   5    38      852 
+  0    20   3               schese   0  -1   1   1     1  21  13   2   7     5   5   5    17     1924 
+  0    20   4               schese   0  -1   1   1     1  21  13   2   7     5   5   5    21      901 
+  0    21   0                noste   0  -1   1   1    24   9   0  18  22     4   7   7    11     5580 
+  0    21   1                noste   0  -1   1   1    24   9   0  18  22     4   7   7    31     3220 
+  0    21   2                noste   0  -1   1   1    24   9   0  18  22     4   7   7    21     5556 
+  0    21   3                noste   0  -1   1   1    24   9   0  18  22     4   7   7    34     1381 
+  0    21   4                noste   0  -1   1   1    24   9   0  18  22     4   7   7     2     8612 
+  0    22   0               ubajec   0  -1   1   1    19   4  20  13   3     4   2   2    16     1324 
+  0    22   1               ubajec   0  -1   1   1    19   4  20  13   3     4   2   2    13     2550 
+  0    22   2               ubajec   0  -1   1   1    19   4  20  13   3     4   2   2     0     1533 
+  0    22   3               ubajec   0  -1   1   1    19   4  20  13   3     4   2   2     4     2500 
+  0    22   4               ubajec   0  -1   1   1    19   4  20  13   3     4   2   2    11     1308 
+  0    23   0               jaciyn   0  -1   1   1    22  10   6  17   5     4   2   2    16     1540 
+  0    23   1               jaciyn   0  -1   1   1    22  10   6  17   5     4   2   2     7     7323 
+  0    23   2               jaciyn   0  -1   1   1    22  10   6  17   5     4   2   2    21     6764 
+  0    23   3               jaciyn   0  -1   1   1    22  10   6  17   5     4   2   2    38     1229 
+  0    23   4               jaciyn   0  -1   1   1    22  10   6  17   5     4   2   2    16     2356 
+  0    24   0                 bach   1   0   0   0     6   8  20   0  19     6   6   6    24     1008 
+  0    24   1                 bach   1   0   0   0     6   8  20   0  19     6   6   6    24     1391 
+  0    24   2                 bach   1   0   0   0     6   8  20   0  19     6   6   6    24      968 
+  0    24   3                 bach   1   0   0   0     6   8  20   0  19     6   6   6    24      872 
+  0    24   4                 bach   1   0   0   0     6   8  20   0  19     6   6   6    24      912 
+  0    25   0               ananas   1   0   0   0    24  18   9   7  22     7   7   7    25      889 
+  0    25   1               ananas   1   0   0   0    24  18   9   7  22     7   7   7    25     1040 
+  0    25   2               ananas   1   0   0   0    24  18   9   7  22     7   7   7    25      921 
+  0    25   3               ananas   1   0   0   0    24  18   9   7  22     7   7   7    25      854 
+  0    25   4               ananas   1   0   0   0    24  18   9   7  22     7   7   7    25     1453 
+  0    26   0                schön   1   0   0   0    23  17  14   2  11     6   6   6    26     4152 
+  0    26   1                schön   1   0   0   0    23  17  14   2  11     6   6   6    26     1648 
+  0    26   2                schön   1   0   0   0    23  17  14   2  11     6   6   6    26     1145 
+  0    26   3                schön   1   0   0   0    23  17  14   2  11     6   6   6    26     1169 
+  0    26   4                schön   1   0   0   0    23  17  14   2  11     6   6   6    26     1016 
+  0    27   0                 baby   1   0   0   1    21  17  22   7  13     5   5   5     7    10718 
+  0    27   1                 baby   1   0   0   1    21  17  22   7  13     5   5   5    34    12636 
+  0    27   2                 baby   1   0   0   1    21  17  22   7  13     5   5   5     8     5700 
+  0    27   3                 baby   1   0   0   1    21  17  22   7  13     5   5   5     2     6172 
+  0    27   4                 baby   1   0   0   1    21  17  22   7  13     5   5   5    46      677 
+  0    28   0               schatz   1   0   0   1     1  15  23  24   9     7   7   7    40     1813 
+  0    28   1               schatz   1   0   0   1     1  15  23  24   9     7   7   7    32     5963 
+  0    28   2               schatz   1   0   0   1     1  15  23  24   9     7   7   7    30    13325 
+  0    28   3               schatz   1   0   0   1     1  15  23  24   9     7   7   7    43     4724 
+  0    28   4               schatz   1   0   0   1     1  15  23  24   9     7   7   7    30      924 
+  0    29   0                 jazz   1   0   0   1     8  16  14   2   3     5   5   5    37     6923 
+  0    29   1                 jazz   1   0   0   1     8  16  14   2   3     5   5   5    42     2915 
+  0    29   2                 jazz   1   0   0   1     8  16  14   2   3     5   5   5    43     2781 
+  0    29   3                 jazz   1   0   0   1     8  16  14   2   3     5   5   5    14     2212 
+  0    29   4                 jazz   1   0   0   1     8  16  14   2   3     5   5   5     8     2573 
+  0    30   0                sacht   1   0   1   0    15  11  23  18  24     7   7   7    40     1849 
+  0    30   1                sacht   1   0   1   0    15  11  23  18  24     7   7   7    30     2736 
+  0    30   2                sacht   1   0   1   0    15  11  23  18  24     7   7   7    30     1544 
+  0    30   3                sacht   1   0   1   0    15  11  23  18  24     7   7   7    30     2094 
+  0    30   4                sacht   1   0   1   0    15  11  23  18  24     7   7   7    30     1633 
+  0    31   0                 tanz   1   0   1   0     0   1   8  21  14     6   6   6    31     2584 
+  0    31   1                 tanz   1   0   1   0     0   1   8  21  14     6   6   6    31     1104 
+  0    31   2                 tanz   1   0   1   0     0   1   8  21  14     6   6   6    31      944 
+  0    31   3                 tanz   1   0   1   0     0   1   8  21  14     6   6   6    31      864 
+  0    31   4                 tanz   1   0   1   0     0   1   8  21  14     6   6   6    31     1865 
+  0    32   0               hübsch   1   0   1   0    16   7  12   9   2     7   7   7    32     1089 
+  0    32   1               hübsch   1   0   1   0    16   7  12   9   2     7   7   7    32      976 
+  0    32   2               hübsch   1   0   1   0    16   7  12   9   2     7   7   7    32     1152 
+  0    32   3               hübsch   1   0   1   0    16   7  12   9   2     7   7   7    32      761 
+  0    32   4               hübsch   1   0   1   0    16   7  12   9   2     7   7   7    32     2456 
+  0    33   0                jacht   1   0   1   1    20   0   4   7  15     4   4   4    23     4548 
+  0    33   1                jacht   1   0   1   1    20   0   4   7  15     4   4   4    33      892 
+  0    33   2                jacht   1   0   1   1    20   0   4   7  15     4   4   4    11     3340 
+  0    33   3                jacht   1   0   1   1    20   0   4   7  15     4   4   4    21     1156 
+  0    33   4                jacht   1   0   1   1    20   0   4   7  15     4   4   4    33     1203 
+  0    34   0                sanft   1   0   1   1    12  19   5  11   9     7   7   7    20     4115 
+  0    34   1                sanft   1   0   1   1    12  19   5  11   9     7   7   7    14     4165 
+  0    34   2                sanft   1   0   1   1    12  19   5  11   9     7   7   7    32     1156 
+  0    34   3                sanft   1   0   1   1    12  19   5  11   9     7   7   7    34     1459 
+  0    34   4                sanft   1   0   1   1    12  19   5  11   9     7   7   7    38     2307 
+  0    35   0              hautnah   1   0   1   1    14   6  13   2  24     6   6   6    27     3445 
+  0    35   1              hautnah   1   0   1   1    14   6  13   2  24     6   6   6    10     2308 
+  0    35   2              hautnah   1   0   1   1    14   6  13   2  24     6   6   6    32      750 
+  0    35   3              hautnah   1   0   1   1    14   6  13   2  24     6   6   6     0     2525 
+  0    35   4              hautnah   1   0   1   1    14   6  13   2  24     6   6   6     0     1925 
+  0    36   0               gierig   1   1   0   0    10  12  18  19  20     3   7   7    36     1345 
+  0    36   1               gierig   1   1   0   0    10  12  18  19  20     3   7   7    36     1096 
+  0    36   2               gierig   1   1   0   0    10  12  18  19  20     3   7   7    36     1073 
+  0    36   3               gierig   1   1   0   0    10  12  18  19  20     3   7   7    36     1103 
+  0    36   4               gierig   1   1   0   0    10  12  18  19  20     3   7   7    36     1562 
+  0    37   0                viper   1   1   0   0     5   0   4   6  11     5   7   7    37      943 
+  0    37   1                viper   1   1   0   0     5   0   4   6  11     5   7   7    37     1817 
+  0    37   2                viper   1   1   0   0     5   0   4   6  11     5   7   7    37     1537 
+  0    37   3                viper   1   1   0   0     5   0   4   6  11     5   7   7    37     1304 
+  0    37   4                viper   1   1   0   0     5   0   4   6  11     5   7   7    37     1688 
+  0    38   0                groll   1   1   0   0    13   6   2   4   1     4   4   4    38     1448 
+  0    38   1                groll   1   1   0   0    13   6   2   4   1     4   4   4    38     3177 
+  0    38   2                groll   1   1   0   0    13   6   2   4   1     4   4   4    38     1377 
+  0    38   3                groll   1   1   0   0    13   6   2   4   1     4   4   4    38     1256 
+  0    38   4                groll   1   1   0   0    13   6   2   4   1     4   4   4    31     1265 
+  0    39   0              grimmig   1   1   0   1    12  19   8  21  11     4   6   6    18     3062 
+  0    39   1              grimmig   1   1   0   1    12  19   8  21  11     4   6   6    34     3638 
+  0    39   2              grimmig   1   1   0   1    12  19   8  21  11     4   6   6    32      894 
+  0    39   3              grimmig   1   1   0   1    12  19   8  21  11     4   6   6    36     1085 
+  0    39   4              grimmig   1   1   0   1    12  19   8  21  11     4   6   6    31     1012 
+  0    40   0                kippe   1   1   0   1    24   0   9  14  15     5   5   5    15     2006 
+  0    40   1                kippe   1   1   0   1    24   0   9  14  15     5   5   5     8     3852 
+  0    40   2                kippe   1   1   0   1    24   0   9  14  15     5   5   5    46     1213 
+  0    40   3                kippe   1   1   0   1    24   0   9  14  15     5   5   5    43      669 
+  0    40   4                kippe   1   1   0   1    24   0   9  14  15     5   5   5     1     2509 
+  0    41   0               kerker   1   1   0   1    17  20  10   3  18     2   2   2    10     2734 
+  0    41   1               kerker   1   1   0   1    17  20  10   3  18     2   2   2     7     3028 
+  0    41   2               kerker   1   1   0   1    17  20  10   3  18     2   2   2    34     2453 
+  0    41   3               kerker   1   1   0   1    17  20  10   3  18     2   2   2    43     2773 
+  0    41   4               kerker   1   1   0   1    17  20  10   3  18     2   2   2    37      916 
+  0    42   0                eklig   1   1   1   0    10  18  21   8  22     2   3   2    42     1688 
+  0    42   1                eklig   1   1   1   0    10  18  21   8  22     2   3   2    42     3168 
+  0    42   2                eklig   1   1   1   0    10  18  21   8  22     2   3   2    42     7410 
+  0    42   3                eklig   1   1   1   0    10  18  21   8  22     2   3   2    42     1351 
+  0    42   4                eklig   1   1   1   0    10  18  21   8  22     2   3   2    42     1353 
+  0    43   0                krieg   1   1   1   0    17  16  23   3   1     3   3   2    43     8632 
+  0    43   1                krieg   1   1   1   0    17  16  23   3   1     3   3   2    43     4354 
+  0    43   2                krieg   1   1   1   0    17  16  23   3   1     3   3   2    43     3897 
+  0    43   3                krieg   1   1   1   0    17  16  23   3   1     3   3   2    43     2281 
+  0    43   4                krieg   1   1   1   0    17  16  23   3   1     3   3   2    43     3368 
+  0    44   0              erreger   1   1   1   0    17  19  16  22   9     3   2   3    44     1943 
+  0    44   1              erreger   1   1   1   0    17  19  16  22   9     3   2   3    44     5848 
+  0    44   2              erreger   1   1   1   0    17  19  16  22   9     3   2   3    44     2240 
+  0    44   3              erreger   1   1   1   0    17  19  16  22   9     3   2   3    44      841 
+  0    44   4              erreger   1   1   1   0    17  19  16  22   9     3   2   3    44      786 
+  0    45   0                 mord   1   1   1   1    14   2   6  15  11     2   4   4    46     1412 
+  0    45   1                 mord   1   1   1   1    14   2   6  15  11     2   4   4    45     5453 
+  0    45   2                 mord   1   1   1   1    14   2   6  15  11     2   4   4    15    13654 
+  0    45   3                 mord   1   1   1   1    14   2   6  15  11     2   4   4    47     2534 
+  0    45   4                 mord   1   1   1   1    14   2   6  15  11     2   4   4    45     2556 
+  0    46   0                droge   1   1   1   1     3   8   5   7  13     5   5   5     7    12368 
+  0    46   1                droge   1   1   1   1     3   8   5   7  13     5   5   5    31     4004 
+  0    46   2                droge   1   1   1   1     3   8   5   7  13     5   5   5    46      947 
+  0    46   3                droge   1   1   1   1     3   8   5   7  13     5   5   5     1     9404 
+  0    46   4                droge   1   1   1   1     3   8   5   7  13     5   5   5    21      860 
+  0    47   0                 irre   1   1   1   1    10   0  12   1  23     5   5   5    34    10653 
+  0    47   1                 irre   1   1   1   1    10   0  12   1  23     5   5   5     8     8734 
+  0    47   2                 irre   1   1   1   1    10   0  12   1  23     5   5   5    37     1674 
+  0    47   3                 irre   1   1   1   1    10   0  12   1  23     5   5   5    34     8205 
+  0    47   4                 irre   1   1   1   1    10   0  12   1  23     5   5   5    43     1572 

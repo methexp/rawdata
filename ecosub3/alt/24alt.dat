@@ -1,0 +1,554 @@
+ECOsub3 [07-2012]
+ 24   0   0
+ 29   1   1   1 PSZYCHOLOGIE
+Liste
+Liste[i].wort, Liste[i].istwort,  Liste[i].istpositiv, uspositiv, istmaskiert
+ dann 5x: Liste[i].us[j]
+ dann: 3x Liste[i].liking[j]
+  0   ubajec   0  -1   0   0  10   9  14   1  19 -1  -1  -1
+  1  umeuken   0  -1   0   0   4  15  20   2  22 -1  -1  -1
+  2  molkate   0  -1   0   0   8   0  13  16  24 -1  -1  -1
+  3  hilejin   0  -1   0   0   3  12  17  23   7 -1  -1  -1
+  4    frask   0  -1   0   0   6  21  11  18   5 -1  -1  -1
+  5    botsy   0  -1   0   0  24  18   7   5   3 -1  -1  -1
+  6    tewok   0  -1   0   1   1   6  21  13  19 -1  -1  -1
+  7    noste   0  -1   0   1  22   9  10  17  14 -1  -1  -1
+  8  sleshen   0  -1   0   1  23   4   0  11   8 -1  -1  -1
+  9  furasti   0  -1   0   1  15   2  12  20  16 -1  -1  -1
+ 10    obacu   0  -1   0   1  21   6  19  12  17 -1  -1  -1
+ 11    yosud   0  -1   0   1   8   1   5  24  11 -1  -1  -1
+ 12   nalber   0  -1   1   0   1  15  20  22  19 -1  -1  -1
+ 13   jaciyn   0  -1   1   0  14  21  10   4   5 -1  -1  -1
+ 14  pimuide   0  -1   1   0   0  17  18  24  13 -1  -1  -1
+ 15  kiwehon   0  -1   1   0   2  16   8  23   7 -1  -1  -1
+ 16  laumens   0  -1   1   0  12   3  11   9   6 -1  -1  -1
+ 17  larnist   0  -1   1   0  13  21  10  11  24 -1  -1  -1
+ 18   uwimor   0  -1   1   1   2  22  12   6  17 -1  -1  -1
+ 19    medan   0  -1   1   1  20   5   8   7   3 -1  -1  -1
+ 20  permife   0  -1   1   1   1  23   9  16  15 -1  -1  -1
+ 21   schese   0  -1   1   1  19  18   4   0  14 -1  -1  -1
+ 22   hiwawa   0  -1   1   1  20   6  23  22   9 -1  -1  -1
+ 23   botuyn   0  -1   1   1  15  13   2   4   7 -1  -1  -1
+CSs
+positiv, cs, Liste[positiv*5+cs].wort, fn
+  0   0 ubajec 
+  0   1 umeuken 
+  0   2 molkate 
+  0   3 hilejin 
+  0   4 frask 
+  1   0 botsy 
+  1   1 tewok 
+  1   2 noste 
+  1   3 sleshen 
+  1   4 furasti 
+US-Bilder
+cs, Liste[cs].wort, istpositiv, usnr, Liste[cs].us[us], fn
+  0 ubajec   0   0  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  0 ubajec   0   1   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  0 ubajec   0   2  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  0 ubajec   0   3   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  0 ubajec   0   4  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  1 umeuken   0   0   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  1 umeuken   0   1  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  1 umeuken   0   2  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  1 umeuken   0   3   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  1 umeuken   0   4  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  2 molkate   0   0   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  2 molkate   0   1   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  2 molkate   0   2  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  2 molkate   0   3  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+  2 molkate   0   4  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  3 hilejin   0   0   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  3 hilejin   0   1  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  3 hilejin   0   2  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  3 hilejin   0   3  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  3 hilejin   0   4   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  4 frask   0   0   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  4 frask   0   1  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  4 frask   0   2  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  4 frask   0   3  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  4 frask   0   4   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  5 botsy   0   0  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+  5 botsy   0   1  18 c:\stim\ecopd1\bild/neg (19)s (Large).bmp
+  5 botsy   0   2   7 c:\stim\ecopd1\bild/neg (8)s (Large).bmp
+  5 botsy   0   3   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+  5 botsy   0   4   3 c:\stim\ecopd1\bild/neg (4)s (Large).bmp
+  6 tewok   0   0   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+  6 tewok   0   1   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+  6 tewok   0   2  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+  6 tewok   0   3  13 c:\stim\ecopd1\bild/neg (14)s (Large).bmp
+  6 tewok   0   4  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+  7 noste   0   0  22 c:\stim\ecopd1\bild/neg (23)s (Large).bmp
+  7 noste   0   1   9 c:\stim\ecopd1\bild/neg (10)s (Large).bmp
+  7 noste   0   2  10 c:\stim\ecopd1\bild/neg (11)s (Large).bmp
+  7 noste   0   3  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+  7 noste   0   4  14 c:\stim\ecopd1\bild/neg (15)s (Large).bmp
+  8 sleshen   0   0  23 c:\stim\ecopd1\bild/neg (24)s (Large).bmp
+  8 sleshen   0   1   4 c:\stim\ecopd1\bild/neg (5)s (Large).bmp
+  8 sleshen   0   2   0 c:\stim\ecopd1\bild/neg (1)s (Large).bmp
+  8 sleshen   0   3  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+  8 sleshen   0   4   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+  9 furasti   0   0  15 c:\stim\ecopd1\bild/neg (16)s (Large).bmp
+  9 furasti   0   1   2 c:\stim\ecopd1\bild/neg (3)s (Large).bmp
+  9 furasti   0   2  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+  9 furasti   0   3  20 c:\stim\ecopd1\bild/neg (21)s (Large).bmp
+  9 furasti   0   4  16 c:\stim\ecopd1\bild/neg (17)s (Large).bmp
+ 10 obacu   0   0  21 c:\stim\ecopd1\bild/neg (22)s (Large).bmp
+ 10 obacu   0   1   6 c:\stim\ecopd1\bild/neg (7)s (Large).bmp
+ 10 obacu   0   2  19 c:\stim\ecopd1\bild/neg (20)s (Large).bmp
+ 10 obacu   0   3  12 c:\stim\ecopd1\bild/neg (13)s (Large).bmp
+ 10 obacu   0   4  17 c:\stim\ecopd1\bild/neg (18)s (Large).bmp
+ 11 yosud   0   0   8 c:\stim\ecopd1\bild/neg (9)s (Large).bmp
+ 11 yosud   0   1   1 c:\stim\ecopd1\bild/neg (2)s (Large).bmp
+ 11 yosud   0   2   5 c:\stim\ecopd1\bild/neg (6)s (Large).bmp
+ 11 yosud   0   3  24 c:\stim\ecopd1\bild/neg (25)s (Large).bmp
+ 11 yosud   0   4  11 c:\stim\ecopd1\bild/neg (12)s (Large).bmp
+ 12 nalber   1   0   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 12 nalber   1   1  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 12 nalber   1   2  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 12 nalber   1   3  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 12 nalber   1   4  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 13 jaciyn   1   0  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 13 jaciyn   1   1  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 13 jaciyn   1   2  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 13 jaciyn   1   3   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 13 jaciyn   1   4   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 14 pimuide   1   0   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 14 pimuide   1   1  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 14 pimuide   1   2  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 14 pimuide   1   3  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 14 pimuide   1   4  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 15 kiwehon   1   0   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 15 kiwehon   1   1  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 15 kiwehon   1   2   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 15 kiwehon   1   3  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 15 kiwehon   1   4   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 16 laumens   1   0  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 16 laumens   1   1   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 16 laumens   1   2  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 16 laumens   1   3   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 16 laumens   1   4   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 17 larnist   1   0  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 17 larnist   1   1  21 c:\stim\ecopd1\bild/pos (22)s (Large).bmp
+ 17 larnist   1   2  10 c:\stim\ecopd1\bild/pos (11)s (Large).bmp
+ 17 larnist   1   3  11 c:\stim\ecopd1\bild/pos (12)s (Large).bmp
+ 17 larnist   1   4  24 c:\stim\ecopd1\bild/pos (25)s (Large).bmp
+ 18 uwimor   1   0   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 18 uwimor   1   1  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 18 uwimor   1   2  12 c:\stim\ecopd1\bild/pos (13)s (Large).bmp
+ 18 uwimor   1   3   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 18 uwimor   1   4  17 c:\stim\ecopd1\bild/pos (18)s (Large).bmp
+ 19 medan   1   0  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 19 medan   1   1   5 c:\stim\ecopd1\bild/pos (6)s (Large).bmp
+ 19 medan   1   2   8 c:\stim\ecopd1\bild/pos (9)s (Large).bmp
+ 19 medan   1   3   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+ 19 medan   1   4   3 c:\stim\ecopd1\bild/pos (4)s (Large).bmp
+ 20 permife   1   0   1 c:\stim\ecopd1\bild/pos (2)s (Large).bmp
+ 20 permife   1   1  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 20 permife   1   2   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 20 permife   1   3  16 c:\stim\ecopd1\bild/pos (17)s (Large).bmp
+ 20 permife   1   4  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 21 schese   1   0  19 c:\stim\ecopd1\bild/pos (20)s (Large).bmp
+ 21 schese   1   1  18 c:\stim\ecopd1\bild/pos (19)s (Large).bmp
+ 21 schese   1   2   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 21 schese   1   3   0 c:\stim\ecopd1\bild/pos (1)s (Large).bmp
+ 21 schese   1   4  14 c:\stim\ecopd1\bild/pos (15)s (Large).bmp
+ 22 hiwawa   1   0  20 c:\stim\ecopd1\bild/pos (21)s (Large).bmp
+ 22 hiwawa   1   1   6 c:\stim\ecopd1\bild/pos (7)s (Large).bmp
+ 22 hiwawa   1   2  23 c:\stim\ecopd1\bild/pos (24)s (Large).bmp
+ 22 hiwawa   1   3  22 c:\stim\ecopd1\bild/pos (23)s (Large).bmp
+ 22 hiwawa   1   4   9 c:\stim\ecopd1\bild/pos (10)s (Large).bmp
+ 23 botuyn   1   0  15 c:\stim\ecopd1\bild/pos (16)s (Large).bmp
+ 23 botuyn   1   1  13 c:\stim\ecopd1\bild/pos (14)s (Large).bmp
+ 23 botuyn   1   2   2 c:\stim\ecopd1\bild/pos (3)s (Large).bmp
+ 23 botuyn   1   3   4 c:\stim\ecopd1\bild/pos (5)s (Large).bmp
+ 23 botuyn   1   4   7 c:\stim\ecopd1\bild/pos (8)s (Large).bmp
+Darbietung
+blocknr, trial, o[trial], Liste[o[trial]].schonangezeigt, Liste[o[trial]].wort, Liste[o[trial]].us[Liste[o[trial]].schonangezeigt]
+  0   0  17   0    larnist  13   0           31
+  0   1  23   0     botuyn  15   1           30
+  0   2  10   0      obacu  21   1           30
+  0   3  21   0     schese  19   1           30
+  0   4   0   0     ubajec  10   0           30
+  0   5  20   0    permife   1   1           30
+  0   6  14   0    pimuide   0   0           30
+  0   7   7   0      noste  22   1           30
+  0   8   5   0      botsy  24   0           30
+  0   9   9   0    furasti  15   1           30
+  0  10   1   0    umeuken   4   0           30
+  0  11   4   0      frask   6   0           30
+  0  12  15   0    kiwehon   2   0           30
+  0  13  16   0    laumens  12   0           30
+  0  14  13   0     jaciyn  14   0           30
+  0  15  22   0     hiwawa  20   1           30
+  0  16   8   0    sleshen  23   1           30
+  0  17   2   0    molkate   8   0           30
+  0  18  12   0     nalber   1   0           30
+  0  19  18   0     uwimor   2   1           30
+  0  20   3   0    hilejin   3   0           30
+  0  21  11   0      yosud   8   1           30
+  0  22   6   0      tewok   1   1           31
+  0  23  19   0      medan  20   1           31
+  1   0   0   1     ubajec   9   0           30
+  1   1  16   1    laumens   3   0           30
+  1   2  10   1      obacu   6   1           30
+  1   3  18   1     uwimor  22   1           31
+  1   4  17   1    larnist  21   0           30
+  1   5   9   1    furasti   2   1           30
+  1   6  21   1     schese  18   1           30
+  1   7   2   1    molkate   0   0           31
+  1   8   5   1      botsy  18   0           30
+  1   9  22   1     hiwawa   6   1           31
+  1  10   8   1    sleshen   4   1           30
+  1  11  14   1    pimuide  17   0           31
+  1  12   3   1    hilejin  12   0           30
+  1  13   6   1      tewok   6   1           31
+  1  14  15   1    kiwehon  16   0           30
+  1  15   7   1      noste   9   1           30
+  1  16  23   1     botuyn  13   1           30
+  1  17  20   1    permife  23   1           30
+  1  18   1   1    umeuken  15   0           30
+  1  19  19   1      medan   5   1           30
+  1  20  11   1      yosud   1   1           30
+  1  21   4   1      frask  21   0           30
+  1  22  13   1     jaciyn  21   0           30
+  1  23  12   1     nalber  15   0           30
+  2   0   1   2    umeuken  20   0           30
+  2   1  12   2     nalber  20   0           30
+  2   2  18   2     uwimor  12   1           30
+  2   3   3   2    hilejin  17   0           30
+  2   4  22   2     hiwawa  23   1           30
+  2   5   5   2      botsy   7   0           30
+  2   6  13   2     jaciyn  10   0           30
+  2   7   4   2      frask  11   0           30
+  2   8  17   2    larnist  10   0           30
+  2   9   2   2    molkate  13   0           30
+  2  10   6   2      tewok  21   1           30
+  2  11  19   2      medan   8   1           30
+  2  12   8   2    sleshen   0   1           31
+  2  13   7   2      noste  10   1           30
+  2  14  10   2      obacu  19   1           30
+  2  15  21   2     schese   4   1           30
+  2  16  23   2     botuyn   2   1           30
+  2  17   9   2    furasti  12   1           30
+  2  18  16   2    laumens  11   0           30
+  2  19   0   2     ubajec  14   0           30
+  2  20  20   2    permife   9   1           30
+  2  21  14   2    pimuide  18   0           30
+  2  22  11   2      yosud   5   1           31
+  2  23  15   2    kiwehon   8   0           30
+  3   0  11   3      yosud  24   1           31
+  3   1  22   3     hiwawa  22   1           30
+  3   2  15   3    kiwehon  23   0           30
+  3   3  10   3      obacu  12   1           30
+  3   4   3   3    hilejin  23   0           30
+  3   5   7   3      noste  17   1           30
+  3   6   6   3      tewok  13   1           30
+  3   7   2   3    molkate  16   0           30
+  3   8  23   3     botuyn   4   1           30
+  3   9  18   3     uwimor   6   1           30
+  3  10  16   3    laumens   9   0           30
+  3  11  13   3     jaciyn   4   0           30
+  3  12  19   3      medan   7   1           30
+  3  13  17   3    larnist  11   0           30
+  3  14   9   3    furasti  20   1           30
+  3  15   0   3     ubajec   1   0           30
+  3  16   8   3    sleshen  11   1           30
+  3  17  12   3     nalber  22   0           30
+  3  18   4   3      frask  18   0           30
+  3  19  20   3    permife  16   1           30
+  3  20   1   3    umeuken   2   0           30
+  3  21  21   3     schese   0   1           30
+  3  22  14   3    pimuide  24   0           30
+  3  23   5   3      botsy   5   0           30
+  4   0   5   4      botsy   3   0           30
+  4   1  17   4    larnist  24   0           30
+  4   2  19   4      medan   3   1           30
+  4   3   3   4    hilejin   7   0           30
+  4   4  11   4      yosud  11   1           30
+  4   5  21   4     schese  14   1           30
+  4   6  23   4     botuyn   7   1           30
+  4   7  14   4    pimuide  13   0           30
+  4   8  15   4    kiwehon   7   0           30
+  4   9   8   4    sleshen   8   1           30
+  4  10  16   4    laumens   6   0           30
+  4  11  18   4     uwimor  17   1           30
+  4  12   2   4    molkate  24   0           30
+  4  13  20   4    permife  15   1           30
+  4  14  13   4     jaciyn   5   0           30
+  4  15  12   4     nalber  19   0           30
+  4  16   1   4    umeuken  22   0           30
+  4  17  22   4     hiwawa   9   1           30
+  4  18   9   4    furasti  16   1           30
+  4  19   0   4     ubajec  19   0           30
+  4  20   4   4      frask   5   0           30
+  4  21   6   4      tewok  19   1           30
+  4  22   7   4      noste  14   1           30
+  4  23  10   4      obacu  17   1           30
+  5   0  23   0     botuyn  15   1           30
+  5   1  18   0     uwimor   2   1           30
+  5   2  15   0    kiwehon   2   0           30
+  5   3  22   0     hiwawa  20   1           30
+  5   4  20   0    permife   1   1           30
+  5   5   9   0    furasti  15   1           30
+  5   6  14   0    pimuide   0   0           30
+  5   7  10   0      obacu  21   1           30
+  5   8  11   0      yosud   8   1           30
+  5   9  19   0      medan  20   1           30
+  5  10  16   0    laumens  12   0           30
+  5  11   2   0    molkate   8   0           30
+  5  12   5   0      botsy  24   0           30
+  5  13   4   0      frask   6   0           30
+  5  14  17   0    larnist  13   0           30
+  5  15  12   0     nalber   1   0           30
+  5  16   1   0    umeuken   4   0           30
+  5  17  21   0     schese  19   1           30
+  5  18   8   0    sleshen  23   1           30
+  5  19  13   0     jaciyn  14   0           30
+  5  20   3   0    hilejin   3   0           30
+  5  21   0   0     ubajec  10   0           30
+  5  22   7   0      noste  22   1           30
+  5  23   6   0      tewok   1   1           30
+  6   0  15   1    kiwehon  16   0           30
+  6   1   7   1      noste   9   1           30
+  6   2  18   1     uwimor  22   1           30
+  6   3  23   1     botuyn  13   1           30
+  6   4  21   1     schese  18   1           31
+  6   5  13   1     jaciyn  21   0           30
+  6   6   5   1      botsy  18   0           30
+  6   7   1   1    umeuken  15   0           30
+  6   8  19   1      medan   5   1           30
+  6   9  22   1     hiwawa   6   1           30
+  6  10  14   1    pimuide  17   0           30
+  6  11  12   1     nalber  15   0           30
+  6  12   9   1    furasti   2   1           30
+  6  13   0   1     ubajec   9   0           30
+  6  14   8   1    sleshen   4   1           30
+  6  15  11   1      yosud   1   1           30
+  6  16   4   1      frask  21   0           30
+  6  17   6   1      tewok   6   1           30
+  6  18   3   1    hilejin  12   0           30
+  6  19   2   1    molkate   0   0           29
+  6  20  10   1      obacu   6   1           30
+  6  21  17   1    larnist  21   0           30
+  6  22  16   1    laumens   3   0           30
+  6  23  20   1    permife  23   1           30
+  7   0  14   2    pimuide  18   0           30
+  7   1  20   2    permife   9   1           30
+  7   2   5   2      botsy   7   0           30
+  7   3  23   2     botuyn   2   1           30
+  7   4  22   2     hiwawa  23   1           30
+  7   5  12   2     nalber  20   0           30
+  7   6  10   2      obacu  19   1           31
+  7   7  19   2      medan   8   1           30
+  7   8  15   2    kiwehon   8   0           30
+  7   9   2   2    molkate  13   0           30
+  7  10   1   2    umeuken  20   0           30
+  7  11  11   2      yosud   5   1           30
+  7  12   4   2      frask  11   0           30
+  7  13  18   2     uwimor  12   1           30
+  7  14   0   2     ubajec  14   0           30
+  7  15   9   2    furasti  12   1           30
+  7  16   8   2    sleshen   0   1           30
+  7  17   6   2      tewok  21   1           30
+  7  18  21   2     schese   4   1           30
+  7  19   7   2      noste  10   1           30
+  7  20  16   2    laumens  11   0           30
+  7  21  13   2     jaciyn  10   0           30
+  7  22   3   2    hilejin  17   0           30
+  7  23  17   2    larnist  10   0           30
+  8   0  16   3    laumens   9   0           30
+  8   1  17   3    larnist  11   0           30
+  8   2   1   3    umeuken   2   0           30
+  8   3   7   3      noste  17   1           30
+  8   4   8   3    sleshen  11   1           30
+  8   5   4   3      frask  18   0           30
+  8   6   6   3      tewok  13   1           30
+  8   7   5   3      botsy   5   0           30
+  8   8  19   3      medan   7   1           30
+  8   9  15   3    kiwehon  23   0           30
+  8  10  14   3    pimuide  24   0           30
+  8  11  23   3     botuyn   4   1           30
+  8  12  20   3    permife  16   1           30
+  8  13   9   3    furasti  20   1           30
+  8  14   3   3    hilejin  23   0           30
+  8  15  10   3      obacu  12   1           30
+  8  16  12   3     nalber  22   0           30
+  8  17  22   3     hiwawa  22   1           30
+  8  18  11   3      yosud  24   1           30
+  8  19  18   3     uwimor   6   1           30
+  8  20   0   3     ubajec   1   0           30
+  8  21  13   3     jaciyn   4   0           30
+  8  22  21   3     schese   0   1           30
+  8  23   2   3    molkate  16   0           30
+  9   0   8   4    sleshen   8   1           30
+  9   1  15   4    kiwehon   7   0           30
+  9   2   2   4    molkate  24   0           30
+  9   3  14   4    pimuide  13   0           30
+  9   4  21   4     schese  14   1           30
+  9   5  20   4    permife  15   1           30
+  9   6  23   4     botuyn   7   1           31
+  9   7   0   4     ubajec  19   0           30
+  9   8  17   4    larnist  24   0           30
+  9   9  13   4     jaciyn   5   0           30
+  9  10  19   4      medan   3   1           30
+  9  11  12   4     nalber  19   0           30
+  9  12   7   4      noste  14   1           30
+  9  13  11   4      yosud  11   1           30
+  9  14  22   4     hiwawa   9   1           30
+  9  15  18   4     uwimor  17   1           30
+  9  16   3   4    hilejin   7   0           30
+  9  17   5   4      botsy   3   0           30
+  9  18  16   4    laumens   6   0           30
+  9  19   1   4    umeuken  22   0           30
+  9  20   4   4      frask   5   0           30
+  9  21   6   4      tewok  19   1           30
+  9  22   9   4    furasti  16   1           30
+  9  23  10   4      obacu  17   1           30
+Ratings
+trial, o[trial], Liste[o[trial]].wort,Liste[o[trial]].liking[0], Liste[o[trial]].liking[1], Liste[o[trial]].liking[2], Liste[o[trial]].liking[4]
+   0   1 umeuken   1   1   1 1939353704
+   1  18 uwimor   1   1   1 1939353704
+   2  13 jaciyn   3   3   3 1939353704
+   3  21 schese   6   5   4 1939353704
+   4   3 hilejin   7   4   5 1939353704
+   5  17 larnist   5   5   5 1939353704
+   6  23 botuyn   7   6   7 1939353704
+   7  22 hiwawa   8   7   8 1939353704
+   8  16 laumens   6   7   6 1939353704
+   9   8 sleshen   5   5   5 1939353704
+  10  14 pimuide   8   4   5 1939353704
+  11   4 frask   6   5   5 1939353704
+  12   9 furasti   5   5   5 1939353704
+  13   0 ubajec   1   1   1 1939353704
+  14  20 permife   6   8   7 1939353704
+  15   2 molkate   6   7   5 1939353704
+  16  11 yosud   3   3   3 1939353704
+  17   5 botsy   1   1   1 1939353704
+  18   7 noste   5   4   5 1939353704
+  19  10 obacu   4   4   4 1939353704
+  20  12 nalber   7   8   7 1939353704
+  21   6 tewok   5   5   5 1939353704
+  22  15 kiwehon   5   5   5 1939353704
+  23  19 medan   5   5   5 1939353704
+ vpnr alter sex hand fach sprache color cs rep wort istwort istpositiv uspositiv istmaskiert us0 us1 us2 us3 us4 liking0 liking1 liking2 valenz_response valenz_rt sichtbar_response sichtbar_korrekt sichtbar_rt
+ 24  29   1   1   1   2         PSZYCHOLOGIE     0   0               ubajec   0  -1   0   0    10   9  14   1  19     1   1   1     1      932  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     0   1               ubajec   0  -1   0   0    10   9  14   1  19     1   1   1     1      662  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     0   2               ubajec   0  -1   0   0    10   9  14   1  19     1   1   1     1     1146  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     0   3               ubajec   0  -1   0   0    10   9  14   1  19     1   1   1     1     1045  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     0   4               ubajec   0  -1   0   0    10   9  14   1  19     1   1   1     1      708  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     1   0              umeuken   0  -1   0   0     4  15  20   2  22     1   1   1     1      844  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     1   1              umeuken   0  -1   0   0     4  15  20   2  22     1   1   1     1      819  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     1   2              umeuken   0  -1   0   0     4  15  20   2  22     1   1   1     1     1456  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     1   3              umeuken   0  -1   0   0     4  15  20   2  22     1   1   1     1     1456  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     1   4              umeuken   0  -1   0   0     4  15  20   2  22     1   1   1     1      798  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     2   0              molkate   0  -1   0   0     8   0  13  16  24     6   7   5     1     1129  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     2   1              molkate   0  -1   0   0     8   0  13  16  24     6   7   5     1     1182  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     2   2              molkate   0  -1   0   0     8   0  13  16  24     6   7   5     1      951  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     2   3              molkate   0  -1   0   0     8   0  13  16  24     6   7   5     1     1001  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     2   4              molkate   0  -1   0   0     8   0  13  16  24     6   7   5     1      908  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     3   0              hilejin   0  -1   0   0     3  12  17  23   7     7   4   5     1      825  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     3   1              hilejin   0  -1   0   0     3  12  17  23   7     7   4   5     1     1195  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     3   2              hilejin   0  -1   0   0     3  12  17  23   7     7   4   5     1     1469  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     3   3              hilejin   0  -1   0   0     3  12  17  23   7     7   4   5     1      971  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     3   4              hilejin   0  -1   0   0     3  12  17  23   7     7   4   5     1     1074  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     4   0                frask   0  -1   0   0     6  21  11  18   5     6   5   5     1      794  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     4   1                frask   0  -1   0   0     6  21  11  18   5     6   5   5     1     1442  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     4   2                frask   0  -1   0   0     6  21  11  18   5     6   5   5     1     1642  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     4   3                frask   0  -1   0   0     6  21  11  18   5     6   5   5     1     1182  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     4   4                frask   0  -1   0   0     6  21  11  18   5     6   5   5     1     1057  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     5   0                botsy   0  -1   0   0    24  18   7   5   3     1   1   1     1     1076  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     5   1                botsy   0  -1   0   0    24  18   7   5   3     1   1   1     1     1050  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     5   2                botsy   0  -1   0   0    24  18   7   5   3     1   1   1     1     1522  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     5   3                botsy   0  -1   0   0    24  18   7   5   3     1   1   1     1     1123  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     5   4                botsy   0  -1   0   0    24  18   7   5   3     1   1   1     1      726  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     6   0                tewok   0  -1   0   1     1   6  21  13  19     5   5   5     1      957  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     6   1                tewok   0  -1   0   1     1   6  21  13  19     5   5   5     1     1479  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     6   2                tewok   0  -1   0   1     1   6  21  13  19     5   5   5     1     1111  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     6   3                tewok   0  -1   0   1     1   6  21  13  19     5   5   5     1      896  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     6   4                tewok   0  -1   0   1     1   6  21  13  19     5   5   5     1     1009  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     7   0                noste   0  -1   0   1    22   9  10  17  14     5   4   5     1      714  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     7   1                noste   0  -1   0   1    22   9  10  17  14     5   4   5     1     1459  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     7   2                noste   0  -1   0   1    22   9  10  17  14     5   4   5     1     1550  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     7   3                noste   0  -1   0   1    22   9  10  17  14     5   4   5     1      905  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     7   4                noste   0  -1   0   1    22   9  10  17  14     5   4   5     1      817  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     8   0              sleshen   0  -1   0   1    23   4   0  11   8     5   5   5     1     1365  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     8   1              sleshen   0  -1   0   1    23   4   0  11   8     5   5   5     1      827  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     8   2              sleshen   0  -1   0   1    23   4   0  11   8     5   5   5     1     1505  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     8   3              sleshen   0  -1   0   1    23   4   0  11   8     5   5   5     1     1096  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     8   4              sleshen   0  -1   0   1    23   4   0  11   8     5   5   5     1      857  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     9   0              furasti   0  -1   0   1    15   2  12  20  16     5   5   5     1      921  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     9   1              furasti   0  -1   0   1    15   2  12  20  16     5   5   5     0     1641  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     9   2              furasti   0  -1   0   1    15   2  12  20  16     5   5   5     0     1394  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     9   3              furasti   0  -1   0   1    15   2  12  20  16     5   5   5     1     1111  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE     9   4              furasti   0  -1   0   1    15   2  12  20  16     5   5   5     1     1209  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    10   0                obacu   0  -1   0   1    21   6  19  12  17     4   4   4     1     1364  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    10   1                obacu   0  -1   0   1    21   6  19  12  17     4   4   4     1     1051  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    10   2                obacu   0  -1   0   1    21   6  19  12  17     4   4   4     1      991  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    10   3                obacu   0  -1   0   1    21   6  19  12  17     4   4   4     0      802  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    10   4                obacu   0  -1   0   1    21   6  19  12  17     4   4   4     1      770  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    11   0                yosud   0  -1   0   1     8   1   5  24  11     3   3   3     1      824  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    11   1                yosud   0  -1   0   1     8   1   5  24  11     3   3   3     1      818  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    11   2                yosud   0  -1   0   1     8   1   5  24  11     3   3   3     1      876  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    11   3                yosud   0  -1   0   1     8   1   5  24  11     3   3   3     1     1099  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    11   4                yosud   0  -1   0   1     8   1   5  24  11     3   3   3     1     3397  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    12   0               nalber   0  -1   1   0     1  15  20  22  19     7   8   7     0     1365  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    12   1               nalber   0  -1   1   0     1  15  20  22  19     7   8   7     0      763  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    12   2               nalber   0  -1   1   0     1  15  20  22  19     7   8   7     0      947  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    12   3               nalber   0  -1   1   0     1  15  20  22  19     7   8   7     0     1013  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    12   4               nalber   0  -1   1   0     1  15  20  22  19     7   8   7     0     2137  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    13   0               jaciyn   0  -1   1   0    14  21  10   4   5     3   3   3     0     1393  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    13   1               jaciyn   0  -1   1   0    14  21  10   4   5     3   3   3     0      900  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    13   2               jaciyn   0  -1   1   0    14  21  10   4   5     3   3   3     0     2963  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    13   3               jaciyn   0  -1   1   0    14  21  10   4   5     3   3   3     0     1337  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    13   4               jaciyn   0  -1   1   0    14  21  10   4   5     3   3   3     0      884  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    14   0              pimuide   0  -1   1   0     0  17  18  24  13     8   4   5     1      886  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    14   1              pimuide   0  -1   1   0     0  17  18  24  13     8   4   5     1      732  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    14   2              pimuide   0  -1   1   0     0  17  18  24  13     8   4   5     1      872  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    14   3              pimuide   0  -1   1   0     0  17  18  24  13     8   4   5     0     1152  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    14   4              pimuide   0  -1   1   0     0  17  18  24  13     8   4   5     0      706  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    15   0              kiwehon   0  -1   1   0     2  16   8  23   7     5   5   5     1      921  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    15   1              kiwehon   0  -1   1   0     2  16   8  23   7     5   5   5     0     1201  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    15   2              kiwehon   0  -1   1   0     2  16   8  23   7     5   5   5     0      866  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    15   3              kiwehon   0  -1   1   0     2  16   8  23   7     5   5   5     0     1015  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    15   4              kiwehon   0  -1   1   0     2  16   8  23   7     5   5   5     0     1121  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    16   0              laumens   0  -1   1   0    12   3  11   9   6     6   7   6     1      795  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    16   1              laumens   0  -1   1   0    12   3  11   9   6     6   7   6     1      891  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    16   2              laumens   0  -1   1   0    12   3  11   9   6     6   7   6     0      875  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    16   3              laumens   0  -1   1   0    12   3  11   9   6     6   7   6     0     1276  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    16   4              laumens   0  -1   1   0    12   3  11   9   6     6   7   6     1      684  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    17   0              larnist   0  -1   1   0    13  21  10  11  24     5   5   5     1     1268  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    17   1              larnist   0  -1   1   0    13  21  10  11  24     5   5   5     0     1255  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    17   2              larnist   0  -1   1   0    13  21  10  11  24     5   5   5     1     1943  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    17   3              larnist   0  -1   1   0    13  21  10  11  24     5   5   5     0     1160  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    17   4              larnist   0  -1   1   0    13  21  10  11  24     5   5   5     0      995  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    18   0               uwimor   0  -1   1   1     2  22  12   6  17     1   1   1     0      853  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    18   1               uwimor   0  -1   1   1     2  22  12   6  17     1   1   1     0      782  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    18   2               uwimor   0  -1   1   1     2  22  12   6  17     1   1   1     0     1622  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    18   3               uwimor   0  -1   1   1     2  22  12   6  17     1   1   1     0      687  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    18   4               uwimor   0  -1   1   1     2  22  12   6  17     1   1   1     0      768  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    19   0                medan   0  -1   1   1    20   5   8   7   3     5   5   5     0     2342  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    19   1                medan   0  -1   1   1    20   5   8   7   3     5   5   5     0      901  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    19   2                medan   0  -1   1   1    20   5   8   7   3     5   5   5     0     1004  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    19   3                medan   0  -1   1   1    20   5   8   7   3     5   5   5     0      701  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    19   4                medan   0  -1   1   1    20   5   8   7   3     5   5   5     0     1981  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    20   0              permife   0  -1   1   1     1  23   9  16  15     6   8   7     0      620  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    20   1              permife   0  -1   1   1     1  23   9  16  15     6   8   7     0     1179  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    20   2              permife   0  -1   1   1     1  23   9  16  15     6   8   7     0      888  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    20   3              permife   0  -1   1   1     1  23   9  16  15     6   8   7     0     2238  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    20   4              permife   0  -1   1   1     1  23   9  16  15     6   8   7     0     1265  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    21   0               schese   0  -1   1   1    19  18   4   0  14     6   5   4     0      993  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    21   1               schese   0  -1   1   1    19  18   4   0  14     6   5   4     0      905  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    21   2               schese   0  -1   1   1    19  18   4   0  14     6   5   4     0      854  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    21   3               schese   0  -1   1   1    19  18   4   0  14     6   5   4     0      962  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    21   4               schese   0  -1   1   1    19  18   4   0  14     6   5   4     0     2216  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    22   0               hiwawa   0  -1   1   1    20   6  23  22   9     8   7   8     0      827  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    22   1               hiwawa   0  -1   1   1    20   6  23  22   9     8   7   8     0      761  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    22   2               hiwawa   0  -1   1   1    20   6  23  22   9     8   7   8     0      670  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    22   3               hiwawa   0  -1   1   1    20   6  23  22   9     8   7   8     0     1580  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    22   4               hiwawa   0  -1   1   1    20   6  23  22   9     8   7   8     0     1046  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    23   0               botuyn   0  -1   1   1    15  13   2   4   7     7   6   7     0     1188  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    23   1               botuyn   0  -1   1   1    15  13   2   4   7     7   6   7     0      828  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    23   2               botuyn   0  -1   1   1    15  13   2   4   7     7   6   7     0     1039  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    23   3               botuyn   0  -1   1   1    15  13   2   4   7     7   6   7     0     1111  -1  -1       -1
+ 24  29   1   1   1   2         PSZYCHOLOGIE    23   4               botuyn   0  -1   1   1    15  13   2   4   7     7   6   7     0      970  -1  -1       -1
