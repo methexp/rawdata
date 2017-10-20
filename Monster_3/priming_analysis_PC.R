@@ -35,7 +35,8 @@ lisa$negative <- NULL
 lisa$positive <- NULL
 
 aov_ez(id = "subject_nr", data=lisa, dv="diff", within=c("prime_us","prime_relation"),between=c("color_counter"))
-apa_lineplot(id = "subject_nr",data=lisa, dv="diff", factors=c("prime_us","prime_relation","color_counter"))
+aov_ez(id = "subject_nr", data=lisa, dv="diff", within=c("prime_us","prime_relation"))
+apa_lineplot(id = "subject_nr",data=lisa, dv="diff", factors=c("prime_us","prime_relation"))
 
 
 
@@ -62,10 +63,10 @@ xxx <- aggregate(formula = correct_first_response ~ subject_nr * prime_us * prim
 xxx <- dcast(data= xxx, subject_nr * prime_us * prime_relation + color_counter ~ target_valence, value.var="correct_first_response")
 xxx$diff<-xxx$positive-xxx$negative
 
-aov_ez(id = "subject_nr", data=xxx, dv="diff", within=c("prime_us","prime_relation"),between=c("color_counter"))
+aov_ez(id = "subject_nr", data=xxx, dv="diff", within=c("prime_us","prime_relation"))
 apa_lineplot(id = "subject_nr",data=xxx, dv="diff", factors=c("prime_us","prime_relation"))
 apa_lineplot(id = "subject_nr",data=xxx, dv="diff", factors=c("prime_us","prime_relation","color_counter"))
 
 zz <- subset(xxx,prime_relation=="ending")
-aov_ez(id = "subject_nr", data=zz, dv="diff", within=c("prime_us"),between=c("color_counter"))
-apa_lineplot(id = "subject_nr",data=zz, dv="diff", factors=c("prime_us","color_counter"))
+aov_ez(id = "subject_nr", data=zz, dv="diff", within=c("prime_us"))
+apa_lineplot(id = "subject_nr",data=zz, dv="diff", factors=c("prime_us"))
