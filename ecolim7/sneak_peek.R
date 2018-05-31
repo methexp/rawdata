@@ -1,4 +1,30 @@
 setwd("l:/daten/ecolim7")
+
+fs <- list.files(pattern="learning")
+
+learning <- read.csv(fs[1])
+
+for(i in 2:33){
+  tmp <- read.csv(fs[i])
+  learning <- rbind(learning,tmp)
+}
+
+learning$subject_rating <- ifelse(learning$subj_1=="yes",1
+                                  ,ifelse(learning$subj_2=="yes",2
+                                  ,ifelse(learning$subj_3=="yes",3
+                                  ,ifelse(learning$subj_4=="yes",4
+                                  ,ifelse(learning$subj_5=="yes",5
+                                  ,6)))))
+
+
+library("papaja")
+
+apa_lineplot(data=learning,id="subject_nr",dv="subject_rating",factors=c("cs_duration"))
+
+
+
+
+
 fs <- list.files(pattern="rating")
 
 rating <- read.csv(fs[1])
