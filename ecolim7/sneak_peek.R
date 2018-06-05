@@ -19,9 +19,11 @@ learning$subject_rating <- ifelse(learning$subj_1=="yes",1
 
 library("papaja")
 
-apa_lineplot(data=learning,id="subject_nr",dv="subject_rating",factors=c("cs_duration"))
+subj <- subset(learning,task=="subjective")
 
+apa_lineplot(data=subj,id="subject_nr",dv="subject_rating",factors=c("cs_duration","cs_set"))
 
+aov_ez(data=subj,dv="subject_rating",within=c("cs_duration"),between=c("cs_set"),id="subject_nr")
 
 
 
@@ -46,5 +48,5 @@ apa_lineplot(data=cont,dv="eval_rating",factors=c("us_valence"),id="subject_nr")
 apa_lineplot(data=cc,dv="eval_rating",factors=c("us_valence","type"),id="subject_nr")
 
 aov_ez(data=crit,dv="eval_rating",within=c("us_valence"),id="subject_nr")
-aov_ez(data=cont,dv="eval_rating",within=c("us_valence"),id="subject_nr")
+aov_ez(data=cont,dv="eval_rating",within=c("us_valence"),between=c("learning_condition","cs_set"),id="subject_nr")
 aov_ez(data=cc,dv="eval_rating",within=c("us_valence","type"),id="subject_nr")
