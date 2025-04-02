@@ -1,0 +1,689 @@
+---
+API: 3
+OpenSesame: 4.0.31
+Platform: posix
+---
+set width 1920
+set uniform_coordinates no
+set transparent_variables no
+set title matchpoint1
+set subject_parity even
+set subject_nr 0
+set start experiment
+set sound_sample_size -16
+set sound_freq 44100
+set sound_channels 2
+set sound_buf_size 1024
+set sampler_backend psycho
+set round_decimals 2
+set mouse_backend psycho
+set keyboard_backend psycho
+set height 1080
+set fullscreen no
+set form_clicks no
+set foreground black
+set font_underline no
+set font_size 22
+set font_italic False
+set font_family sans
+set font_bold False
+set experiment_path "/home/mariusbarth/git/methexp/matchpoint/studies/matchpoint1/experimental-software"
+set disable_garbage_collection False
+set description "A template containing a practice and an experimental phase"
+set coordinates relative
+set compensation 0
+set color_backend psycho
+set clock_backend psycho
+set canvas_backend psycho
+set block_size 256
+set bidi no
+set background "#dddddd"
+
+define inline_script README
+	set description "Führt Python-Code aus"
+	___run__
+	
+	
+	# 'left control' and 'right control' are marked keys of the keyboard
+	__end__
+	set _prepare ""
+
+define keyboard_response SPACE
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses SPACE
+
+define inline_script adaptation
+	set description "Führt Python Code aus"
+	___run__
+	# In all experiments, the adaptive response window was initially centered at 400 ms after onset of the target word. At the end of each block, the window center could decrease by 33 ms, increase by 33 ms, or could remain unchanged, depending on the participant's performance in that block. Following Draine and Greenwald (1998), the window center was made shorter if the error percentage was less than or equal to 20% and the participant's mean response latency for that block did not exceed the current window by more than 100 ms. The window center was made longer if the participant's error percentage was greater than or equal to 45% and the mean response latency exceeded the current window center by more than 100 ms. If neither of these sets of conditions was met, the window center was not changed. 
+	
+	# FOR MATCHING TASK, THE INITIAL RESPONSE WINDOW CENTER WAS 600ms!
+	
+	# Only trials in which the participant responded in the interval between 100 ms and 1000 ms after target onset were included in determining percentage correct scores.
+	
+	# window starts earlier if only few errors and not too slow
+	if (error_rate <= .20) and (mean_response_latency <= (response_window_end + 0.1)):
+	    n_target += -2
+	# window starts later if lots of errors and too slow
+	elif (error_rate >= .45) and (mean_response_latency > (response_window_center + 0.1)):
+	    n_target += 2
+	elif (var.bid > 4):
+	    adapted = 1
+	
+	
+	# Empty containers for adaptation stats
+	erroneous_responses = []
+	response_latencies = []
+	
+	response_window_start  = n_target * base60
+	response_window_center = response_window_start + n_response_window / 2 * base60 # 4 * 1/60 ~=  66ms
+	response_window_end    = response_window_start + n_response_window     * base60 # 8 * 1/60 ~= 133ms
+	__end__
+	set _prepare ""
+
+define loop affective_matching_experimental
+	set source_file "lists/matching-experimental-[subject_nr].csv"
+	set source file
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item adaptation_trial_seq
+	set description "Repeatedly runs another item"
+	set cycles 1
+	set continuous no
+	set break_if_on_first yes
+	set break_if False
+	setcycle 0 empty_column ""
+	run experimental_trial
+
+define loop affective_matching_practice
+	set source_file "lists/matching-practice-[subject_nr].csv"
+	set source file
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item adaptation_trial_seq
+	set description "Repeatedly runs another item"
+	set cycles 1
+	set continuous no
+	set break_if_on_first yes
+	set break_if "adapted == 1"
+	setcycle 0 empty_column ""
+	run practice_trial
+
+define synth beep_needs_to_be_activated
+	set volume 0.4
+	set pan 0
+	set osc square
+	set length 100
+	set freq 440
+	set duration 100
+	set description "Ein einfacher Tonsynthesizer"
+	set decay 20
+	set attack 10
+
+define inline_script block_statistics
+	set description "Führt Python Code aus"
+	___run__
+	# Only trials in which the participant responded in the interval between 100 ms and 1000 ms after target onset were included in determining percentage correct scores.
+	
+	if (len(erroneous_responses) > 0):
+	    error_rate = statistics.mean(erroneous_responses)
+	else:
+	    # If no key has been pressed, the presentation was probably too fast.
+	    # To allow the adaptation procedure allow slower responses, we set error rates low
+	    error_rate = 0
+	    
+	if (len(response_latencies) > 0):
+	    mean_response_latency = statistics.mean(response_latencies)
+	else:
+	    mean_response_latency = 20 # => very slow responses
+	
+	error_percentage = str(round(error_rate * 100)) # for printing on feedback 
+	__end__
+	set _prepare ""
+
+define inline_script clean_file_pool
+	set description "Führt Python-Code aus"
+	___run__
+	for path in pool:
+	    del pool[path]
+	__end__
+	set _prepare ""
+
+define inline_script def_instruct
+	set description "Führt Python-Code aus"
+	set _run ""
+	___prepare__
+	import math
+	from psychopy import visual
+	
+	instructions_background = visual.Rect(
+		win = win,
+		units = 'pix',
+		width = 1920,
+		height = 1080,
+		fillColor = "#dddddd",
+		lineColor = None
+	)
+	
+	
+	
+	
+	def instruct(text, further = "Drücken Sie die Leertaste, um fortzufahren.", pos = (0, 0), height = None, keyList = 'space', maxWait = math.inf, timeStamped = False, color = "black", wrapWidth = 600, alignText = "center"):
+	    
+	    if(len(keyList) > 0):
+	        text += ("\n\n\n" + further)
+	    
+	    stimulus = visual.TextStim(
+	        win, 
+	        text = text,
+	        pos = pos, 
+	        height = height,
+	        color = color, 
+	        wrapWidth = wrapWidth,
+	        units = "pix",
+	        alignText = alignText,
+	    )
+	    
+	    stimulus.draw()
+	    win.flip()
+	    core.wait(.1)
+	    event.clearEvents()
+	    
+	    key_press = event.waitKeys(keyList = keyList, maxWait = maxWait, timeStamped = timeStamped)
+	    if(key_press is None):
+	        key_press = "NA"
+	    return key_press
+	__end__
+
+define inline_script def_present_gsync
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	from psychopy import visual, core, event
+	
+	
+	
+	# Define 'global' stimuli ----
+	blank = visual.Rect(
+		win = win,
+		units = 'pix',
+		width = 1920,
+		height = 1080,
+		fillColor = "#888888",
+		lineColor = None
+	)
+	
+	
+	
+	
+	base70 = 1/70 # 1/70 =~14ms
+	base60 = 1/60 # 1/60
+	# DEBUG -----
+	# base70 = 1/14
+	# base60 = 1/12
+	# END DEBUG
+	
+	n_blank  = 28  # 400ms
+	n_prime  =  4  #  57ms
+	n_inter  =  1  #  14ms
+	# 'n_target ' depends on adaptation procedure
+	n_response_window = 8 # 133ms
+	n_post = 18 # 300ms
+	
+	
+	# Define a function for stimulus presentation --------------------------
+	def present_gsync(
+		prime
+		, target
+		, n_target
+		, target_color):
+	
+		global last_response_error
+		global erroneous_responses
+		global response_latencies
+		
+	
+	
+		trialclock = core.Clock()
+		stimulustimer = core.Clock()
+		response_given = False
+		
+		prime.draw()
+		blank.draw()
+		
+		
+		# screen-adaptation phase (we use the inter-trial interval) ----
+		for j in range(n_blank):
+			stimulustimer.reset()
+			blank.draw()
+			win.flip()
+			while True:
+				if stimulustimer.getTime() > base70:
+					break
+		
+		event.clearEvents()
+		response_given = False
+		trialclock.reset()
+		# Prime presentation ----
+		for j in range(n_prime):
+			stimulustimer.reset()
+			blank.draw()
+			prime.draw()
+			win.flip()
+			while True:
+				# n_poll += 1
+				if stimulustimer.getTime() > base70:
+					break
+		# Prime-target interval ----
+		for j in range(n_inter):
+			stimulustimer.reset()
+			blank.draw()
+			win.flip()
+			while True:
+				if stimulustimer.getTime() > base70:
+					break
+	
+		# Target presentation (Note that the time base is different!) ----
+		target_onset = trialclock.getTime()
+		for j in range(n_target):
+			stimulustimer.reset()
+			if response_given:
+				break # break out of this for loop
+			blank.draw()
+			target.draw()
+			win.flip()
+			while True:
+				key = event.getKeys(keyList = ["lctrl", "rctrl"], timeStamped = trialclock)
+				if (len(key) > 0):
+					response_given = True
+					break
+				if stimulustimer.getTime() > base60:
+					break
+		
+		# Response window
+		if not response_given and (var.feedback == 0):
+			target.color = "yellow"
+			for j in range(n_response_window):
+				stimulustimer.reset()
+				if response_given:
+					break # break out of this for loop
+				
+				blank.draw()
+				target.draw()
+				win.flip()
+				while True:
+					key = event.getKeys(keyList = ["lctrl", "rctrl"], timeStamped = trialclock)
+					if (len(key) > 0):
+						target.color = "white"
+						target.draw() # draw for the first time after changing attributes
+						response_given = True
+						break
+					if stimulustimer.getTime() > base60:
+						break
+		
+		if not response_given:
+			target.color = target_color # switch back to initial color if no response was given
+			target.draw()  # draw for the first time after changing attributes
+			
+		# show target after response was made (either in original color or white)
+		for j in range(n_post):
+			stimulustimer.reset()
+			blank.draw()
+			target.draw()
+			win.flip()
+			while True:
+				if stimulustimer.getTime() > base60:
+					break
+		
+		post_key = event.getKeys(keyList = ["lctrl", "rctrl"], timeStamped = trialclock)
+		
+		# Special treatment of feedback trials (at the beginning of the experiment)
+		if (var.feedback == 1) and len(post_key) == 0 and len(key) == 0:
+			blank.draw()
+			win.flip()
+			post_key = event.waitKeys(keyList = ["lctrl", "rctrl"], timeStamped = trialclock)
+			
+		blank.draw()
+		win.flip()
+		
+		# log all key presses
+		for k in range(len(key)):
+			resp = response_keys[key[k][0]]
+			error = int(resp != var.match)
+			response_time = key[k][1] - target_onset
+			
+			if error == 1:
+				last_response_error = "Falsch!"
+			else:
+				last_response_error = "Richtig!"
+			
+			if k == 0  and (var.tix > 6 or var.feedback == 1):
+				response_latencies.append(response_time)
+				if ((response_time > .1) and (response_time < 1)) or (var.feedback == 1):
+					erroneous_responses.append(error)
+			
+			data_writer.writerow({
+				"sid": var.subject_nr
+				, "tid": var.tid
+				, "tix": var.tix
+				, "bid": var.bid
+				, "task": var.task
+				, "prime_identity": var.prime_identity
+				, "prime_color": var.prime_color
+				, "prime_valence": var.prime_valence
+				, "target_identity": var.target_identity
+				, "target_color": var.target_color
+				, "target_valence": var.target_valence
+				, "response": resp
+				, "error": error
+				, "response_time":         round(response_time, 4)
+				, "target_onset":          round(target_onset, 4)
+				, "response_window_start": round(response_window_start, 4)
+				, "response_window_end":   round(response_window_end, 4)
+				# , "n_poll": n_poll
+		        # , "material": material
+		        # , "instructions": instructions
+		        # , "effects": effects
+		        # , "confidence": confidence
+	        })
+			
+		if(len(key) == 0 and len(post_key) == 0):
+			data_writer.writerow({
+				"sid": var.subject_nr
+				, "tid": var.tid
+				, "tix": var.tix
+				, "bid": var.bid
+				, "task": var.task
+				, "prime_identity": var.prime_identity
+				, "prime_color": var.prime_color
+				, "prime_valence": var.prime_valence
+				, "target_identity": var.target_identity
+				, "target_color": var.target_color
+				, "target_valence": var.target_valence
+				# , "response": resp
+				# , "response_time": round(key[k][1] - target_onset, 4)
+				, "target_onset": round(target_onset, 4)
+				, "response_window_start": round(response_window_start, 4)
+				, "response_window_end": round(response_window_end, 4)
+				# , "n_poll": n_poll
+	        })
+			
+		for k in range(len(post_key)):
+			resp = response_keys[post_key[k][0]]
+			error = int(resp != var.match)
+			response_time = post_key[k][1] - target_onset
+			
+			if error == 1:
+				last_response_error = "Falsch!"
+			else:
+				last_response_error = "Richtig!"
+			
+			if (k == 0) and len(key) == 0 and var.tix > 6:
+				response_latencies.append(response_time)
+				if ((response_time > .1) and (response_time < 1)) or var.feedback == 1:
+					erroneous_responses.append(error)
+				
+			
+			data_writer.writerow({
+				"sid": var.subject_nr
+				, "tid": var.tid
+				, "tix": var.tix
+				, "bid": var.bid
+				, "task": var.task
+				, "prime_identity": var.prime_identity
+				, "prime_color": var.prime_color
+				, "prime_valence": var.prime_valence
+				, "target_identity": var.target_identity
+				, "target_color": var.target_color
+				, "target_valence": var.target_valence
+				, "response": resp
+				, "error": error
+				, "response_time":         round(response_time, 4)
+				, "target_onset":          round(target_onset, 4)
+				, "response_window_start": round(response_window_start, 4)
+				, "response_window_end":   round(response_window_end, 4)
+				# , "n_poll": n_poll
+	        })
+	__end__
+
+define inline_script error_feedback
+	set description "Führt Python-Code aus"
+	___run__
+	blank.draw()
+	instruct(text = last_response_error, further = "", keyList = [], maxWait = 1, height = 40)
+	__end__
+	set _prepare ""
+
+define sequence experiment
+	set flush_keyboard yes
+	set description "The main sequence of the experiment"
+	run README True
+	run def_instruct True
+	run def_present_gsync always
+	run setup always
+	run show_subject_nr always
+	run welcome always
+	run SPACE always
+	run affective_matching_practice True
+	run instruct_experimental_phase True
+	run affective_matching_experimental True
+	run good_bye always
+	run clean_file_pool True
+
+define sequence experimental_trial
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run singletrial always
+	run error_feedback "[feedback] == 1"
+	run beep_needs_to_be_activated "[tix] == 6"
+	run block_statistics "[pause] == 1"
+	run pause_with_error_feedback "[pause] == 1"
+	run SPACE "[pause] == 1"
+	run trial_logger always
+
+define sketchpad good_bye
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color="[foreground]" font_bold=no font_family=sans font_italic=no font_size=22 html=yes show_if=always text="Das Experiment ist nun beendet.<br /><br />Vielen Dank für Ihre Teilnahme!" x=0 y=0 z_index=0
+
+define inline_script instruct_experimental_phase
+	set description "Stimuli anzeigen"
+	___run__
+	instructions_background.draw()
+	instruct(text = "Nun beginnt die Experimentalphase.", alignText = "left")
+	__end__
+	set _prepare ""
+
+define inline_script instruct_response_window
+	set description "Das response window wird eingeführt"
+	___run__
+	
+	instructions_background.draw()
+	instruct(text = 
+	"Super, das hat schon sehr gut geklappt!\n\nAb jetzt wird die Aufgabe noch ein klein wenig schwieriger: Das Zielwort wird in den kommenden Durchgängen nur noch kurz in seiner ursprünglichen Farbe angezeigt. Es wechselt dann schnell die Farbe und wird für einen kurzen Moment gelb angezeigt.\n\nBitte versuchen Sie, genau in diesem Zeitfenster, in dem das Zielwort gelb angezeigt wird, die richtige Taste zu drücken.\n\nWenn Sie genau in diesem Zeitfenster reagiert haben, also weder zu schnell noch zu langsam, wird Ihnen das Zielwort kurz weiß angezeigt. Wenn Sie zu langsam reagiert haben, wird das Zielwort wieder kurz in seiner ursprünglichen Farbe angezeigt.\n\nJeder Block beginnt mit sechs Durchgängen, in denen Sie noch nicht reagieren müssen. Nach dem sechsten Durchgang hören Sie einen kurzen Signalton: Dieser zeigt an, dass Sie für die folgenden Durchgänge die richtige Taste drücken sollen.", alignText = "left")
+	
+	# Sie bekommen außerdem keine Rückmeldung mehr, ob Sie die richtige Taste gedrückt haben.\n\n
+	__end__
+	set _prepare ""
+
+define inline_script instruct_task
+	set description "Führt Python-Code aus"
+	___run__
+	
+	# Instruction text ('text') is concatenated in prepare phase
+	instructions_background.draw()
+	instruct(text = text, alignText = "left", further = "Drücken Sie die Taste 's', um mit der Übungsphase zu beginnen.", keyList = "s")
+	blank.draw()
+	win.flip()
+	__end__
+	___prepare__
+	
+	text = "" \
+	+ "In dieser Studie untersuchen wir...\n\n" \
+	+ "In jedem Durchgang des Experiments werden Ihnen nacheinander zwei Wörter gezeigt. "
+	
+	
+	if var.task == "color_matching":
+	    text += "Die beiden Wörter werden entweder in der gleichen oder in zwei voneinander verschiedenen Farben gezeigt.\n\n" \
+	    + "Beurteilen Sie in jedem Durchgang, ob " \
+	    + "die beiden Wörter in der gleichen oder verschiedenen Farben gezeigt worden sind.\n\n"
+	
+	else: 
+	    text += "Die beiden Wörter bezeichnen Charaktereigenschaften, die positiv oder negativ bewertet werden können.\n\n" \
+	        + "Beurteilen Sie in jedem Durchgang, ob Sie " \
+	        + "beide Eigenschaften gleich bewerten (beide positiv oder beide negativ), " \
+	        + "oder ob Sie die Eigenschaften unterschiedlich bewerten (eine positiv, eine negativ)."
+	
+	if var.key_assignment == "match_right" and var.task == "color_matching":
+	    text += "Drücken Sie die linke markierte Taste, wenn die beiden zuvor gezeigten Wörter in verschiedenen Farben angezeigt worden sind.\n\nDrücken Sie die rechte markierte Taste, wenn die beiden Wörter in der gleichen Farbe angezeigt worden sind."
+	elif var.key_assignment == "match_left" and var.task == "color_matching":
+	    text += "Drücken Sie die linke markierte Taste, wenn die beiden zuvor gezeigten Wörter in der gleichen Farbe angezeigt worden sind.\n\nDrücken Sie die rechte markierte Taste, wenn die beiden Wörter in verschiedenen Farben angezeigt worden sind."
+	elif var.key_assignment == "match_right" and var.task == "valence_matching":
+	    text += "Drücken Sie die linke markierte Taste, wenn beide zuvor gezeigten Wörter positive Eigenschaften oder beide Wörter negative Eigenschaften beschreiben. Drücken Sie die rechte Taste, wenn eines der beiden Wörter positive, das andere negative Eigenschaften beschreibt."
+	elif var.key_assignment == "match_left" and var.task == "valence_matching":
+	    text += "Drücken Sie die linke markierte Taste, wenn eines der beiden zuvor gezeigten Wörter positive, das andere negative Eigenschaften beschreibt. Drücken Sie die rechte Taste, wenn beide Wörter positive Eigenschaften oder beide Wörter negative Eigenschaften beschreiben."
+	else:
+	    text += "Error: Instruction text is not defined."
+	__end__
+
+define feedback pause_with_error_feedback
+	set reset_variables no
+	set duration 0
+	set description "Gibt Rückmeldung an den Teilnehmer"
+	draw textline center=1 color="[foreground]" font_bold=no font_family=sans font_italic=no font_size=22 html=yes show_if=True text="Sie können jetzt eine kurze Pause machen.<br /><br />Im letzten Block haben Sie in [error_percentage]% der Fälle die falsche Taste gedrückt.<br /><br />Es ist normal, in dieser Aufgabe relativ viele Fehler zu machen. Bitte versuchen Sie dennoch, so wenige Fehler wie möglich zu machen.<br /><br /><br /><br /><br />Drücken Sie die Leertaste, um fortzufahren." x=0 y=32 z_index=0
+
+define sequence practice_trial
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run instruct_task "[tid] == 1"
+	run singletrial True
+	run error_feedback "[feedback] == 1"
+	run beep_needs_to_be_activated "[tix] == 6 and [bid] > 2"
+	run block_statistics "[pause] == 1"
+	run adaptation "[pause] == 1 and [bid] > 2"
+	run pause_with_error_feedback "[pause] == 1"
+	run SPACE "[pause] == 1"
+	run instruct_response_window "[pause] == 1 and [bid] == 2"
+	run trial_logger True
+
+define inline_script setup
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	import csv, os, statistics
+	#import codecs
+	
+	
+	# Add all files from folder 'stimuli' to file pool
+	# for i in listdir(exp.experiment_path + '/stimuli'):
+	# 	  pool.add(exp.experiment_path + '/stimuli/' + i)
+	dirname = var.experiment_path
+	
+	# Prepare data folder and files
+	data_folder = os.path.join(dirname, "data")
+	os.makedirs(data_folder, exist_ok = True)
+	
+	data_file = os.path.join(data_folder, str(var.subject_nr) + ".csv")
+	data_file = open(data_file, newline = "", mode = "a", encoding='utf-8')
+	
+	data_writer = csv.DictWriter(
+		data_file
+		, fieldnames = [
+			"sid", "tid", "tix", "bid"
+			, "task"
+			, "prime_identity", "prime_color", "prime_valence"
+			, "target_identity", "target_color", "target_valence"
+			, "response", "response_time", "error"
+			, "target_onset"
+			, "response_window_start"
+			, "response_window_end"
+		]
+	)
+	data_writer.writeheader()
+	
+	# initial number of target frames before adaptation window starts
+	# 20 frames at 60Hz => 333ms (Exp. 1-4)
+	# 32 frames at 60Hz => 533ms (Exp. 5-8)
+	n_target = 32 
+	
+	### variables for the adaptation process
+	erroneous_responses = []
+	response_latencies = []
+	
+	error_rate = 6.66
+	error_percentage = "666"
+	mean_response_latency = 0.8
+	
+	last_response_error = "Richtig!" # for error feedback in practice trials
+	
+	response_window_start  = n_target * base60
+	response_window_center = response_window_start + n_response_window / 2 * base60 # 4 * 1/60 ~=  66ms
+	response_window_end    = response_window_start + n_response_window     * base60 # 8 * 1/60 ~= 133ms
+	adapted = 0
+	__end__
+
+define sketchpad show_subject_nr
+	set duration keypress
+	set description "Präsentiert Stimuli"
+	draw textline center=1 color="[foreground]" font_bold=no font_family=sans font_italic=no font_size=22 html=yes show_if=always text="[subject_nr]" x=0 y=0 z_index=0
+
+define inline_script singletrial
+	set description "Executes Python code"
+	___run__
+	
+	
+	
+	present_gsync(
+	  prime = prime
+	  , target = target
+	  , n_target = n_target
+	  # , prime_color  = var.prime_color
+	  , target_color = var.target_color
+	  # , prime_identity = var.prime_identity
+	)
+	__end__
+	___prepare__
+	
+	if var.key_assignment == "match_right":
+	    response_keys = {"lctrl": "nonmatch", "rctrl": "match"}
+	elif var.key_assignment == "match_left":
+	    response_keys = {"rctrl": "nonmatch", "lctrl": "match"}
+	
+	
+	prime = visual.TextStim(
+	    win = win
+	    , text = var.prime_identity
+	    , color= var.prime_color
+	    , height = 40
+	)
+	
+	target = visual.TextStim(
+	    win = win
+	    , text = var.target_identity
+	    , color= var.target_color
+	    , height = 40
+	)
+	
+	prime.draw()
+	target.draw()
+	blank.draw()
+	__end__
+
+define logger trial_logger
+	set description "Logs experimental data"
+	set auto_log yes
+
+define sketchpad welcome
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color="[foreground]" font_bold=no font_family=sans font_italic=no font_size=22 html=yes show_if=always text="Herzlich willkommen und vielen Dank für Ihre Teilnahme!" x=0 y=0 z_index=0
+	draw textline center=1 color="[foreground]" font_bold=no font_family=sans font_italic=no font_size=22 html=yes show_if=always text="Drücken Sie die Leertaste, um fortzufahren." x=0 y=224 z_index=0
+
